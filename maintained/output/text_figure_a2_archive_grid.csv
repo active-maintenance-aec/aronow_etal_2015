@@ -1,0 +1,9 @@
+claim,value
+Cells compared with the deposited grid,40804
+Cells where both grids are defined,40796
+Cells undefined in both grids,8
+Cells defined in one grid and not the other,0
+Maximum absolute difference from the deposited grid,1.1102230246251565e-16
+Maximum power the N = 100 panel gains from strict = TRUE,0.025000000000000033
+Where that maximum falls: Pr(Y=1|Z=1),0.08
+Where that maximum falls: Pr(Y=1|Z=0),0.08

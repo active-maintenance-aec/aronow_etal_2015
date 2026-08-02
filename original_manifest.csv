@@ -1,0 +1,9 @@
+file,dataverse_file_id,file_persistent_id,bytes,md5_served,md5_published,unf,served_as
+ACCG_list_main_experiment.R,2549493,doi:10.7910/DVN/29984/H9CA38,12709,a221f8cd49045335a825f350709ae81b,a221f8cd49045335a825f350709ae81b,,ACCG_list_main_experiment.R
+ACCG_list_placebo_II_power.R,2549490,doi:10.7910/DVN/29984/YIJUWJ,5758,72e721e7ca2c7651db7ce6f16343c0ed,72e721e7ca2c7651db7ce6f16343c0ed,,ACCG_list_placebo_II_power.R
+ACCG_list_placebo_I_power.R,2549492,doi:10.7910/DVN/29984/Z1TLP3,8253,65990165ed36f3956be9db7c28072a1f,65990165ed36f3956be9db7c28072a1f,,ACCG_list_placebo_I_power.R
+ACCG_list_replication_experiment.R,2549494,doi:10.7910/DVN/29984/82ULCR,6869,2e9ba533df8c54082444702413a40559,2e9ba533df8c54082444702413a40559,,ACCG_list_replication_experiment.R
+ACCG_list_source.R,2549489,doi:10.7910/DVN/29984/M8ECEW,3981,311e1440bceedcd69942f3703c8921e7,311e1440bceedcd69942f3703c8921e7,,ACCG_list_source.R
+ACCG_main_experiment.csv,2549488,doi:10.7910/DVN/29984/OW7D6Z,110177,e41ceceb69753f4a39a707f8ae33ff7c,e41ceceb69753f4a39a707f8ae33ff7c,,ACCG_main_experiment.csv
+ACCG_replication_experiment.csv,2549491,doi:10.7910/DVN/29984/COSETY,109933,9200105ac85a64d1aa93026e2a62e0d5,9200105ac85a64d1aa93026e2a62e0d5,,ACCG_replication_experiment.csv
+readme.txt,2549487,doi:10.7910/DVN/29984/D9LRKJ,1223,796920132e46a0927dbe4749f899d4e9,796920132e46a0927dbe4749f899d4e9,,readme.txt

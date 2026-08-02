@@ -1,0 +1,549 @@
+table_figure,claim,value_script
+table_1,Study A x Study A,500
+table_1,Study A x Study B,0
+table_1,Study A x List 1 T,245
+table_1,Study A x List 1 C,255
+table_1,Study A x List 2 T,238
+table_1,Study A x List 2 C,262
+table_1,Study A x List 3 T,275
+table_1,Study A x List 3 C,225
+table_1,Study A x List 4 T,243
+table_1,Study A x List 4 C,257
+table_1,Study A x List 5 T,232
+table_1,Study A x List 5 C,268
+table_1,Study B x Study A,0
+table_1,Study B x Study B,514
+table_1,Study B x List 1 T,272
+table_1,Study B x List 1 C,242
+table_1,Study B x List 2 T,259
+table_1,Study B x List 2 C,255
+table_1,Study B x List 3 T,253
+table_1,Study B x List 3 C,261
+table_1,Study B x List 4 T,271
+table_1,Study B x List 4 C,243
+table_1,Study B x List 5 T,260
+table_1,Study B x List 5 C,254
+table_1,List 1 T x List 1 T,517
+table_1,List 1 T x List 1 C,0
+table_1,List 1 T x List 2 T,251
+table_1,List 1 T x List 2 C,266
+table_1,List 1 T x List 3 T,273
+table_1,List 1 T x List 3 C,244
+table_1,List 1 T x List 4 T,269
+table_1,List 1 T x List 4 C,248
+table_1,List 1 T x List 5 T,273
+table_1,List 1 T x List 5 C,244
+table_1,List 1 C x List 1 T,0
+table_1,List 1 C x List 1 C,497
+table_1,List 1 C x List 2 T,246
+table_1,List 1 C x List 2 C,251
+table_1,List 1 C x List 3 T,255
+table_1,List 1 C x List 3 C,242
+table_1,List 1 C x List 4 T,245
+table_1,List 1 C x List 4 C,252
+table_1,List 1 C x List 5 T,219
+table_1,List 1 C x List 5 C,278
+table_1,List 2 T x List 2 T,497
+table_1,List 2 T x List 2 C,0
+table_1,List 2 T x List 3 T,253
+table_1,List 2 T x List 3 C,244
+table_1,List 2 T x List 4 T,246
+table_1,List 2 T x List 4 C,251
+table_1,List 2 T x List 5 T,240
+table_1,List 2 T x List 5 C,257
+table_1,List 2 C x List 2 T,0
+table_1,List 2 C x List 2 C,517
+table_1,List 2 C x List 3 T,275
+table_1,List 2 C x List 3 C,242
+table_1,List 2 C x List 4 T,268
+table_1,List 2 C x List 4 C,249
+table_1,List 2 C x List 5 T,252
+table_1,List 2 C x List 5 C,265
+table_1,List 3 T x List 3 T,528
+table_1,List 3 T x List 3 C,0
+table_1,List 3 T x List 4 T,269
+table_1,List 3 T x List 4 C,259
+table_1,List 3 T x List 5 T,263
+table_1,List 3 T x List 5 C,265
+table_1,List 3 C x List 3 T,0
+table_1,List 3 C x List 3 C,486
+table_1,List 3 C x List 4 T,245
+table_1,List 3 C x List 4 C,241
+table_1,List 3 C x List 5 T,229
+table_1,List 3 C x List 5 C,257
+table_1,List 4 T x List 4 T,514
+table_1,List 4 T x List 4 C,0
+table_1,List 4 T x List 5 T,256
+table_1,List 4 T x List 5 C,258
+table_1,List 4 C x List 4 T,0
+table_1,List 4 C x List 4 C,500
+table_1,List 4 C x List 5 T,236
+table_1,List 4 C x List 5 C,264
+table_1,List 5 T x List 5 T,492
+table_1,List 5 T x List 5 C,0
+table_1,List 5 C x List 5 T,0
+table_1,List 5 C x List 5 C,522
+table_2,18 to 24: Study A Treat,24.49
+table_2,18 to 24: Study A Control,25.49
+table_2,18 to 24: Study B Treat,23.53
+table_2,18 to 24: Study B Control,32.64
+table_2,25 to 34: Study A Treat,40.82
+table_2,25 to 34: Study A Control,43.92
+table_2,25 to 34: Study B Treat,41.18
+table_2,25 to 34: Study B Control,40.91
+table_2,35 to 44: Study A Treat,20
+table_2,35 to 44: Study A Control,15.29
+table_2,35 to 44: Study B Treat,17.28
+table_2,35 to 44: Study B Control,14.88
+table_2,45 to 54: Study A Treat,8.16
+table_2,45 to 54: Study A Control,10.98
+table_2,45 to 54: Study B Treat,10.66
+table_2,45 to 54: Study B Control,6.2
+table_2,55 to 64: Study A Treat,4.9
+table_2,55 to 64: Study A Control,3.92
+table_2,55 to 64: Study B Treat,5.88
+table_2,55 to 64: Study B Control,3.72
+table_2,65 or over: Study A Treat,1.63
+table_2,65 or over: Study A Control,0.39
+table_2,65 or over: Study B Treat,1.47
+table_2,65 or over: Study B Control,1.65
+table_2,Female: Study A Treat,46.12
+table_2,Female: Study A Control,47.45
+table_2,Female: Study B Treat,46.32
+table_2,Female: Study B Control,42.98
+table_2,Male: Study A Treat,53.88
+table_2,Male: Study A Control,52.16
+table_2,Male: Study B Treat,53.31
+table_2,Male: Study B Control,57.02
+table_2,Prefer not to say -- Gender: Study A Treat,0
+table_2,Prefer not to say -- Gender: Study A Control,0.39
+table_2,Prefer not to say -- Gender: Study B Treat,0.37
+table_2,Prefer not to say -- Gender: Study B Control,0
+table_2,Liberal: Study A Treat,50.61
+table_2,Liberal: Study A Control,42.35
+table_2,Liberal: Study B Treat,50.37
+table_2,Liberal: Study B Control,51.65
+table_2,Moderate: Study A Treat,28.16
+table_2,Moderate: Study A Control,34.51
+table_2,Moderate: Study B Treat,26.84
+table_2,Moderate: Study B Control,28.51
+table_2,Conservative: Study A Treat,18.37
+table_2,Conservative: Study A Control,19.22
+table_2,Conservative: Study B Treat,20.59
+table_2,Conservative: Study B Control,14.46
+table_2,Haven't thought much about this: Study A Treat,2.86
+table_2,Haven't thought much about this: Study A Control,3.92
+table_2,Haven't thought much about this: Study B Treat,2.21
+table_2,Haven't thought much about this: Study B Control,5.37
+table_2,Less than High School: Study A Treat,0.41
+table_2,Less than High School: Study A Control,0.78
+table_2,Less than High School: Study B Treat,0.74
+table_2,Less than High School: Study B Control,1.24
+table_2,High School / GED: Study A Treat,11.02
+table_2,High School / GED: Study A Control,11.76
+table_2,High School / GED: Study B Treat,10.66
+table_2,High School / GED: Study B Control,7.44
+table_2,Some College: Study A Treat,42.45
+table_2,Some College: Study A Control,42.75
+table_2,Some College: Study B Treat,40.44
+table_2,Some College: Study B Control,40.91
+table_2,4-year College Degree: Study A Treat,33.47
+table_2,4-year College Degree: Study A Control,33.73
+table_2,4-year College Degree: Study B Treat,35.29
+table_2,4-year College Degree: Study B Control,36.36
+table_2,Graduate School: Study A Treat,12.65
+table_2,Graduate School: Study A Control,10.98
+table_2,Graduate School: Study B Treat,12.87
+table_2,Graduate School: Study B Control,14.05
+table_2,"White, non Hispanic: Study A Treat",79.18
+table_2,"White, non Hispanic: Study A Control",77.65
+table_2,"White, non Hispanic: Study B Treat",79.78
+table_2,"White, non Hispanic: Study B Control",80.17
+table_2,African-American: Study A Treat,7.76
+table_2,African-American: Study A Control,10.98
+table_2,African-American: Study B Treat,6.62
+table_2,African-American: Study B Control,4.55
+table_2,Asian/Pacific Islander: Study A Treat,5.71
+table_2,Asian/Pacific Islander: Study A Control,4.71
+table_2,Asian/Pacific Islander: Study B Treat,5.15
+table_2,Asian/Pacific Islander: Study B Control,9.92
+table_2,Hispanic: Study A Treat,4.9
+table_2,Hispanic: Study A Control,3.92
+table_2,Hispanic: Study B Treat,6.25
+table_2,Hispanic: Study B Control,4.13
+table_2,Native American: Study A Treat,0.82
+table_2,Native American: Study A Control,0.78
+table_2,Native American: Study B Treat,1.1
+table_2,Native American: Study B Control,0.83
+table_2,Other: Study A Treat,1.22
+table_2,Other: Study A Control,1.18
+table_2,Other: Study B Treat,1.1
+table_2,Other: Study B Control,0.41
+table_2,Prefer not to say -- Race: Study A Treat,0.41
+table_2,Prefer not to say -- Race: Study A Control,0.78
+table_2,Prefer not to say -- Race: Study B Treat,0
+table_2,Prefer not to say -- Race: Study B Control,0
+table_2,n: Study A Treat,245
+table_2,n: Study A Control,255
+table_2,n: Study B Treat,272
+table_2,n: Study B Control,242
+table_3,Nuclear Power: Direct,0.656
+table_3,Nuclear Power: Direct SE,0.02126575803797874
+table_3,Nuclear Power: Standard list,0.7477390956382552
+table_3,Nuclear Power: Standard list SE,0.08441010011221306
+table_3,Nuclear Power: Combined,0.6656184210526316
+table_3,Nuclear Power: Combined SE,0.048403431511696245
+table_3,Nuclear Power: % reduction in sampling variance,67.11760269143052
+table_3,Public Transportation: Direct,0.538
+table_3,Public Transportation: Direct SE,0.02231833811987053
+table_3,Public Transportation: Standard list,0.5134710372698699
+table_3,Public Transportation: Standard list SE,0.07236749445195512
+table_3,Public Transportation: Combined,0.6265818181818182
+table_3,Public Transportation: Combined SE,0.049098740249683186
+table_3,Public Transportation: % reduction in sampling variance,53.9686591444396
+table_3,Spanish-speaking: Direct,0.102
+table_3,Spanish-speaking: Direct SE,0.013548399102346897
+table_3,Spanish-speaking: Standard list,0.03474747474747497
+table_3,Spanish-speaking: Standard list SE,0.07928596603057121
+table_3,Spanish-speaking: Combined,0.04247470988395327
+table_3,Spanish-speaking: Combined SE,0.07353875812567665
+table_3,Spanish-speaking: % reduction in sampling variance,13.971977720514428
+table_3,Muslim Teachers: Direct,0.11
+table_3,Muslim Teachers: Direct SE,0.014006869199415586
+table_3,Muslim Teachers: Standard list,0.16614625866679478
+table_3,Muslim Teachers: Standard list SE,0.0808654119492077
+table_3,Muslim Teachers: Combined,0.1873131313131312
+table_3,Muslim Teachers: Combined SE,0.07440402357551566
+table_3,Muslim Teachers: % reduction in sampling variance,15.342149608876799
+table_3,CNN: Direct,0.444
+table_3,CNN: Direct SE,0.02224224437573102
+table_3,CNN: Standard list,0.33775090066906843
+table_3,CNN: Standard list SE,0.10455958189006502
+table_3,CNN: Combined,0.5332502071251035
+table_3,CNN: Combined SE,0.07023773472401411
+table_3,CNN: % reduction in sampling variance,54.87540500317105
+table_4,Nuclear Power: beta,1.0539615198541177
+table_4,Nuclear Power: SE,0.09452733798518591
+table_4,Nuclear Power: p-value,0.5680971026037596
+table_4,Nuclear Power: n,328
+table_4,Public Transportation: beta,0.7901152482269502
+table_4,Public Transportation: SE,0.09093233713555185
+table_4,Public Transportation: p-value,0.020991236607032174
+table_4,Public Transportation: n,269
+table_4,Spanish-speaking: beta,0.8476190476190477
+table_4,Spanish-speaking: SE,0.2788109646188823
+table_4,Spanish-speaking: p-value,0.5846957665334547
+table_4,Spanish-speaking: n,51
+table_4,Muslim Teachers: beta,1.0081521739130435
+table_4,Muslim Teachers: SE,0.23748376260473228
+table_4,Muslim Teachers: p-value,0.9726161636720835
+table_4,Muslim Teachers: n,55
+table_4,CNN: beta,0.6964285714285716
+table_4,CNN: SE,0.14286064114346603
+table_4,CNN: p-value,0.0335909551012123
+table_4,CNN: n,222
+table_5,Nuclear Power: beta,0.0662665066026411
+table_5,Nuclear Power: SE,0.042439747185471555
+table_5,Nuclear Power: p-value,0.11842337172584767
+table_5,Nuclear Power: n,500
+table_5,Public Transportation: beta,-3.528128808775177e-4
+table_5,Public Transportation: SE,0.04473356081506337
+table_5,Public Transportation: p-value,0.9937071624316698
+table_5,Public Transportation: n,500
+table_5,Spanish-speaking: beta,0.015757575757575748
+table_5,Spanish-speaking: SE,0.027064480571361186
+table_5,Spanish-speaking: p-value,0.5604161673281228
+table_5,Spanish-speaking: n,500
+table_5,Muslim Teachers: beta,-0.02986341291572593
+table_5,Muslim Teachers: SE,0.027927003328656202
+table_5,Muslim Teachers: p-value,0.28491728021249485
+table_5,Muslim Teachers: n,500
+table_5,CNN: beta,-0.05635615028306745
+table_5,CNN: SE,0.04453169417741861
+table_5,CNN: p-value,0.20568176040574537
+table_5,CNN: n,500
+table_6,Nuclear Power: Direct,0.603112840466926
+table_6,Nuclear Power: Direct SE,0.02160101353710281
+table_6,Nuclear Power: Standard list,0.4985111813320371
+table_6,Nuclear Power: Standard list SE,0.08870898385281714
+table_6,Nuclear Power: Combined,0.6237909949972206
+table_6,Nuclear Power: Combined SE,0.05169560967231836
+table_6,Nuclear Power: % reduction in sampling variance,66.03965339398063
+table_6,Public Transportation: Direct,0.5389105058365758
+table_6,Public Transportation: Direct SE,0.022008591824657295
+table_6,Public Transportation: Standard list,0.5778787190551893
+table_6,Public Transportation: Standard list SE,0.07316642056141723
+table_6,Public Transportation: Combined,0.6077617168324684
+table_6,Public Transportation: Combined SE,0.050729710473894844
+table_6,Public Transportation: % reduction in sampling variance,51.92700839638642
+table_6,Spanish-speaking: Direct,0.11284046692607004
+table_6,Spanish-speaking: Direct SE,0.013969299110595369
+table_6,Spanish-speaking: Standard list,0.1440340435842682
+table_6,Spanish-speaking: Standard list SE,0.08328101664389624
+table_6,Spanish-speaking: Combined,0.14859332921015048
+table_6,Spanish-speaking: Combined SE,0.07612969745907543
+table_6,Spanish-speaking: % reduction in sampling variance,16.43658664060432
+table_6,Muslim Teachers: Direct,0.10311284046692606
+table_6,Muslim Teachers: Direct SE,0.01342661685427843
+table_6,Muslim Teachers: Standard list,0.10650995398842866
+table_6,Muslim Teachers: Standard list SE,0.0826026998196288
+table_6,Muslim Teachers: Combined,0.12288766297718948
+table_6,Muslim Teachers: Combined SE,0.07383936557032518
+table_6,Muslim Teachers: % reduction in sampling variance,20.092521113228212
+table_6,CNN: Direct,0.4961089494163424
+table_6,CNN: Direct SE,0.02207487081484097
+table_6,CNN: Standard list,0.6450030284675954
+table_6,CNN: Standard list SE,0.10134010860176834
+table_6,CNN: Combined,0.5873763302661592
+table_6,CNN: Combined SE,0.06393112296510452
+table_6,CNN: % reduction in sampling variance,60.201936994138116
+table_7,Nuclear Power: beta,0.881353815411515
+table_7,Nuclear Power: SE,0.1131145044495885
+table_7,Nuclear Power: p-value,0.2942225956651667
+table_7,Nuclear Power: n,310
+table_7,Public Transportation: beta,0.9132727652464494
+table_7,Public Transportation: SE,0.09074332373701266
+table_7,Public Transportation: p-value,0.3392024358626336
+table_7,Public Transportation: n,277
+table_7,Spanish-speaking: beta,0.7668269230769229
+table_7,Spanish-speaking: SE,0.22931677880711202
+table_7,Spanish-speaking: p-value,0.3092407468535317
+table_7,Spanish-speaking: n,58
+table_7,Muslim Teachers: beta,0.7000000000000002
+table_7,Muslim Teachers: SE,0.28504355742699966
+table_7,Muslim Teachers: p-value,0.2925836342676051
+table_7,Muslim Teachers: n,53
+table_7,CNN: beta,0.8465502073645848
+table_7,CNN: SE,0.13496570558402984
+table_7,CNN: p-value,0.2555575352274077
+table_7,CNN: n,255
+table_8,Nuclear Power: beta,-0.08626033057851235
+table_8,Nuclear Power: SE,0.04305363168438152
+table_8,Nuclear Power: p-value,0.04511772161786084
+table_8,Nuclear Power: n,514
+table_8,Public Transportation: beta,0.03441592853357556
+table_8,Public Transportation: SE,0.04403707940810264
+table_8,Public Transportation: p-value,0.4344957807284778
+table_8,Public Transportation: n,514
+table_8,Spanish-speaking: beta,0.026865355201187283
+table_8,Spanish-speaking: SE,0.027989369286084354
+table_8,Spanish-speaking: p-value,0.33713504618287216
+table_8,Spanish-speaking: n,514
+table_8,Muslim Teachers: beta,0.01605090124975324
+table_8,Muslim Teachers: SE,0.026808832179475692
+table_8,Muslim Teachers: p-value,0.5493616766646952
+table_8,Muslim Teachers: n,514
+table_8,CNN: beta,0.132404603270745
+table_8,CNN: SE,0.04380550036909481
+table_8,CNN: p-value,0.002506492234228051
+table_8,CNN: n,514
+table_a1,Nuclear Power: Direct difference,0.05288715953307399
+table_a1,Nuclear Power: Direct SE,0.03031231186762165
+table_a1,Nuclear Power: Conventional list difference,0.24922791430621816
+table_a1,Nuclear Power: Conventional list SE,0.12245141410842589
+table_a1,Nuclear Power: Combined list difference,0.04182742605541101
+table_a1,Nuclear Power: Combined list SE,0.07081898221169353
+table_a1,Public Transportation: Direct difference,-9.105058365758145e-4
+table_a1,Public Transportation: Direct SE,0.03134463798701842
+table_a1,Public Transportation: Conventional list difference,-0.06440768178531942
+table_a1,Public Transportation: Conventional list SE,0.10290956880205034
+table_a1,Public Transportation: Combined list difference,0.01882010134934986
+table_a1,Public Transportation: Combined list SE,0.070598794740923565
+table_a1,Spanish-speaking: Direct difference,-0.010840466926070047
+table_a1,Spanish-speaking: Direct SE,0.019460227025339526
+table_a1,Spanish-speaking: Conventional list difference,-0.10928656883679322
+table_a1,Spanish-speaking: Conventional list SE,0.11498692161564207
+table_a1,Spanish-speaking: Combined list difference,-0.1061186193261972
+table_a1,Spanish-speaking: Combined list SE,0.10584743635004643
+table_a1,Muslim Teachers: Direct difference,0.006887159533073936
+table_a1,Muslim Teachers: Direct SE,0.01940274271645972
+table_a1,Muslim Teachers: Conventional list difference,0.059636304678366114
+table_a1,Muslim Teachers: Conventional list SE,0.11559593793558132
+table_a1,Muslim Teachers: Combined list difference,0.06442546833594173
+table_a1,Muslim Teachers: Combined list SE,0.10482466614329862
+table_a1,CNN: Direct difference,-0.05210894941634242
+table_a1,CNN: Direct SE,0.03133715616263952
+table_a1,CNN: Conventional list difference,-0.30725212779852695
+table_a1,CNN: Conventional list SE,0.14561086421158076
+table_a1,CNN: Combined list difference,-0.05412612314105569
+table_a1,CNN: Combined list SE,0.09497645951887389
+table_a2,Nuclear Power: Direct,0.6462450592885376
+table_a2,Nuclear Power: Direct SE,0.021276695875850873
+table_a2,Nuclear Power: Standard list,0.57459375
+table_a2,Nuclear Power: Standard list SE,0.086150026435123
+table_a2,Nuclear Power: Combined,0.6471809189200493
+table_a2,Nuclear Power: Combined SE,0.049070506766141435
+table_a2,Nuclear Power: % reduction in sampling variance,67.55630902585379
+table_a2,Public Transportation: Direct,0.5553359683794467
+table_a2,Public Transportation: Direct SE,0.022113027861309885
+table_a2,Public Transportation: Standard list,0.6345312500000002
+table_a2,Public Transportation: Standard list SE,0.0727609773518217
+table_a2,Public Transportation: Combined,0.653243645066541
+table_a2,Public Transportation: Combined SE,0.04789121041596932
+table_a2,Public Transportation: % reduction in sampling variance,56.677393376137175
+table_a2,Spanish-speaking: Direct,0.06126482213438735
+table_a2,Spanish-speaking: Direct SE,0.010671646870895281
+table_a2,Spanish-speaking: Standard list,0.11767464399043348
+table_a2,Spanish-speaking: Standard list SE,0.07794901557006517
+table_a2,Spanish-speaking: Combined,0.10370426674774524
+table_a2,Spanish-speaking: Combined SE,0.07308984591240483
+table_a2,Spanish-speaking: % reduction in sampling variance,12.078958701941534
+table_a2,Muslim Teachers: Direct,0.08300395256916997
+table_a2,Muslim Teachers: Direct SE,0.012276863567845579
+table_a2,Muslim Teachers: Standard list,0.03374060150375957
+table_a2,Muslim Teachers: Standard list SE,0.07830743386480103
+table_a2,Muslim Teachers: Combined,0.03615862285138226
+table_a2,Muslim Teachers: Combined SE,0.07233547990952506
+table_a2,Muslim Teachers: % reduction in sampling variance,14.670981625869961
+table_a2,CNN: Direct,0.40711462450592883
+table_a2,CNN: Direct SE,0.0218624098487496
+table_a2,CNN: Standard list,0.2556390977443608
+table_a2,CNN: Standard list SE,0.09956686053843973
+table_a2,CNN: Combined,0.2984990644707201
+table_a2,CNN: Combined SE,0.07360553060260641
+table_a2,CNN: % reduction in sampling variance,45.34986130423183
+table_a3,Nuclear Power: beta,0.9375327690809678
+table_a3,Nuclear Power: SE,0.10435652992669729
+table_a3,Nuclear Power: p-value,0.5494434136809274
+table_a3,Nuclear Power: n,327
+table_a3,Public Transportation: beta,0.9489868287740628
+table_a3,Public Transportation: SE,0.08891058610221694
+table_a3,Public Transportation: p-value,0.5661314887105505
+table_a3,Public Transportation: n,281
+table_a3,Spanish-speaking: beta,0.8157894736842106
+table_a3,Spanish-speaking: SE,0.31091173514989545
+table_a3,Spanish-speaking: p-value,0.553525890504579
+table_a3,Spanish-speaking: n,31
+table_a3,Muslim Teachers: beta,1.0476190476190477
+table_a3,Muslim Teachers: SE,0.29661736195042737
+table_a3,Muslim Teachers: p-value,0.8724554589743724
+table_a3,Muslim Teachers: n,42
+table_a3,CNN: beta,0.7109848484848487
+table_a3,CNN: SE,0.13263672247568542
+table_a3,CNN: p-value,0.029331817623663332
+table_a3,CNN: n,206
+table_a4,Nuclear Power: beta,-0.058812500000000045
+table_a4,Nuclear Power: SE,0.04249884780863732
+table_a4,Nuclear Power: p-value,0.1664010063083682
+table_a4,Nuclear Power: n,506
+table_a4,Public Transportation: beta,0.017124999999999946
+table_a4,Public Transportation: SE,0.04426445180934476
+table_a4,Public Transportation: p-value,0.6988455685756572
+table_a4,Public Transportation: n,506
+table_a4,Spanish-speaking: beta,0.030591030591030598
+table_a4,Spanish-speaking: SE,0.021445352241317713
+table_a4,Spanish-speaking: p-value,0.1537343483621686
+table_a4,Spanish-speaking: n,506
+table_a4,Muslim Teachers: beta,-0.008552631578947367
+table_a4,Muslim Teachers: SE,0.02466717032993423
+table_a4,Muslim Teachers: p-value,0.7288007610272695
+table_a4,Muslim Teachers: n,506
+table_a4,CNN: beta,0.07468775889828522
+table_a4,CNN: SE,0.043683692304335414
+table_a4,CNN: p-value,0.08731395055269249
+table_a4,CNN: n,506
+table_a5,Nuclear Power: Direct,0.5909090909090909
+table_a5,Nuclear Power: Direct SE,0.02187885353622464
+table_a5,Nuclear Power: Standard list,0.36436232678305824
+table_a5,Nuclear Power: Standard list SE,0.08727081595407517
+table_a5,Nuclear Power: Combined,0.5206611570247934
+table_a5,Nuclear Power: Combined SE,0.054463425877843634
+table_a5,Nuclear Power: % reduction in sampling variance,61.05319474124512
+table_a5,Public Transportation: Direct,0.5197628458498024
+table_a5,Public Transportation: Direct SE,0.02223232104075603
+table_a5,Public Transportation: Standard list,0.6022812971342382
+table_a5,Public Transportation: Standard list SE,0.07286213495330925
+table_a5,Public Transportation: Combined,0.6721265754085509
+table_a5,Public Transportation: Combined SE,0.048882668238538936
+table_a5,Public Transportation: % reduction in sampling variance,54.99030994104499
+table_a5,Spanish-speaking: Direct,0.09881422924901186
+table_a5,Spanish-speaking: Direct SE,0.013279178770007342
+table_a5,Spanish-speaking: Standard list,0.024527593542735815
+table_a5,Spanish-speaking: Standard list SE,0.07860225455074264
+table_a5,Spanish-speaking: Combined,0.09409307112797445
+table_a5,Spanish-speaking: Combined SE,0.07381001482508834
+table_a5,Spanish-speaking: % reduction in sampling variance,11.821932039606875
+table_a5,Muslim Teachers: Direct,0.10276679841897234
+table_a5,Muslim Teachers: Direct SE,0.013512427984013198
+table_a5,Muslim Teachers: Standard list,0.19522394629690765
+table_a5,Muslim Teachers: Standard list SE,0.08213321816448688
+table_a5,Muslim Teachers: Combined,0.16432929457106635
+table_a5,Muslim Teachers: Combined SE,0.07411128213393832
+table_a5,Muslim Teachers: % reduction in sampling variance,18.58002329987056
+table_a5,CNN: Direct,0.45652173913043476
+table_a5,CNN: Direct SE,0.022165428474740293
+table_a5,CNN: Standard list,0.5858465773995745
+table_a5,CNN: Standard list SE,0.1065110505477123
+table_a5,CNN: Combined,0.6044222575843129
+table_a5,CNN: Combined SE,0.07431348166303826
+table_a5,CNN: % reduction in sampling variance,51.32052550247379
+table_a6,Nuclear Power: beta,0.7388086480667444
+table_a6,Nuclear Power: SE,0.1101299515754412
+table_a6,Nuclear Power: p-value,0.01770813793341259
+table_a6,Nuclear Power: n,299
+table_a6,Public Transportation: beta,0.7953967152440438
+table_a6,Public Transportation: SE,0.0965729672785022
+table_a6,Public Transportation: p-value,0.034120960929902994
+table_a6,Public Transportation: n,263
+table_a6,Spanish-speaking: beta,0.3012820512820511
+table_a6,Spanish-speaking: SE,0.26186764755732356
+table_a6,Spanish-speaking: p-value,0.007625651510578907
+table_a6,Spanish-speaking: n,50
+table_a6,Muslim Teachers: beta,1.0047846889952152
+table_a6,Muslim Teachers: SE,0.2965494116262284
+table_a6,Muslim Teachers: p-value,0.9871270564097734
+table_a6,Muslim Teachers: n,52
+table_a6,CNN: beta,0.7585817524841916
+table_a6,CNN: SE,0.14101540724324443
+table_a6,CNN: p-value,0.08689683793954647
+table_a6,CNN: n,231
+table_a7,Nuclear Power: beta,-0.003241211931417798
+table_a7,Nuclear Power: SE,0.04385314205920956
+table_a7,Nuclear Power: p-value,0.9410815233374039
+table_a7,Nuclear Power: n,506
+table_a7,Public Transportation: beta,0.07453494218200102
+table_a7,Public Transportation: SE,0.04448943524918471
+table_a7,Public Transportation: p-value,0.09386748982028817
+table_a7,Public Transportation: n,506
+table_a7,Spanish-speaking: beta,-8.759854836691283e-4
+table_a7,Spanish-speaking: SE,0.026597891820838406
+table_a7,Spanish-speaking: p-value,0.973726904173459
+table_a7,Spanish-speaking: n,506
+table_a7,Muslim Teachers: beta,0.03933405650143848
+table_a7,Muslim Teachers: SE,0.026711684860141836
+table_a7,Muslim Teachers: p-value,0.14087478962833583
+table_a7,Muslim Teachers: n,506
+table_a7,CNN: beta,0.09188462019772237
+table_a7,CNN: SE,0.044238731076061646
+table_a7,CNN: p-value,0.03779994078653444
+table_a7,CNN: n,506
+table_a8,Nuclear Power: Direct difference,0.055335968379446654
+table_a8,Nuclear Power: Direct SE,0.03051855205367743
+table_a8,Nuclear Power: Conventional list difference,0.21023142321694177
+table_a8,Nuclear Power: Conventional list SE,0.12262961458009419
+table_a8,Nuclear Power: Combined list difference,0.12651976189525582
+table_a8,Nuclear Power: Combined list SE,0.07330879478369086
+table_a8,Public Transportation: Direct difference,0.035573122529644285
+table_a8,Public Transportation: Direct SE,0.0313570103813216
+table_a8,Public Transportation: Conventional list difference,0.032249952865762044
+table_a8,Public Transportation: Conventional list SE,0.10297111505245808
+table_a8,Public Transportation: Combined list difference,-0.01888293034200994
+table_a8,Public Transportation: Combined list SE,0.06843305699167407
+table_a8,Spanish-speaking: Direct difference,-0.037549407114624504
+table_a8,Spanish-speaking: Direct SE,0.017035863222710574
+table_a8,Spanish-speaking: Conventional list difference,0.09314705044769767
+table_a8,Spanish-speaking: Conventional list SE,0.11069942840323073
+table_a8,Spanish-speaking: Combined list difference,0.009611195619770793
+table_a8,Spanish-speaking: Combined list SE,0.10387513592760705
+table_a8,Muslim Teachers: Direct difference,-0.01976284584980237
+table_a8,Muslim Teachers: Direct SE,0.018256699841062103
+table_a8,Muslim Teachers: Conventional list difference,-0.16148334479314808
+table_a8,Muslim Teachers: Conventional list SE,0.11348092229333256
+table_a8,Muslim Teachers: Combined list difference,-0.1281706717196841
+table_a8,Muslim Teachers: Combined list SE,0.10356111139456504
+table_a8,CNN: Direct difference,-0.04940711462450592
+table_a8,CNN: Direct SE,0.03113312036824339
+table_a8,CNN: Conventional list difference,-0.3302074796552137
+table_a8,CNN: Conventional list SE,0.1458017956208305
+table_a8,CNN: Combined list difference,-0.3059231931135928
+table_a8,CNN: Combined list SE,0.10459573457925497

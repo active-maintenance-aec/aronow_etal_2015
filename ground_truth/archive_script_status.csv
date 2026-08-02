@@ -1,0 +1,3 @@
+script,stripped_copy,outcome
+ACCG_list_main_experiment.R,TRUE,runs to completion
+ACCG_list_replication_experiment.R,TRUE,runs to completion
