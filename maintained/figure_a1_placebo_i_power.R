@@ -2,6 +2,7 @@
 # Output: maintained/output/figure_a1_placebo_i_power.pdf
 #         maintained/output/figure_a1_placebo_i_power.png
 #         maintained/output/figure_a1_placebo_i_power.csv
+#         maintained/output/text_figure_a1_grid_spec.csv
 # Depends on: helpers.R
 # Description: Figure A1, the power of Placebo Test I to detect violations of
 #   Monotonicity, No Liars and No Design Effects, and its sensitivity to the
@@ -13,7 +14,7 @@
 #   at power 0.5. This script seeds each cell separately from one seeded stream,
 #   which makes the result identical run to run and independent of how many cores
 #   the machine has. It is the slow step of the pipeline; run_all.R records how
-#   long it took in report/run_timings.csv.
+#   long it took in run_timings.csv.
 #
 # Aronow, Peter M., Alexander Coppock, Forrest W. Crawford, and Donald P. Green.
 # 2015. "Combining List Experiment and Direct Question Estimates of Sensitive
@@ -94,6 +95,25 @@ panels <- bind_rows(
 )
 
 write_csv(panels, here::here("maintained", "output", "figure_a1_placebo_i_power.csv"))
+
+# The grid the appendix describes in words, written out as numbers ----
+# Appendix C states the sequences and the simulation count in prose and prints no
+# table of them, so they are recorded here from the objects that actually built
+# the grid rather than being read back off the figure.
+figure_a1_grid_spec <- tibble(
+  claim = c("Simulations per grid cell", "Panels",
+            "Smallest number of admitters", "Largest number of admitters",
+            "Step between admitter counts", "Smallest proportion",
+            "Largest proportion", "Step between proportions",
+            "Grid cells per panel"),
+  value = c(sims, n_distinct(panels$panel),
+            min(admitter_ns), max(admitter_ns), unique(diff(admitter_ns)),
+            min(props), max(props), unique(round(diff(props), 10)),
+            length(admitter_ns) * length(props))
+)
+
+write_csv(figure_a1_grid_spec,
+          here::here("maintained", "output", "text_figure_a1_grid_spec.csv"))
 
 # Figure ----
 p1 <- ggplot(grid_1, aes(x = prop, y = admitter_n, fill = power)) +

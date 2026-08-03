@@ -1,0 +1,624 @@
+claim_id,location,claim_type,value_paper
+table_1 :: Study A x Study A,table_1,pipeline,500
+table_1 :: Study A x Study B,table_1,pipeline,0
+table_1 :: Study A x List 1 T,table_1,pipeline,245
+table_1 :: Study A x List 1 C,table_1,pipeline,255
+table_1 :: Study A x List 2 T,table_1,pipeline,238
+table_1 :: Study A x List 2 C,table_1,pipeline,262
+table_1 :: Study A x List 3 T,table_1,pipeline,275
+table_1 :: Study A x List 3 C,table_1,pipeline,225
+table_1 :: Study A x List 4 T,table_1,pipeline,243
+table_1 :: Study A x List 4 C,table_1,pipeline,257
+table_1 :: Study A x List 5 T,table_1,pipeline,232
+table_1 :: Study A x List 5 C,table_1,pipeline,268
+table_1 :: Study B x Study A,table_1,pipeline,0
+table_1 :: Study B x Study B,table_1,pipeline,514
+table_1 :: Study B x List 1 T,table_1,pipeline,272
+table_1 :: Study B x List 1 C,table_1,pipeline,242
+table_1 :: Study B x List 2 T,table_1,pipeline,259
+table_1 :: Study B x List 2 C,table_1,pipeline,255
+table_1 :: Study B x List 3 T,table_1,pipeline,253
+table_1 :: Study B x List 3 C,table_1,pipeline,261
+table_1 :: Study B x List 4 T,table_1,pipeline,271
+table_1 :: Study B x List 4 C,table_1,pipeline,243
+table_1 :: Study B x List 5 T,table_1,pipeline,260
+table_1 :: Study B x List 5 C,table_1,pipeline,254
+table_1 :: List 1 T x List 1 T,table_1,pipeline,517
+table_1 :: List 1 T x List 1 C,table_1,pipeline,0
+table_1 :: List 1 T x List 2 T,table_1,pipeline,251
+table_1 :: List 1 T x List 2 C,table_1,pipeline,266
+table_1 :: List 1 T x List 3 T,table_1,pipeline,273
+table_1 :: List 1 T x List 3 C,table_1,pipeline,244
+table_1 :: List 1 T x List 4 T,table_1,pipeline,269
+table_1 :: List 1 T x List 4 C,table_1,pipeline,248
+table_1 :: List 1 T x List 5 T,table_1,pipeline,273
+table_1 :: List 1 T x List 5 C,table_1,pipeline,244
+table_1 :: List 1 C x List 1 T,table_1,pipeline,0
+table_1 :: List 1 C x List 1 C,table_1,pipeline,497
+table_1 :: List 1 C x List 2 T,table_1,pipeline,246
+table_1 :: List 1 C x List 2 C,table_1,pipeline,251
+table_1 :: List 1 C x List 3 T,table_1,pipeline,255
+table_1 :: List 1 C x List 3 C,table_1,pipeline,242
+table_1 :: List 1 C x List 4 T,table_1,pipeline,245
+table_1 :: List 1 C x List 4 C,table_1,pipeline,252
+table_1 :: List 1 C x List 5 T,table_1,pipeline,219
+table_1 :: List 1 C x List 5 C,table_1,pipeline,278
+table_1 :: List 2 T x List 2 T,table_1,pipeline,497
+table_1 :: List 2 T x List 2 C,table_1,pipeline,0
+table_1 :: List 2 T x List 3 T,table_1,pipeline,253
+table_1 :: List 2 T x List 3 C,table_1,pipeline,244
+table_1 :: List 2 T x List 4 T,table_1,pipeline,246
+table_1 :: List 2 T x List 4 C,table_1,pipeline,251
+table_1 :: List 2 T x List 5 T,table_1,pipeline,240
+table_1 :: List 2 T x List 5 C,table_1,pipeline,257
+table_1 :: List 2 C x List 2 T,table_1,pipeline,0
+table_1 :: List 2 C x List 2 C,table_1,pipeline,517
+table_1 :: List 2 C x List 3 T,table_1,pipeline,275
+table_1 :: List 2 C x List 3 C,table_1,pipeline,242
+table_1 :: List 2 C x List 4 T,table_1,pipeline,268
+table_1 :: List 2 C x List 4 C,table_1,pipeline,249
+table_1 :: List 2 C x List 5 T,table_1,pipeline,252
+table_1 :: List 2 C x List 5 C,table_1,pipeline,265
+table_1 :: List 3 T x List 3 T,table_1,pipeline,528
+table_1 :: List 3 T x List 3 C,table_1,pipeline,0
+table_1 :: List 3 T x List 4 T,table_1,pipeline,269
+table_1 :: List 3 T x List 4 C,table_1,pipeline,259
+table_1 :: List 3 T x List 5 T,table_1,pipeline,263
+table_1 :: List 3 T x List 5 C,table_1,pipeline,265
+table_1 :: List 3 C x List 3 T,table_1,pipeline,0
+table_1 :: List 3 C x List 3 C,table_1,pipeline,486
+table_1 :: List 3 C x List 4 T,table_1,pipeline,245
+table_1 :: List 3 C x List 4 C,table_1,pipeline,241
+table_1 :: List 3 C x List 5 T,table_1,pipeline,229
+table_1 :: List 3 C x List 5 C,table_1,pipeline,257
+table_1 :: List 4 T x List 4 T,table_1,pipeline,514
+table_1 :: List 4 T x List 4 C,table_1,pipeline,0
+table_1 :: List 4 T x List 5 T,table_1,pipeline,256
+table_1 :: List 4 T x List 5 C,table_1,pipeline,258
+table_1 :: List 4 C x List 4 T,table_1,pipeline,0
+table_1 :: List 4 C x List 4 C,table_1,pipeline,500
+table_1 :: List 4 C x List 5 T,table_1,pipeline,236
+table_1 :: List 4 C x List 5 C,table_1,pipeline,264
+table_1 :: List 5 T x List 5 T,table_1,pipeline,492
+table_1 :: List 5 T x List 5 C,table_1,pipeline,0
+table_1 :: List 5 C x List 5 T,table_1,pipeline,0
+table_1 :: List 5 C x List 5 C,table_1,pipeline,522
+table_2 :: 18 to 24: Study A Treat,table_2,pipeline,24.49
+table_2 :: 18 to 24: Study A Control,table_2,pipeline,25.49
+table_2 :: 18 to 24: Study B Treat,table_2,pipeline,23.53
+table_2 :: 18 to 24: Study B Control,table_2,pipeline,32.64
+table_2 :: 25 to 34: Study A Treat,table_2,pipeline,40.82
+table_2 :: 25 to 34: Study A Control,table_2,pipeline,43.92
+table_2 :: 25 to 34: Study B Treat,table_2,pipeline,41.18
+table_2 :: 25 to 34: Study B Control,table_2,pipeline,40.91
+table_2 :: 35 to 44: Study A Treat,table_2,pipeline,20.00
+table_2 :: 35 to 44: Study A Control,table_2,pipeline,15.29
+table_2 :: 35 to 44: Study B Treat,table_2,pipeline,17.28
+table_2 :: 35 to 44: Study B Control,table_2,pipeline,14.88
+table_2 :: 45 to 54: Study A Treat,table_2,pipeline,8.16
+table_2 :: 45 to 54: Study A Control,table_2,pipeline,10.98
+table_2 :: 45 to 54: Study B Treat,table_2,pipeline,10.66
+table_2 :: 45 to 54: Study B Control,table_2,pipeline,6.20
+table_2 :: 55 to 64: Study A Treat,table_2,pipeline,4.90
+table_2 :: 55 to 64: Study A Control,table_2,pipeline,3.92
+table_2 :: 55 to 64: Study B Treat,table_2,pipeline,5.88
+table_2 :: 55 to 64: Study B Control,table_2,pipeline,3.72
+table_2 :: 65 or over: Study A Treat,table_2,pipeline,1.63
+table_2 :: 65 or over: Study A Control,table_2,pipeline,0.39
+table_2 :: 65 or over: Study B Treat,table_2,pipeline,1.47
+table_2 :: 65 or over: Study B Control,table_2,pipeline,1.65
+table_2 :: Female: Study A Treat,table_2,pipeline,46.12
+table_2 :: Female: Study A Control,table_2,pipeline,47.45
+table_2 :: Female: Study B Treat,table_2,pipeline,46.32
+table_2 :: Female: Study B Control,table_2,pipeline,42.98
+table_2 :: Male: Study A Treat,table_2,pipeline,53.88
+table_2 :: Male: Study A Control,table_2,pipeline,52.16
+table_2 :: Male: Study B Treat,table_2,pipeline,53.31
+table_2 :: Male: Study B Control,table_2,pipeline,57.02
+table_2 :: Prefer not to say -- Gender: Study A Treat,table_2,pipeline,0.00
+table_2 :: Prefer not to say -- Gender: Study A Control,table_2,pipeline,0.39
+table_2 :: Prefer not to say -- Gender: Study B Treat,table_2,pipeline,0.37
+table_2 :: Prefer not to say -- Gender: Study B Control,table_2,pipeline,0.00
+table_2 :: Liberal: Study A Treat,table_2,pipeline,50.61
+table_2 :: Liberal: Study A Control,table_2,pipeline,42.35
+table_2 :: Liberal: Study B Treat,table_2,pipeline,50.37
+table_2 :: Liberal: Study B Control,table_2,pipeline,51.65
+table_2 :: Moderate: Study A Treat,table_2,pipeline,28.16
+table_2 :: Moderate: Study A Control,table_2,pipeline,34.51
+table_2 :: Moderate: Study B Treat,table_2,pipeline,26.84
+table_2 :: Moderate: Study B Control,table_2,pipeline,28.51
+table_2 :: Conservative: Study A Treat,table_2,pipeline,18.37
+table_2 :: Conservative: Study A Control,table_2,pipeline,19.22
+table_2 :: Conservative: Study B Treat,table_2,pipeline,20.59
+table_2 :: Conservative: Study B Control,table_2,pipeline,14.46
+table_2 :: Haven't thought much about this: Study A Treat,table_2,pipeline,2.86
+table_2 :: Haven't thought much about this: Study A Control,table_2,pipeline,3.92
+table_2 :: Haven't thought much about this: Study B Treat,table_2,pipeline,2.21
+table_2 :: Haven't thought much about this: Study B Control,table_2,pipeline,5.37
+table_2 :: Less than High School: Study A Treat,table_2,pipeline,0.41
+table_2 :: Less than High School: Study A Control,table_2,pipeline,0.78
+table_2 :: Less than High School: Study B Treat,table_2,pipeline,0.74
+table_2 :: Less than High School: Study B Control,table_2,pipeline,1.24
+table_2 :: High School / GED: Study A Treat,table_2,pipeline,11.02
+table_2 :: High School / GED: Study A Control,table_2,pipeline,11.76
+table_2 :: High School / GED: Study B Treat,table_2,pipeline,10.66
+table_2 :: High School / GED: Study B Control,table_2,pipeline,7.44
+table_2 :: Some College: Study A Treat,table_2,pipeline,42.45
+table_2 :: Some College: Study A Control,table_2,pipeline,42.75
+table_2 :: Some College: Study B Treat,table_2,pipeline,40.44
+table_2 :: Some College: Study B Control,table_2,pipeline,40.91
+table_2 :: 4-year College Degree: Study A Treat,table_2,pipeline,33.47
+table_2 :: 4-year College Degree: Study A Control,table_2,pipeline,33.73
+table_2 :: 4-year College Degree: Study B Treat,table_2,pipeline,35.29
+table_2 :: 4-year College Degree: Study B Control,table_2,pipeline,36.36
+table_2 :: Graduate School: Study A Treat,table_2,pipeline,12.65
+table_2 :: Graduate School: Study A Control,table_2,pipeline,10.98
+table_2 :: Graduate School: Study B Treat,table_2,pipeline,12.87
+table_2 :: Graduate School: Study B Control,table_2,pipeline,14.05
+"table_2 :: White, non Hispanic: Study A Treat",table_2,pipeline,79.18
+"table_2 :: White, non Hispanic: Study A Control",table_2,pipeline,77.65
+"table_2 :: White, non Hispanic: Study B Treat",table_2,pipeline,79.78
+"table_2 :: White, non Hispanic: Study B Control",table_2,pipeline,80.17
+table_2 :: African-American: Study A Treat,table_2,pipeline,7.76
+table_2 :: African-American: Study A Control,table_2,pipeline,10.98
+table_2 :: African-American: Study B Treat,table_2,pipeline,6.62
+table_2 :: African-American: Study B Control,table_2,pipeline,4.55
+table_2 :: Asian/Pacific Islander: Study A Treat,table_2,pipeline,5.71
+table_2 :: Asian/Pacific Islander: Study A Control,table_2,pipeline,4.71
+table_2 :: Asian/Pacific Islander: Study B Treat,table_2,pipeline,5.15
+table_2 :: Asian/Pacific Islander: Study B Control,table_2,pipeline,9.92
+table_2 :: Hispanic: Study A Treat,table_2,pipeline,4.90
+table_2 :: Hispanic: Study A Control,table_2,pipeline,3.92
+table_2 :: Hispanic: Study B Treat,table_2,pipeline,6.25
+table_2 :: Hispanic: Study B Control,table_2,pipeline,4.13
+table_2 :: Native American: Study A Treat,table_2,pipeline,0.82
+table_2 :: Native American: Study A Control,table_2,pipeline,0.78
+table_2 :: Native American: Study B Treat,table_2,pipeline,1.10
+table_2 :: Native American: Study B Control,table_2,pipeline,0.83
+table_2 :: Other: Study A Treat,table_2,pipeline,1.22
+table_2 :: Other: Study A Control,table_2,pipeline,1.18
+table_2 :: Other: Study B Treat,table_2,pipeline,1.10
+table_2 :: Other: Study B Control,table_2,pipeline,0.41
+table_2 :: Prefer not to say -- Race: Study A Treat,table_2,pipeline,0.41
+table_2 :: Prefer not to say -- Race: Study A Control,table_2,pipeline,0.78
+table_2 :: Prefer not to say -- Race: Study B Treat,table_2,pipeline,0.00
+table_2 :: Prefer not to say -- Race: Study B Control,table_2,pipeline,0.00
+table_2 :: n: Study A Treat,table_2,pipeline,245
+table_2 :: n: Study A Control,table_2,pipeline,255
+table_2 :: n: Study B Treat,table_2,pipeline,272
+table_2 :: n: Study B Control,table_2,pipeline,242
+table_3 :: Nuclear Power: Direct,table_3,pipeline,0.656
+table_3 :: Nuclear Power: Direct SE,table_3,pipeline,0.021
+table_3 :: Nuclear Power: Standard list,table_3,pipeline,0.748
+table_3 :: Nuclear Power: Standard list SE,table_3,pipeline,0.084
+table_3 :: Nuclear Power: Combined,table_3,pipeline,0.666
+table_3 :: Nuclear Power: Combined SE,table_3,pipeline,0.048
+table_3 :: Nuclear Power: % reduction in sampling variance,table_3,pipeline,67.1
+table_3 :: Public Transportation: Direct,table_3,pipeline,0.538
+table_3 :: Public Transportation: Direct SE,table_3,pipeline,0.022
+table_3 :: Public Transportation: Standard list,table_3,pipeline,0.513
+table_3 :: Public Transportation: Standard list SE,table_3,pipeline,0.072
+table_3 :: Public Transportation: Combined,table_3,pipeline,0.627
+table_3 :: Public Transportation: Combined SE,table_3,pipeline,0.049
+table_3 :: Public Transportation: % reduction in sampling variance,table_3,pipeline,54.0
+table_3 :: Spanish-speaking: Direct,table_3,pipeline,0.102
+table_3 :: Spanish-speaking: Direct SE,table_3,pipeline,0.014
+table_3 :: Spanish-speaking: Standard list,table_3,pipeline,0.035
+table_3 :: Spanish-speaking: Standard list SE,table_3,pipeline,0.079
+table_3 :: Spanish-speaking: Combined,table_3,pipeline,0.042
+table_3 :: Spanish-speaking: Combined SE,table_3,pipeline,0.074
+table_3 :: Spanish-speaking: % reduction in sampling variance,table_3,pipeline,14.0
+table_3 :: Muslim Teachers: Direct,table_3,pipeline,0.110
+table_3 :: Muslim Teachers: Direct SE,table_3,pipeline,0.014
+table_3 :: Muslim Teachers: Standard list,table_3,pipeline,0.166
+table_3 :: Muslim Teachers: Standard list SE,table_3,pipeline,0.081
+table_3 :: Muslim Teachers: Combined,table_3,pipeline,0.187
+table_3 :: Muslim Teachers: Combined SE,table_3,pipeline,0.074
+table_3 :: Muslim Teachers: % reduction in sampling variance,table_3,pipeline,15.3
+table_3 :: CNN: Direct,table_3,pipeline,0.444
+table_3 :: CNN: Direct SE,table_3,pipeline,0.022
+table_3 :: CNN: Standard list,table_3,pipeline,0.338
+table_3 :: CNN: Standard list SE,table_3,pipeline,0.105
+table_3 :: CNN: Combined,table_3,pipeline,0.533
+table_3 :: CNN: Combined SE,table_3,pipeline,0.070
+table_3 :: CNN: % reduction in sampling variance,table_3,pipeline,54.9
+table_4 :: Nuclear Power: beta,table_4,pipeline,1.054
+table_4 :: Nuclear Power: SE,table_4,pipeline,0.095
+table_4 :: Nuclear Power: p-value,table_4,pipeline,0.568
+table_4 :: Nuclear Power: n,table_4,pipeline,328
+table_4 :: Public Transportation: beta,table_4,pipeline,0.790
+table_4 :: Public Transportation: SE,table_4,pipeline,0.091
+table_4 :: Public Transportation: p-value,table_4,pipeline,0.021
+table_4 :: Public Transportation: n,table_4,pipeline,269
+table_4 :: Spanish-speaking: beta,table_4,pipeline,0.848
+table_4 :: Spanish-speaking: SE,table_4,pipeline,0.279
+table_4 :: Spanish-speaking: p-value,table_4,pipeline,0.585
+table_4 :: Spanish-speaking: n,table_4,pipeline,51
+table_4 :: Muslim Teachers: beta,table_4,pipeline,1.008
+table_4 :: Muslim Teachers: SE,table_4,pipeline,0.237
+table_4 :: Muslim Teachers: p-value,table_4,pipeline,0.973
+table_4 :: Muslim Teachers: n,table_4,pipeline,55
+table_4 :: CNN: beta,table_4,pipeline,0.696
+table_4 :: CNN: SE,table_4,pipeline,0.143
+table_4 :: CNN: p-value,table_4,pipeline,0.034
+table_4 :: CNN: n,table_4,pipeline,222
+table_5 :: Nuclear Power: beta,table_5,pipeline,0.066
+table_5 :: Nuclear Power: SE,table_5,pipeline,0.042
+table_5 :: Nuclear Power: p-value,table_5,pipeline,0.118
+table_5 :: Nuclear Power: n,table_5,pipeline,500
+table_5 :: Public Transportation: beta,table_5,pipeline,-0.000
+table_5 :: Public Transportation: SE,table_5,pipeline,0.045
+table_5 :: Public Transportation: p-value,table_5,pipeline,0.994
+table_5 :: Public Transportation: n,table_5,pipeline,500
+table_5 :: Spanish-speaking: beta,table_5,pipeline,0.016
+table_5 :: Spanish-speaking: SE,table_5,pipeline,0.027
+table_5 :: Spanish-speaking: p-value,table_5,pipeline,0.560
+table_5 :: Spanish-speaking: n,table_5,pipeline,500
+table_5 :: Muslim Teachers: beta,table_5,pipeline,-0.030
+table_5 :: Muslim Teachers: SE,table_5,pipeline,0.028
+table_5 :: Muslim Teachers: p-value,table_5,pipeline,0.285
+table_5 :: Muslim Teachers: n,table_5,pipeline,500
+table_5 :: CNN: beta,table_5,pipeline,-0.056
+table_5 :: CNN: SE,table_5,pipeline,0.045
+table_5 :: CNN: p-value,table_5,pipeline,0.206
+table_5 :: CNN: n,table_5,pipeline,500
+table_6 :: Nuclear Power: Direct,table_6,pipeline,0.603
+table_6 :: Nuclear Power: Direct SE,table_6,pipeline,0.022
+table_6 :: Nuclear Power: Standard list,table_6,pipeline,0.499
+table_6 :: Nuclear Power: Standard list SE,table_6,pipeline,0.089
+table_6 :: Nuclear Power: Combined,table_6,pipeline,0.624
+table_6 :: Nuclear Power: Combined SE,table_6,pipeline,0.052
+table_6 :: Nuclear Power: % reduction in sampling variance,table_6,pipeline,66.0
+table_6 :: Public Transportation: Direct,table_6,pipeline,0.539
+table_6 :: Public Transportation: Direct SE,table_6,pipeline,0.022
+table_6 :: Public Transportation: Standard list,table_6,pipeline,0.578
+table_6 :: Public Transportation: Standard list SE,table_6,pipeline,0.073
+table_6 :: Public Transportation: Combined,table_6,pipeline,0.608
+table_6 :: Public Transportation: Combined SE,table_6,pipeline,0.051
+table_6 :: Public Transportation: % reduction in sampling variance,table_6,pipeline,51.9
+table_6 :: Spanish-speaking: Direct,table_6,pipeline,0.113
+table_6 :: Spanish-speaking: Direct SE,table_6,pipeline,0.014
+table_6 :: Spanish-speaking: Standard list,table_6,pipeline,0.144
+table_6 :: Spanish-speaking: Standard list SE,table_6,pipeline,0.083
+table_6 :: Spanish-speaking: Combined,table_6,pipeline,0.149
+table_6 :: Spanish-speaking: Combined SE,table_6,pipeline,0.076
+table_6 :: Spanish-speaking: % reduction in sampling variance,table_6,pipeline,16.4
+table_6 :: Muslim Teachers: Direct,table_6,pipeline,0.103
+table_6 :: Muslim Teachers: Direct SE,table_6,pipeline,0.013
+table_6 :: Muslim Teachers: Standard list,table_6,pipeline,0.107
+table_6 :: Muslim Teachers: Standard list SE,table_6,pipeline,0.083
+table_6 :: Muslim Teachers: Combined,table_6,pipeline,0.123
+table_6 :: Muslim Teachers: Combined SE,table_6,pipeline,0.074
+table_6 :: Muslim Teachers: % reduction in sampling variance,table_6,pipeline,20.1
+table_6 :: CNN: Direct,table_6,pipeline,0.496
+table_6 :: CNN: Direct SE,table_6,pipeline,0.022
+table_6 :: CNN: Standard list,table_6,pipeline,0.645
+table_6 :: CNN: Standard list SE,table_6,pipeline,0.101
+table_6 :: CNN: Combined,table_6,pipeline,0.587
+table_6 :: CNN: Combined SE,table_6,pipeline,0.064
+table_6 :: CNN: % reduction in sampling variance,table_6,pipeline,60.2
+table_7 :: Nuclear Power: beta,table_7,pipeline,0.881
+table_7 :: Nuclear Power: SE,table_7,pipeline,0.113
+table_7 :: Nuclear Power: p-value,table_7,pipeline,0.294
+table_7 :: Nuclear Power: n,table_7,pipeline,310
+table_7 :: Public Transportation: beta,table_7,pipeline,0.913
+table_7 :: Public Transportation: SE,table_7,pipeline,0.091
+table_7 :: Public Transportation: p-value,table_7,pipeline,0.339
+table_7 :: Public Transportation: n,table_7,pipeline,277
+table_7 :: Spanish-speaking: beta,table_7,pipeline,0.767
+table_7 :: Spanish-speaking: SE,table_7,pipeline,0.229
+table_7 :: Spanish-speaking: p-value,table_7,pipeline,0.309
+table_7 :: Spanish-speaking: n,table_7,pipeline,58
+table_7 :: Muslim Teachers: beta,table_7,pipeline,0.700
+table_7 :: Muslim Teachers: SE,table_7,pipeline,0.285
+table_7 :: Muslim Teachers: p-value,table_7,pipeline,0.293
+table_7 :: Muslim Teachers: n,table_7,pipeline,53
+table_7 :: CNN: beta,table_7,pipeline,0.847
+table_7 :: CNN: SE,table_7,pipeline,0.135
+table_7 :: CNN: p-value,table_7,pipeline,0.256
+table_7 :: CNN: n,table_7,pipeline,255
+table_8 :: Nuclear Power: beta,table_8,pipeline,-0.086
+table_8 :: Nuclear Power: SE,table_8,pipeline,0.043
+table_8 :: Nuclear Power: p-value,table_8,pipeline,0.045
+table_8 :: Nuclear Power: n,table_8,pipeline,514
+table_8 :: Public Transportation: beta,table_8,pipeline,0.034
+table_8 :: Public Transportation: SE,table_8,pipeline,0.044
+table_8 :: Public Transportation: p-value,table_8,pipeline,0.434
+table_8 :: Public Transportation: n,table_8,pipeline,514
+table_8 :: Spanish-speaking: beta,table_8,pipeline,0.027
+table_8 :: Spanish-speaking: SE,table_8,pipeline,0.028
+table_8 :: Spanish-speaking: p-value,table_8,pipeline,0.337
+table_8 :: Spanish-speaking: n,table_8,pipeline,514
+table_8 :: Muslim Teachers: beta,table_8,pipeline,0.016
+table_8 :: Muslim Teachers: SE,table_8,pipeline,0.027
+table_8 :: Muslim Teachers: p-value,table_8,pipeline,0.549
+table_8 :: Muslim Teachers: n,table_8,pipeline,514
+table_8 :: CNN: beta,table_8,pipeline,0.132
+table_8 :: CNN: SE,table_8,pipeline,0.044
+table_8 :: CNN: p-value,table_8,pipeline,0.003
+table_8 :: CNN: n,table_8,pipeline,514
+table_a1 :: Nuclear Power: Direct difference,table_a1,pipeline,0.053
+table_a1 :: Nuclear Power: Direct SE,table_a1,pipeline,0.030
+table_a1 :: Nuclear Power: Conventional list difference,table_a1,pipeline,0.249
+table_a1 :: Nuclear Power: Conventional list SE,table_a1,pipeline,0.122
+table_a1 :: Nuclear Power: Combined list difference,table_a1,pipeline,0.042
+table_a1 :: Nuclear Power: Combined list SE,table_a1,pipeline,0.071
+table_a1 :: Public Transportation: Direct difference,table_a1,pipeline,-0.001
+table_a1 :: Public Transportation: Direct SE,table_a1,pipeline,0.031
+table_a1 :: Public Transportation: Conventional list difference,table_a1,pipeline,-0.064
+table_a1 :: Public Transportation: Conventional list SE,table_a1,pipeline,0.103
+table_a1 :: Public Transportation: Combined list difference,table_a1,pipeline,0.019
+table_a1 :: Public Transportation: Combined list SE,table_a1,pipeline,0.071
+table_a1 :: Spanish-speaking: Direct difference,table_a1,pipeline,-0.011
+table_a1 :: Spanish-speaking: Direct SE,table_a1,pipeline,0.019
+table_a1 :: Spanish-speaking: Conventional list difference,table_a1,pipeline,-0.109
+table_a1 :: Spanish-speaking: Conventional list SE,table_a1,pipeline,0.115
+table_a1 :: Spanish-speaking: Combined list difference,table_a1,pipeline,-0.106
+table_a1 :: Spanish-speaking: Combined list SE,table_a1,pipeline,0.106
+table_a1 :: Muslim Teachers: Direct difference,table_a1,pipeline,0.007
+table_a1 :: Muslim Teachers: Direct SE,table_a1,pipeline,0.019
+table_a1 :: Muslim Teachers: Conventional list difference,table_a1,pipeline,0.060
+table_a1 :: Muslim Teachers: Conventional list SE,table_a1,pipeline,0.116
+table_a1 :: Muslim Teachers: Combined list difference,table_a1,pipeline,0.064
+table_a1 :: Muslim Teachers: Combined list SE,table_a1,pipeline,0.105
+table_a1 :: CNN: Direct difference,table_a1,pipeline,-0.052
+table_a1 :: CNN: Direct SE,table_a1,pipeline,0.031
+table_a1 :: CNN: Conventional list difference,table_a1,pipeline,-0.307
+table_a1 :: CNN: Conventional list SE,table_a1,pipeline,0.146
+table_a1 :: CNN: Combined list difference,table_a1,pipeline,-0.054
+table_a1 :: CNN: Combined list SE,table_a1,pipeline,0.095
+table_a2 :: Nuclear Power: Direct,table_a2,pipeline,0.646
+table_a2 :: Nuclear Power: Direct SE,table_a2,pipeline,0.021
+table_a2 :: Nuclear Power: Standard list,table_a2,pipeline,0.575
+table_a2 :: Nuclear Power: Standard list SE,table_a2,pipeline,0.086
+table_a2 :: Nuclear Power: Combined,table_a2,pipeline,0.647
+table_a2 :: Nuclear Power: Combined SE,table_a2,pipeline,0.049
+table_a2 :: Nuclear Power: % reduction in sampling variance,table_a2,pipeline,67.556
+table_a2 :: Public Transportation: Direct,table_a2,pipeline,0.555
+table_a2 :: Public Transportation: Direct SE,table_a2,pipeline,0.022
+table_a2 :: Public Transportation: Standard list,table_a2,pipeline,0.635
+table_a2 :: Public Transportation: Standard list SE,table_a2,pipeline,0.073
+table_a2 :: Public Transportation: Combined,table_a2,pipeline,0.653
+table_a2 :: Public Transportation: Combined SE,table_a2,pipeline,0.048
+table_a2 :: Public Transportation: % reduction in sampling variance,table_a2,pipeline,56.677
+table_a2 :: Spanish-speaking: Direct,table_a2,pipeline,0.061
+table_a2 :: Spanish-speaking: Direct SE,table_a2,pipeline,0.011
+table_a2 :: Spanish-speaking: Standard list,table_a2,pipeline,0.118
+table_a2 :: Spanish-speaking: Standard list SE,table_a2,pipeline,0.078
+table_a2 :: Spanish-speaking: Combined,table_a2,pipeline,0.104
+table_a2 :: Spanish-speaking: Combined SE,table_a2,pipeline,0.073
+table_a2 :: Spanish-speaking: % reduction in sampling variance,table_a2,pipeline,12.079
+table_a2 :: Muslim Teachers: Direct,table_a2,pipeline,0.083
+table_a2 :: Muslim Teachers: Direct SE,table_a2,pipeline,0.012
+table_a2 :: Muslim Teachers: Standard list,table_a2,pipeline,0.034
+table_a2 :: Muslim Teachers: Standard list SE,table_a2,pipeline,0.078
+table_a2 :: Muslim Teachers: Combined,table_a2,pipeline,0.036
+table_a2 :: Muslim Teachers: Combined SE,table_a2,pipeline,0.072
+table_a2 :: Muslim Teachers: % reduction in sampling variance,table_a2,pipeline,14.671
+table_a2 :: CNN: Direct,table_a2,pipeline,0.407
+table_a2 :: CNN: Direct SE,table_a2,pipeline,0.022
+table_a2 :: CNN: Standard list,table_a2,pipeline,0.256
+table_a2 :: CNN: Standard list SE,table_a2,pipeline,0.100
+table_a2 :: CNN: Combined,table_a2,pipeline,0.298
+table_a2 :: CNN: Combined SE,table_a2,pipeline,0.074
+table_a2 :: CNN: % reduction in sampling variance,table_a2,pipeline,45.350
+table_a3 :: Nuclear Power: beta,table_a3,pipeline,0.938
+table_a3 :: Nuclear Power: SE,table_a3,pipeline,0.104
+table_a3 :: Nuclear Power: p-value,table_a3,pipeline,0.549
+table_a3 :: Nuclear Power: n,table_a3,pipeline,327
+table_a3 :: Public Transportation: beta,table_a3,pipeline,0.949
+table_a3 :: Public Transportation: SE,table_a3,pipeline,0.089
+table_a3 :: Public Transportation: p-value,table_a3,pipeline,0.566
+table_a3 :: Public Transportation: n,table_a3,pipeline,281
+table_a3 :: Spanish-speaking: beta,table_a3,pipeline,0.816
+table_a3 :: Spanish-speaking: SE,table_a3,pipeline,0.311
+table_a3 :: Spanish-speaking: p-value,table_a3,pipeline,0.554
+table_a3 :: Spanish-speaking: n,table_a3,pipeline,31
+table_a3 :: Muslim Teachers: beta,table_a3,pipeline,1.048
+table_a3 :: Muslim Teachers: SE,table_a3,pipeline,0.297
+table_a3 :: Muslim Teachers: p-value,table_a3,pipeline,0.872
+table_a3 :: Muslim Teachers: n,table_a3,pipeline,42
+table_a3 :: CNN: beta,table_a3,pipeline,0.711
+table_a3 :: CNN: SE,table_a3,pipeline,0.133
+table_a3 :: CNN: p-value,table_a3,pipeline,0.029
+table_a3 :: CNN: n,table_a3,pipeline,206
+table_a4 :: Nuclear Power: beta,table_a4,pipeline,-0.059
+table_a4 :: Nuclear Power: SE,table_a4,pipeline,0.042
+table_a4 :: Nuclear Power: p-value,table_a4,pipeline,0.166
+table_a4 :: Nuclear Power: n,table_a4,pipeline,506
+table_a4 :: Public Transportation: beta,table_a4,pipeline,0.017
+table_a4 :: Public Transportation: SE,table_a4,pipeline,0.044
+table_a4 :: Public Transportation: p-value,table_a4,pipeline,0.699
+table_a4 :: Public Transportation: n,table_a4,pipeline,506
+table_a4 :: Spanish-speaking: beta,table_a4,pipeline,0.031
+table_a4 :: Spanish-speaking: SE,table_a4,pipeline,0.021
+table_a4 :: Spanish-speaking: p-value,table_a4,pipeline,0.154
+table_a4 :: Spanish-speaking: n,table_a4,pipeline,506
+table_a4 :: Muslim Teachers: beta,table_a4,pipeline,-0.009
+table_a4 :: Muslim Teachers: SE,table_a4,pipeline,0.025
+table_a4 :: Muslim Teachers: p-value,table_a4,pipeline,0.729
+table_a4 :: Muslim Teachers: n,table_a4,pipeline,506
+table_a4 :: CNN: beta,table_a4,pipeline,0.075
+table_a4 :: CNN: SE,table_a4,pipeline,0.044
+table_a4 :: CNN: p-value,table_a4,pipeline,0.087
+table_a4 :: CNN: n,table_a4,pipeline,506
+table_a5 :: Nuclear Power: Direct,table_a5,pipeline,0.591
+table_a5 :: Nuclear Power: Direct SE,table_a5,pipeline,0.022
+table_a5 :: Nuclear Power: Standard list,table_a5,pipeline,0.364
+table_a5 :: Nuclear Power: Standard list SE,table_a5,pipeline,0.087
+table_a5 :: Nuclear Power: Combined,table_a5,pipeline,0.521
+table_a5 :: Nuclear Power: Combined SE,table_a5,pipeline,0.054
+table_a5 :: Nuclear Power: % reduction in sampling variance,table_a5,pipeline,61.053
+table_a5 :: Public Transportation: Direct,table_a5,pipeline,0.520
+table_a5 :: Public Transportation: Direct SE,table_a5,pipeline,0.022
+table_a5 :: Public Transportation: Standard list,table_a5,pipeline,0.602
+table_a5 :: Public Transportation: Standard list SE,table_a5,pipeline,0.073
+table_a5 :: Public Transportation: Combined,table_a5,pipeline,0.672
+table_a5 :: Public Transportation: Combined SE,table_a5,pipeline,0.049
+table_a5 :: Public Transportation: % reduction in sampling variance,table_a5,pipeline,54.990
+table_a5 :: Spanish-speaking: Direct,table_a5,pipeline,0.099
+table_a5 :: Spanish-speaking: Direct SE,table_a5,pipeline,0.013
+table_a5 :: Spanish-speaking: Standard list,table_a5,pipeline,0.025
+table_a5 :: Spanish-speaking: Standard list SE,table_a5,pipeline,0.079
+table_a5 :: Spanish-speaking: Combined,table_a5,pipeline,0.094
+table_a5 :: Spanish-speaking: Combined SE,table_a5,pipeline,0.074
+table_a5 :: Spanish-speaking: % reduction in sampling variance,table_a5,pipeline,11.822
+table_a5 :: Muslim Teachers: Direct,table_a5,pipeline,0.103
+table_a5 :: Muslim Teachers: Direct SE,table_a5,pipeline,0.014
+table_a5 :: Muslim Teachers: Standard list,table_a5,pipeline,0.195
+table_a5 :: Muslim Teachers: Standard list SE,table_a5,pipeline,0.082
+table_a5 :: Muslim Teachers: Combined,table_a5,pipeline,0.164
+table_a5 :: Muslim Teachers: Combined SE,table_a5,pipeline,0.074
+table_a5 :: Muslim Teachers: % reduction in sampling variance,table_a5,pipeline,18.580
+table_a5 :: CNN: Direct,table_a5,pipeline,0.457
+table_a5 :: CNN: Direct SE,table_a5,pipeline,0.022
+table_a5 :: CNN: Standard list,table_a5,pipeline,0.586
+table_a5 :: CNN: Standard list SE,table_a5,pipeline,0.107
+table_a5 :: CNN: Combined,table_a5,pipeline,0.604
+table_a5 :: CNN: Combined SE,table_a5,pipeline,0.074
+table_a5 :: CNN: % reduction in sampling variance,table_a5,pipeline,51.321
+table_a6 :: Nuclear Power: beta,table_a6,pipeline,0.739
+table_a6 :: Nuclear Power: SE,table_a6,pipeline,0.110
+table_a6 :: Nuclear Power: p-value,table_a6,pipeline,0.018
+table_a6 :: Nuclear Power: n,table_a6,pipeline,299
+table_a6 :: Public Transportation: beta,table_a6,pipeline,0.795
+table_a6 :: Public Transportation: SE,table_a6,pipeline,0.097
+table_a6 :: Public Transportation: p-value,table_a6,pipeline,0.034
+table_a6 :: Public Transportation: n,table_a6,pipeline,263
+table_a6 :: Spanish-speaking: beta,table_a6,pipeline,0.301
+table_a6 :: Spanish-speaking: SE,table_a6,pipeline,0.262
+table_a6 :: Spanish-speaking: p-value,table_a6,pipeline,0.008
+table_a6 :: Spanish-speaking: n,table_a6,pipeline,50
+table_a6 :: Muslim Teachers: beta,table_a6,pipeline,1.005
+table_a6 :: Muslim Teachers: SE,table_a6,pipeline,0.297
+table_a6 :: Muslim Teachers: p-value,table_a6,pipeline,0.987
+table_a6 :: Muslim Teachers: n,table_a6,pipeline,52
+table_a6 :: CNN: beta,table_a6,pipeline,0.759
+table_a6 :: CNN: SE,table_a6,pipeline,0.141
+table_a6 :: CNN: p-value,table_a6,pipeline,0.087
+table_a6 :: CNN: n,table_a6,pipeline,231
+table_a7 :: Nuclear Power: beta,table_a7,pipeline,-0.003
+table_a7 :: Nuclear Power: SE,table_a7,pipeline,0.044
+table_a7 :: Nuclear Power: p-value,table_a7,pipeline,0.941
+table_a7 :: Nuclear Power: n,table_a7,pipeline,506
+table_a7 :: Public Transportation: beta,table_a7,pipeline,0.075
+table_a7 :: Public Transportation: SE,table_a7,pipeline,0.044
+table_a7 :: Public Transportation: p-value,table_a7,pipeline,0.094
+table_a7 :: Public Transportation: n,table_a7,pipeline,506
+table_a7 :: Spanish-speaking: beta,table_a7,pipeline,-0.001
+table_a7 :: Spanish-speaking: SE,table_a7,pipeline,0.027
+table_a7 :: Spanish-speaking: p-value,table_a7,pipeline,0.974
+table_a7 :: Spanish-speaking: n,table_a7,pipeline,506
+table_a7 :: Muslim Teachers: beta,table_a7,pipeline,0.039
+table_a7 :: Muslim Teachers: SE,table_a7,pipeline,0.027
+table_a7 :: Muslim Teachers: p-value,table_a7,pipeline,0.141
+table_a7 :: Muslim Teachers: n,table_a7,pipeline,506
+table_a7 :: CNN: beta,table_a7,pipeline,0.092
+table_a7 :: CNN: SE,table_a7,pipeline,0.044
+table_a7 :: CNN: p-value,table_a7,pipeline,0.038
+table_a7 :: CNN: n,table_a7,pipeline,506
+table_a8 :: Nuclear Power: Direct difference,table_a8,pipeline,0.055
+table_a8 :: Nuclear Power: Direct SE,table_a8,pipeline,0.031
+table_a8 :: Nuclear Power: Conventional list difference,table_a8,pipeline,0.210
+table_a8 :: Nuclear Power: Conventional list SE,table_a8,pipeline,0.123
+table_a8 :: Nuclear Power: Combined list difference,table_a8,pipeline,0.127
+table_a8 :: Nuclear Power: Combined list SE,table_a8,pipeline,0.073
+table_a8 :: Public Transportation: Direct difference,table_a8,pipeline,0.036
+table_a8 :: Public Transportation: Direct SE,table_a8,pipeline,0.031
+table_a8 :: Public Transportation: Conventional list difference,table_a8,pipeline,0.032
+table_a8 :: Public Transportation: Conventional list SE,table_a8,pipeline,0.103
+table_a8 :: Public Transportation: Combined list difference,table_a8,pipeline,-0.019
+table_a8 :: Public Transportation: Combined list SE,table_a8,pipeline,0.068
+table_a8 :: Spanish-speaking: Direct difference,table_a8,pipeline,-0.038
+table_a8 :: Spanish-speaking: Direct SE,table_a8,pipeline,0.017
+table_a8 :: Spanish-speaking: Conventional list difference,table_a8,pipeline,0.093
+table_a8 :: Spanish-speaking: Conventional list SE,table_a8,pipeline,0.111
+table_a8 :: Spanish-speaking: Combined list difference,table_a8,pipeline,0.010
+table_a8 :: Spanish-speaking: Combined list SE,table_a8,pipeline,0.104
+table_a8 :: Muslim Teachers: Direct difference,table_a8,pipeline,-0.020
+table_a8 :: Muslim Teachers: Direct SE,table_a8,pipeline,0.018
+table_a8 :: Muslim Teachers: Conventional list difference,table_a8,pipeline,-0.161
+table_a8 :: Muslim Teachers: Conventional list SE,table_a8,pipeline,0.113
+table_a8 :: Muslim Teachers: Combined list difference,table_a8,pipeline,-0.128
+table_a8 :: Muslim Teachers: Combined list SE,table_a8,pipeline,0.104
+table_a8 :: CNN: Direct difference,table_a8,pipeline,-0.049
+table_a8 :: CNN: Direct SE,table_a8,pipeline,0.031
+table_a8 :: CNN: Conventional list difference,table_a8,pipeline,-0.330
+table_a8 :: CNN: Conventional list SE,table_a8,pipeline,0.146
+table_a8 :: CNN: Combined list difference,table_a8,pipeline,-0.306
+table_a8 :: CNN: Combined list SE,table_a8,pipeline,0.105
+"text, p. 50 :: Admitters in the low power example","text, p. 50",definitional,200
+"text, p. 50 :: Power at 200 admitters and 20 percent false confessors (%)","text, p. 50",pipeline,30
+"text, p. 51 :: Power at 800 admitters and 20 percent false confessors (%)","text, p. 51",pipeline,80
+"text, p. 52 :: List experiments conducted","text, p. 52",structural,5
+"text, p. 52 :: List experiments on topics that are not socially sensitive","text, p. 52",structural,3
+"text, p. 52 :: List experiments on racial and religious prejudice","text, p. 52",structural,2
+"text, p. 52 :: Subjects recruited for the main experiment","text, p. 52",pipeline,1023
+"text, p. 52 :: Payment per subject (dollars)","text, p. 52",definitional,1.00
+"text, p. 52 :: Equivalent hourly rate (dollars)","text, p. 52",definitional,15.45
+"text, p. 52 :: Subjects who failed the attention question","text, p. 52",structural,2
+"text, p. 52 :: Subjects who left a question blank","text, p. 52",structural,7
+"text, p. 52 :: Subjects excluded from the main experiment","text, p. 52",pipeline,9
+"text, p. 52 :: Complete cases in the main experiment","text, p. 52",pipeline,1014
+"text, p. 53 :: Bernoulli assignment probability","text, p. 53",definitional,0.5
+"text, p. 53 :: Every off-diagonal crossing holds about a quarter of the subjects","text, p. 53",descriptive,
+"text, p. 53 :: The subject pool is disproportionately white, male, liberal, educated and young","text, p. 53",descriptive,
+table_3 note :: Study A sample size,table_3 note,pipeline,500
+"text, p. 54 :: Direct question estimate for Muslim teachers (%)","text, p. 54",pipeline,11
+"text, p. 54 :: Standard list estimate for Muslim teachers (%)","text, p. 54",pipeline,17
+"text, p. 54 :: Combined estimate for Muslim teachers (%)","text, p. 54",pipeline,19
+"text, p. 54 :: Smallest reduction in sampling variance, Study A (%)","text, p. 54",pipeline,14
+"text, p. 54 :: Largest reduction in sampling variance, Study A (%)","text, p. 54",pipeline,67
+"text, p. 54 :: Reductions are larger where more subjects answer Yes","text, p. 54",descriptive,
+"text, p. 54 :: Confidence interval width for the plotted estimates","text, p. 54",definitional,95
+"text, p. 54 :: The combined interval is always tighter than the standard list interval","text, p. 54",descriptive,
+"text, p. 54 :: Placebo Test I rejections in Study A","text, p. 54",descriptive,
+"text, p. 54 :: Placebo Test I p-value quoted for Public Transportation","text, p. 54",pipeline,0.02
+"text, p. 54 :: Placebo Test I p-value quoted for CNN","text, p. 54",pipeline,0.03
+"footnote 1, p. 54 :: Spanish speaking runs the other way in the main experiment","footnote 1, p. 54",descriptive,
+"footnote 1, p. 54 :: Spanish speaking runs the other way again in the replication","footnote 1, p. 54",descriptive,
+table_6 note :: Study B sample size,table_6 note,pipeline,514
+"text, p. 56 :: No direct question estimate differs between the studies","text, p. 56",descriptive,
+"text, p. 56 :: Study B sampling variance reductions fall in a similar range","text, p. 56",descriptive,
+"text, p. 56 :: No Placebo Test I rejection in Study B","text, p. 56",descriptive,
+"text, p. 56 :: Fisher's method joint test of Placebo Test I in Study B","text, p. 56",descriptive,
+"text, p. 57 :: Placebo Test II rejections in Study B","text, p. 57",descriptive,
+"text, p. 57 :: Effect of the treatment list on the nuclear power direct question, Study B (pp)","text, p. 57",pipeline,8.6
+"text, p. 57 :: Effect of the treatment list on the CNN direct question, Study B (pp)","text, p. 57",pipeline,13.2
+"text, p. 57 :: Replication Study A sample size","text, p. 57",pipeline,506
+"text, p. 57 :: Replication Study B sample size","text, p. 57",pipeline,506
+"text, p. 58 :: No estimate differs between the original experiment and the replication","text, p. 58",descriptive,
+"text, p. 58 :: Placebo Test I rejections in the replication of Study A","text, p. 58",descriptive,
+"text, p. 58 :: Placebo Test I rejections in the replication of Study B","text, p. 58",descriptive,
+"text, p. 58 :: The CNN treatment list effect replicates","text, p. 58",descriptive,
+"discussion, p. 59 :: Placebo Test I rejections restated for Study A","discussion, p. 59",descriptive,
+"discussion, p. 59 :: Placebo Test I rejections restated for the replication","discussion, p. 59",descriptive,
+"discussion, p. 59 :: Placebo Test I rejections across all four studies","discussion, p. 59",pipeline,6
+"discussion, p. 59 :: Placebo Test I opportunities across all four studies","discussion, p. 59",pipeline,20
+appendix C text :: Control list binomial success probability,appendix C text,definitional,0.4
+appendix C text :: Control list binomial trials,appendix C text,definitional,4
+appendix C text :: False confessor proportion fixed in the final panel,appendix C text,definitional,0.20
+appendix C text :: Binomial probability that maximises variability,appendix C text,definitional,0.5
+appendix C text :: Smallest number of admitters on the grid,appendix C text,structural,100
+appendix C text :: Largest number of admitters on the grid,appendix C text,structural,1000
+appendix C text :: Step between admitter counts,appendix C text,structural,50
+appendix C text :: Step between proportions,appendix C text,structural,0.01
+appendix C text :: Simulations per grid cell,appendix C text,structural,1000
+appendix C text :: Grid cells per panel of Figure A1,appendix C text,structural,1919
+appendix C text :: Power target the shading marks,appendix C text,definitional,0.80
+appendix C text :: Power at 800 admitters and 20 percent false confessors (%),appendix C text,pipeline,80
+appendix C text :: Power at 800 admitters and 20 percent liars (%),appendix C text,pipeline,80
+appendix C text :: Power at 800 admitters and 20 percent design affected (%),appendix C text,pipeline,80
+appendix E text :: Question order does not move the direct or combined estimates,appendix E text,descriptive,
+appendix E text :: Order effect on the conventional list estimate for nuclear power (pp),appendix E text,pipeline,24.9
+appendix E text :: Order effect on the conventional list estimate for CNN (pp),appendix E text,pipeline,30.7
+appendix F text :: Months between the two experiments,appendix F text,definitional,10
+appendix F text :: Users who started the replication survey,appendix F text,pipeline,1019
+appendix F text :: Excluded from the replication,appendix F text,pipeline,7
+appendix F text :: Complete cases in the replication,appendix F text,pipeline,1012
+appendix F text :: Replication Study A sample size,appendix F text,pipeline,506
+appendix F text :: Replication Study B sample size,appendix F text,pipeline,506
+appendix F text :: Placebo Test I rejections restated for the main experiment,appendix F text,descriptive,
+appendix F text :: Placebo Test I rejections restated for the replication,appendix F text,descriptive,
+appendix F text :: Placebo Test II rejections in the main experiment and the replication,appendix F text,descriptive,
+appendix F text :: Size of the replicated CNN treatment list effect,appendix F text,descriptive,

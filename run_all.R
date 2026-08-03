@@ -1,5 +1,5 @@
 # aronow_etal_2015/run_all.R
-# Output: maintained/output/, ground_truth/, report/run_timings.csv
+# Output: maintained/output/, ground_truth/, run_timings.csv
 # Depends on: download_original.R, maintained/, ground_truth/
 # Description: Runs the whole reproduction in order: fetch and verify the deposited
 #   archive, build the two analysis frames, then every published table and figure,
@@ -62,6 +62,8 @@ run_step(file.path("maintained", "figure_a2_placebo_ii_power.R"))
 # Figure A2 against the deposited grid, Figure A1 against itself under the sampler
 # R used when the paper was written.
 run_step(file.path("maintained", "text_sample_sizes.R"))
+run_step(file.path("maintained", "text_placebo_summaries.R"))
+run_step(file.path("maintained", "text_original_vs_replication.R"))
 run_step(file.path("maintained", "text_figure_a2_archive_grid.R"))
 run_step(file.path("maintained", "text_placebo_i_sampler.R"))
 
@@ -72,6 +74,12 @@ run_step(file.path("maintained", "text_placebo_i_sampler.R"))
 run_step(file.path("ground_truth", "run_archive.R"))
 run_step(file.path("ground_truth", "build_ground_truth.R"))
 
+# In-text claims ----
+# Every number the article states in prose, printed beside the sentence that states
+# it and recomputed from maintained/output/ by a path independent of the ground
+# truth's. It runs after build_ground_truth.R, which is what gates its coverage.
+run_step(file.path("maintained", "in_text_claims.R"))
+
 # Re-verify the deposit ----
 # The gate inside download_original.R is a precondition, and it ran before any of
 # the above. Running it again afterwards is what catches a script that damaged
@@ -79,11 +87,10 @@ run_step(file.path("ground_truth", "build_ground_truth.R"))
 run_step("download_original.R", label = "download_original.R (re-verification)")
 
 # Timings ----
-# Written outside maintained/output/, whose diff is the reproduction check and
-# would otherwise never come back clean.
-dir.create(here::here("report"), showWarnings = FALSE)
-
-readr::write_csv(timings, here::here("report", "run_timings.csv"))
+# Written at the repository root rather than into maintained/output/, whose diff is
+# the reproduction check and would otherwise never come back clean, and rather than
+# into report/, which Quarto empties when it renders the PDF into it.
+readr::write_csv(timings, here::here("run_timings.csv"))
 
 print(timings, n = Inf)
 print(paste("Total elapsed:", round(sum(timings$seconds), 1), "seconds"))

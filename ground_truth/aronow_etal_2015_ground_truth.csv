@@ -1,580 +1,633 @@
-paper_id,table_figure,claim,value_script,value_paper,match,value_rewrite,match_rewrite,defect_locus,notes,tolerance
-aronow_etal_2015,table_1,Study A x Study A,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x Study B,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 1 T,245,245,1,245,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 1 C,255,255,1,255,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 2 T,238,238,1,238,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 2 C,262,262,1,262,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 3 T,275,275,1,275,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 3 C,225,225,1,225,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 4 T,243,243,1,243,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 4 C,257,257,1,257,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 5 T,232,232,1,232,1,NA,,0.5
-aronow_etal_2015,table_1,Study A x List 5 C,268,268,1,268,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x Study A,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x Study B,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 1 T,272,272,1,272,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 1 C,242,242,1,242,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 2 T,259,259,1,259,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 2 C,255,255,1,255,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 3 T,253,253,1,253,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 3 C,261,261,1,261,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 4 T,271,271,1,271,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 4 C,243,243,1,243,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 5 T,260,260,1,260,1,NA,,0.5
-aronow_etal_2015,table_1,Study B x List 5 C,254,254,1,254,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 1 T,517,517,1,517,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 1 C,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 2 T,251,251,1,251,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 2 C,266,266,1,266,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 3 T,273,273,1,273,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 3 C,244,244,1,244,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 4 T,269,269,1,269,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 4 C,248,248,1,248,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 5 T,273,273,1,273,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 T x List 5 C,244,244,1,244,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 1 T,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 1 C,497,497,1,497,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 2 T,246,246,1,246,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 2 C,251,251,1,251,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 3 T,255,255,1,255,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 3 C,242,242,1,242,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 4 T,245,245,1,245,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 4 C,252,252,1,252,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 5 T,219,219,1,219,1,NA,,0.5
-aronow_etal_2015,table_1,List 1 C x List 5 C,278,278,1,278,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 2 T,497,497,1,497,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 2 C,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 3 T,253,253,1,253,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 3 C,244,244,1,244,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 4 T,246,246,1,246,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 4 C,251,251,1,251,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 5 T,240,240,1,240,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 T x List 5 C,257,257,1,257,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 2 T,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 2 C,517,517,1,517,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 3 T,275,275,1,275,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 3 C,242,242,1,242,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 4 T,268,268,1,268,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 4 C,249,249,1,249,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 5 T,252,252,1,252,1,NA,,0.5
-aronow_etal_2015,table_1,List 2 C x List 5 C,265,265,1,265,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 T x List 3 T,528,528,1,528,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 T x List 3 C,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 T x List 4 T,269,269,1,269,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 T x List 4 C,259,259,1,259,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 T x List 5 T,263,263,1,263,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 T x List 5 C,265,265,1,265,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 C x List 3 T,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 C x List 3 C,486,486,1,486,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 C x List 4 T,245,245,1,245,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 C x List 4 C,241,241,1,241,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 C x List 5 T,229,229,1,229,1,NA,,0.5
-aronow_etal_2015,table_1,List 3 C x List 5 C,257,257,1,257,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 T x List 4 T,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 T x List 4 C,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 T x List 5 T,256,256,1,256,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 T x List 5 C,258,258,1,258,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 C x List 4 T,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 C x List 4 C,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 C x List 5 T,236,236,1,236,1,NA,,0.5
-aronow_etal_2015,table_1,List 4 C x List 5 C,264,264,1,264,1,NA,,0.5
-aronow_etal_2015,table_1,List 5 T x List 5 T,492,492,1,492,1,NA,,0.5
-aronow_etal_2015,table_1,List 5 T x List 5 C,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 5 C x List 5 T,0,0,1,0,1,NA,,0.5
-aronow_etal_2015,table_1,List 5 C x List 5 C,522,522,1,522,1,NA,,0.5
-aronow_etal_2015,table_2,18 to 24: Study A Treat,24.49,24.49,1,24.489795918367346,1,NA,,0.005
-aronow_etal_2015,table_2,18 to 24: Study A Control,25.49,25.49,1,25.49019607843137,1,NA,,0.005
-aronow_etal_2015,table_2,18 to 24: Study B Treat,23.53,23.53,1,23.529411764705884,1,NA,,0.005
-aronow_etal_2015,table_2,18 to 24: Study B Control,32.64,32.64,1,32.64462809917355,1,NA,,0.005
-aronow_etal_2015,table_2,25 to 34: Study A Treat,40.82,40.82,1,40.81632653061224,1,NA,,0.005
-aronow_etal_2015,table_2,25 to 34: Study A Control,43.92,43.92,1,43.92156862745098,1,NA,,0.005
-aronow_etal_2015,table_2,25 to 34: Study B Treat,41.18,41.18,1,41.1764705882353,1,NA,,0.005
-aronow_etal_2015,table_2,25 to 34: Study B Control,40.91,40.91,1,40.90909090909091,1,NA,,0.005
-aronow_etal_2015,table_2,35 to 44: Study A Treat,20,20.00,1,20,1,NA,,0.005
-aronow_etal_2015,table_2,35 to 44: Study A Control,15.29,15.29,1,15.294117647058824,1,NA,,0.005
-aronow_etal_2015,table_2,35 to 44: Study B Treat,17.28,17.28,1,17.279411764705884,1,NA,,0.005
-aronow_etal_2015,table_2,35 to 44: Study B Control,14.88,14.88,1,14.87603305785124,1,NA,,0.005
-aronow_etal_2015,table_2,45 to 54: Study A Treat,8.16,8.16,1,8.16326530612245,1,NA,,0.005
-aronow_etal_2015,table_2,45 to 54: Study A Control,10.98,10.98,1,10.980392156862743,1,NA,,0.005
-aronow_etal_2015,table_2,45 to 54: Study B Treat,10.66,10.66,1,10.661764705882351,1,NA,,0.005
-aronow_etal_2015,table_2,45 to 54: Study B Control,6.2,6.20,1,6.198347107438017,1,NA,,0.005
-aronow_etal_2015,table_2,55 to 64: Study A Treat,4.9,4.90,1,4.8979591836734695,1,NA,,0.005
-aronow_etal_2015,table_2,55 to 64: Study A Control,3.92,3.92,1,3.92156862745098,1,NA,,0.005
-aronow_etal_2015,table_2,55 to 64: Study B Treat,5.88,5.88,1,5.882352941176471,1,NA,,0.005
-aronow_etal_2015,table_2,55 to 64: Study B Control,3.72,3.72,1,3.71900826446281,1,NA,,0.005
-aronow_etal_2015,table_2,65 or over: Study A Treat,1.63,1.63,1,1.6326530612244898,1,NA,,0.005
-aronow_etal_2015,table_2,65 or over: Study A Control,0.39,0.39,1,0.392156862745098,1,NA,,0.005
-aronow_etal_2015,table_2,65 or over: Study B Treat,1.47,1.47,1,1.4705882352941178,1,NA,,0.005
-aronow_etal_2015,table_2,65 or over: Study B Control,1.65,1.65,1,1.6528925619834711,1,NA,,0.005
-aronow_etal_2015,table_2,Female: Study A Treat,46.12,46.12,1,46.12244897959184,1,NA,,0.005
-aronow_etal_2015,table_2,Female: Study A Control,47.45,47.45,1,47.450980392156865,1,NA,,0.005
-aronow_etal_2015,table_2,Female: Study B Treat,46.32,46.32,1,46.3235294117647,1,NA,,0.005
-aronow_etal_2015,table_2,Female: Study B Control,42.98,42.98,1,42.97520661157025,1,NA,,0.005
-aronow_etal_2015,table_2,Male: Study A Treat,53.88,53.88,1,53.87755102040816,1,NA,,0.005
-aronow_etal_2015,table_2,Male: Study A Control,52.16,52.16,1,52.15686274509804,1,NA,,0.005
-aronow_etal_2015,table_2,Male: Study B Treat,53.31,53.31,1,53.30882352941177,1,NA,,0.005
-aronow_etal_2015,table_2,Male: Study B Control,57.02,57.02,1,57.02479338842975,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Gender: Study A Treat,0,0.00,1,0,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Gender: Study A Control,0.39,0.39,1,0.392156862745098,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Gender: Study B Treat,0.37,0.37,1,0.36764705882352944,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Gender: Study B Control,0,0.00,1,0,1,NA,,0.005
-aronow_etal_2015,table_2,Liberal: Study A Treat,50.61,50.61,1,50.61224489795919,1,NA,,0.005
-aronow_etal_2015,table_2,Liberal: Study A Control,42.35,42.35,1,42.35294117647059,1,NA,,0.005
-aronow_etal_2015,table_2,Liberal: Study B Treat,50.37,50.37,1,50.36764705882353,1,NA,,0.005
-aronow_etal_2015,table_2,Liberal: Study B Control,51.65,51.65,1,51.65289256198347,1,NA,,0.005
-aronow_etal_2015,table_2,Moderate: Study A Treat,28.16,28.16,1,28.163265306122447,1,NA,,0.005
-aronow_etal_2015,table_2,Moderate: Study A Control,34.51,34.51,1,34.509803921568626,1,NA,,0.005
-aronow_etal_2015,table_2,Moderate: Study B Treat,26.84,26.84,1,26.83823529411765,1,NA,,0.005
-aronow_etal_2015,table_2,Moderate: Study B Control,28.51,28.51,1,28.512396694214875,1,NA,,0.005
-aronow_etal_2015,table_2,Conservative: Study A Treat,18.37,18.37,1,18.367346938775512,1,NA,,0.005
-aronow_etal_2015,table_2,Conservative: Study A Control,19.22,19.22,1,19.215686274509803,1,NA,,0.005
-aronow_etal_2015,table_2,Conservative: Study B Treat,20.59,20.59,1,20.58823529411765,1,NA,,0.005
-aronow_etal_2015,table_2,Conservative: Study B Control,14.46,14.46,1,14.462809917355372,1,NA,,0.005
-aronow_etal_2015,table_2,Haven't thought much about this: Study A Treat,2.86,2.86,1,2.857142857142857,1,NA,,0.005
-aronow_etal_2015,table_2,Haven't thought much about this: Study A Control,3.92,3.92,1,3.92156862745098,1,NA,,0.005
-aronow_etal_2015,table_2,Haven't thought much about this: Study B Treat,2.21,2.21,1,2.2058823529411766,1,NA,,0.005
-aronow_etal_2015,table_2,Haven't thought much about this: Study B Control,5.37,5.37,1,5.371900826446281,1,NA,,0.005
-aronow_etal_2015,table_2,Less than High School: Study A Treat,0.41,0.41,1,0.40816326530612246,1,NA,,0.005
-aronow_etal_2015,table_2,Less than High School: Study A Control,0.78,0.78,1,0.7843137254901961,1,NA,,0.005
-aronow_etal_2015,table_2,Less than High School: Study B Treat,0.74,0.74,1,0.7352941176470589,1,NA,,0.005
-aronow_etal_2015,table_2,Less than High School: Study B Control,1.24,1.24,1,1.2396694214876034,1,NA,,0.005
-aronow_etal_2015,table_2,High School / GED: Study A Treat,11.02,11.02,1,11.020408163265309,1,NA,,0.005
-aronow_etal_2015,table_2,High School / GED: Study A Control,11.76,11.76,1,11.764705882352942,1,NA,,0.005
-aronow_etal_2015,table_2,High School / GED: Study B Treat,10.66,10.66,1,10.661764705882351,1,NA,,0.005
-aronow_etal_2015,table_2,High School / GED: Study B Control,7.44,7.44,1,7.43801652892562,1,NA,,0.005
-aronow_etal_2015,table_2,Some College: Study A Treat,42.45,42.45,1,42.44897959183673,1,NA,,0.005
-aronow_etal_2015,table_2,Some College: Study A Control,42.75,42.75,1,42.74509803921568,1,NA,,0.005
-aronow_etal_2015,table_2,Some College: Study B Treat,40.44,40.44,1,40.44117647058823,1,NA,,0.005
-aronow_etal_2015,table_2,Some College: Study B Control,40.91,40.91,1,40.90909090909091,1,NA,,0.005
-aronow_etal_2015,table_2,4-year College Degree: Study A Treat,33.47,33.47,1,33.46938775510204,1,NA,,0.005
-aronow_etal_2015,table_2,4-year College Degree: Study A Control,33.73,33.73,1,33.72549019607843,1,NA,,0.005
-aronow_etal_2015,table_2,4-year College Degree: Study B Treat,35.29,35.29,1,35.294117647058826,1,NA,,0.005
-aronow_etal_2015,table_2,4-year College Degree: Study B Control,36.36,36.36,1,36.36363636363637,1,NA,,0.005
-aronow_etal_2015,table_2,Graduate School: Study A Treat,12.65,12.65,1,12.653061224489797,1,NA,,0.005
-aronow_etal_2015,table_2,Graduate School: Study A Control,10.98,10.98,1,10.980392156862743,1,NA,,0.005
-aronow_etal_2015,table_2,Graduate School: Study B Treat,12.87,12.87,1,12.867647058823527,1,NA,,0.005
-aronow_etal_2015,table_2,Graduate School: Study B Control,14.05,14.05,1,14.049586776859504,1,NA,,0.005
-aronow_etal_2015,table_2,"White, non Hispanic: Study A Treat",79.18,79.18,1,79.18367346938776,1,NA,,0.005
-aronow_etal_2015,table_2,"White, non Hispanic: Study A Control",77.65,77.65,1,77.6470588235294,1,NA,,0.005
-aronow_etal_2015,table_2,"White, non Hispanic: Study B Treat",79.78,79.78,1,79.77941176470588,1,NA,,0.005
-aronow_etal_2015,table_2,"White, non Hispanic: Study B Control",80.17,80.17,1,80.16528925619835,1,NA,,0.005
-aronow_etal_2015,table_2,African-American: Study A Treat,7.76,7.76,1,7.755102040816326,1,NA,,0.005
-aronow_etal_2015,table_2,African-American: Study A Control,10.98,10.98,1,10.980392156862743,1,NA,,0.005
-aronow_etal_2015,table_2,African-American: Study B Treat,6.62,6.62,1,6.617647058823529,1,NA,,0.005
-aronow_etal_2015,table_2,African-American: Study B Control,4.55,4.55,1,4.545454545454546,1,NA,,0.005
-aronow_etal_2015,table_2,Asian/Pacific Islander: Study A Treat,5.71,5.71,1,5.714285714285714,1,NA,,0.005
-aronow_etal_2015,table_2,Asian/Pacific Islander: Study A Control,4.71,4.71,1,4.705882352941177,1,NA,,0.005
-aronow_etal_2015,table_2,Asian/Pacific Islander: Study B Treat,5.15,5.15,1,5.147058823529412,1,NA,,0.005
-aronow_etal_2015,table_2,Asian/Pacific Islander: Study B Control,9.92,9.92,1,9.917355371900827,1,NA,,0.005
-aronow_etal_2015,table_2,Hispanic: Study A Treat,4.9,4.90,1,4.8979591836734695,1,NA,,0.005
-aronow_etal_2015,table_2,Hispanic: Study A Control,3.92,3.92,1,3.92156862745098,1,NA,,0.005
-aronow_etal_2015,table_2,Hispanic: Study B Treat,6.25,6.25,1,6.25,1,NA,,0.005
-aronow_etal_2015,table_2,Hispanic: Study B Control,4.13,4.13,1,4.132231404958677,1,NA,,0.005
-aronow_etal_2015,table_2,Native American: Study A Treat,0.82,0.82,1,0.8163265306122449,1,NA,,0.005
-aronow_etal_2015,table_2,Native American: Study A Control,0.78,0.78,1,0.7843137254901961,1,NA,,0.005
-aronow_etal_2015,table_2,Native American: Study B Treat,1.1,1.10,1,1.1029411764705883,1,NA,,0.005
-aronow_etal_2015,table_2,Native American: Study B Control,0.83,0.83,1,0.8264462809917356,1,NA,,0.005
-aronow_etal_2015,table_2,Other: Study A Treat,1.22,1.22,1,1.2244897959183674,1,NA,,0.005
-aronow_etal_2015,table_2,Other: Study A Control,1.18,1.18,1,1.1764705882352942,1,NA,,0.005
-aronow_etal_2015,table_2,Other: Study B Treat,1.1,1.10,1,1.1029411764705883,1,NA,,0.005
-aronow_etal_2015,table_2,Other: Study B Control,0.41,0.41,1,0.4132231404958678,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Race: Study A Treat,0.41,0.41,1,0.40816326530612246,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Race: Study A Control,0.78,0.78,1,0.7843137254901961,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Race: Study B Treat,0,0.00,1,0,1,NA,,0.005
-aronow_etal_2015,table_2,Prefer not to say -- Race: Study B Control,0,0.00,1,0,1,NA,,0.005
-aronow_etal_2015,table_2,n: Study A Treat,245,245,1,245,1,NA,,0.5
-aronow_etal_2015,table_2,n: Study A Control,255,255,1,255,1,NA,,0.5
-aronow_etal_2015,table_2,n: Study B Treat,272,272,1,272,1,NA,,0.5
-aronow_etal_2015,table_2,n: Study B Control,242,242,1,242,1,NA,,0.5
-aronow_etal_2015,table_3,Nuclear Power: Direct,0.656,0.656,1,0.656,1,NA,,5e-4
-aronow_etal_2015,table_3,Nuclear Power: Direct SE,0.02126575803797874,0.021,1,0.02126575803797874,1,NA,,5e-4
-aronow_etal_2015,table_3,Nuclear Power: Standard list,0.7477390956382552,0.748,1,0.7477390956382552,1,NA,,5e-4
-aronow_etal_2015,table_3,Nuclear Power: Standard list SE,0.08441010011221306,0.084,1,0.08441010011221306,1,NA,,5e-4
-aronow_etal_2015,table_3,Nuclear Power: Combined,0.6656184210526316,0.666,1,0.6656184210526316,1,NA,,5e-4
-aronow_etal_2015,table_3,Nuclear Power: Combined SE,0.04840343151169624,0.048,1,0.04840343151169624,1,NA,,5e-4
-aronow_etal_2015,table_3,Nuclear Power: % reduction in sampling variance,67.11760269143052,67.1,1,67.11760269143052,1,NA,,0.05
-aronow_etal_2015,table_3,Public Transportation: Direct,0.538,0.538,1,0.5379999999999999,1,NA,,5e-4
-aronow_etal_2015,table_3,Public Transportation: Direct SE,0.02231833811987053,0.022,1,0.02231833811987053,1,NA,,5e-4
-aronow_etal_2015,table_3,Public Transportation: Standard list,0.5134710372698699,0.513,1,0.5134710372698699,1,NA,,5e-4
-aronow_etal_2015,table_3,Public Transportation: Standard list SE,0.07236749445195512,0.072,1,0.07236749445195512,1,NA,,5e-4
-aronow_etal_2015,table_3,Public Transportation: Combined,0.6265818181818182,0.627,1,0.6265818181818181,1,NA,,5e-4
-aronow_etal_2015,table_3,Public Transportation: Combined SE,0.04909874024968318,0.049,1,0.04909874024968318,1,NA,,5e-4
-aronow_etal_2015,table_3,Public Transportation: % reduction in sampling variance,53.9686591444396,54.0,1,53.96865914443958,1,NA,,0.05
-aronow_etal_2015,table_3,Spanish-speaking: Direct,0.102,0.102,1,0.10199999999999998,1,NA,,5e-4
-aronow_etal_2015,table_3,Spanish-speaking: Direct SE,0.01354839910234689,0.014,1,0.01354839910234689,1,NA,,5e-4
-aronow_etal_2015,table_3,Spanish-speaking: Standard list,0.03474747474747497,0.035,1,0.03474747474747541,1,NA,,5e-4
-aronow_etal_2015,table_3,Spanish-speaking: Standard list SE,0.07928596603057121,0.079,1,0.07928596603057121,1,NA,,5e-4
-aronow_etal_2015,table_3,Spanish-speaking: Combined,0.04247470988395327,0.042,1,0.04247470988395326,1,NA,,5e-4
-aronow_etal_2015,table_3,Spanish-speaking: Combined SE,0.07353875812567665,0.074,1,0.07353875812567665,1,NA,,5e-4
-aronow_etal_2015,table_3,Spanish-speaking: % reduction in sampling variance,13.971977720514428,14.0,1,13.971977720514406,1,NA,,0.05
-aronow_etal_2015,table_3,Muslim Teachers: Direct,0.11,0.110,1,0.11,1,NA,,5e-4
-aronow_etal_2015,table_3,Muslim Teachers: Direct SE,0.01400686919941558,0.014,1,0.01400686919941558,1,NA,,5e-4
-aronow_etal_2015,table_3,Muslim Teachers: Standard list,0.16614625866679478,0.166,1,0.166146258666795,1,NA,,5e-4
-aronow_etal_2015,table_3,Muslim Teachers: Standard list SE,0.0808654119492077,0.081,1,0.0808654119492077,1,NA,,5e-4
-aronow_etal_2015,table_3,Muslim Teachers: Combined,0.1873131313131312,0.187,1,0.18731313131313165,1,NA,,5e-4
-aronow_etal_2015,table_3,Muslim Teachers: Combined SE,0.07440402357551566,0.074,1,0.07440402357551568,1,NA,,5e-4
-aronow_etal_2015,table_3,Muslim Teachers: % reduction in sampling variance,15.3421496088768,15.3,1,15.342149608876754,1,NA,,0.05
-aronow_etal_2015,table_3,CNN: Direct,0.444,0.444,1,0.44400000000000006,1,NA,,5e-4
-aronow_etal_2015,table_3,CNN: Direct SE,0.02224224437573102,0.022,1,0.02224224437573102,1,NA,,5e-4
-aronow_etal_2015,table_3,CNN: Standard list,0.33775090066906843,0.338,1,0.3377509006690682,1,NA,,5e-4
-aronow_etal_2015,table_3,CNN: Standard list SE,0.10455958189006502,0.105,1,0.10455958189006502,1,NA,,5e-4
-aronow_etal_2015,table_3,CNN: Combined,0.5332502071251035,0.533,1,0.5332502071251035,1,NA,,5e-4
-aronow_etal_2015,table_3,CNN: Combined SE,0.07023773472401411,0.070,1,0.07023773472401411,1,NA,,5e-4
-aronow_etal_2015,table_3,CNN: % reduction in sampling variance,54.87540500317105,54.9,1,54.87540500317105,1,NA,,0.05
-aronow_etal_2015,table_4,Nuclear Power: beta,1.0539615198541177,1.054,1,1.0539615198541177,1,NA,,5e-4
-aronow_etal_2015,table_4,Nuclear Power: SE,0.09452733798518592,0.095,1,0.09452733798518592,1,NA,,5e-4
-aronow_etal_2015,table_4,Nuclear Power: p-value,0.5680971026037596,0.568,1,0.5680971026037596,1,NA,,5e-4
-aronow_etal_2015,table_4,Nuclear Power: n,328,328,1,328,1,NA,,0.5
-aronow_etal_2015,table_4,Public Transportation: beta,0.7901152482269502,0.790,1,0.7901152482269502,1,NA,,5e-4
-aronow_etal_2015,table_4,Public Transportation: SE,0.09093233713555184,0.091,1,0.09093233713555184,1,NA,,5e-4
-aronow_etal_2015,table_4,Public Transportation: p-value,0.02099123660703217,0.021,1,0.02099123660703217,1,NA,,5e-4
-aronow_etal_2015,table_4,Public Transportation: n,269,269,1,269,1,NA,,0.5
-aronow_etal_2015,table_4,Spanish-speaking: beta,0.8476190476190477,0.848,1,0.8476190476190477,1,NA,,5e-4
-aronow_etal_2015,table_4,Spanish-speaking: SE,0.2788109646188823,0.279,1,0.2788109646188823,1,NA,,5e-4
-aronow_etal_2015,table_4,Spanish-speaking: p-value,0.5846957665334547,0.585,1,0.5846957665334547,1,NA,,5e-4
-aronow_etal_2015,table_4,Spanish-speaking: n,51,51,1,51,1,NA,,0.5
-aronow_etal_2015,table_4,Muslim Teachers: beta,1.0081521739130437,1.008,1,1.0081521739130437,1,NA,,5e-4
-aronow_etal_2015,table_4,Muslim Teachers: SE,0.23748376260473228,0.237,1,0.23748376260473228,1,NA,,5e-4
-aronow_etal_2015,table_4,Muslim Teachers: p-value,0.9726161636720836,0.973,1,0.9726161636720836,1,NA,,5e-4
-aronow_etal_2015,table_4,Muslim Teachers: n,55,55,1,55,1,NA,,0.5
-aronow_etal_2015,table_4,CNN: beta,0.6964285714285716,0.696,1,0.6964285714285712,1,NA,,5e-4
-aronow_etal_2015,table_4,CNN: SE,0.14286064114346603,0.143,1,0.14286064114346603,1,NA,,5e-4
-aronow_etal_2015,table_4,CNN: p-value,0.0335909551012123,0.034,1,0.03359095510121204,1,NA,,5e-4
-aronow_etal_2015,table_4,CNN: n,222,222,1,222,1,NA,,0.5
-aronow_etal_2015,table_5,Nuclear Power: beta,0.0662665066026411,0.066,1,0.0662665066026411,1,NA,,5e-4
-aronow_etal_2015,table_5,Nuclear Power: SE,0.04243974718547155,0.042,1,0.04243974718547155,1,NA,,5e-4
-aronow_etal_2015,table_5,Nuclear Power: p-value,0.11842337172584767,0.118,1,0.11842337172584767,1,NA,,5e-4
-aronow_etal_2015,table_5,Nuclear Power: n,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_5,Public Transportation: beta,-3.528128808775177e-4,-0.000,1,-3.528128808775177e-4,1,NA,,5e-4
-aronow_etal_2015,table_5,Public Transportation: SE,0.04473356081506337,0.045,1,0.04473356081506337,1,NA,,5e-4
-aronow_etal_2015,table_5,Public Transportation: p-value,0.9937071624316698,0.994,1,0.9937071624316698,1,NA,,5e-4
-aronow_etal_2015,table_5,Public Transportation: n,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_5,Spanish-speaking: beta,0.01575757575757574,0.016,1,0.01575757575757574,1,NA,,5e-4
-aronow_etal_2015,table_5,Spanish-speaking: SE,0.02706448057136118,0.027,1,0.02706448057136118,1,NA,,5e-4
-aronow_etal_2015,table_5,Spanish-speaking: p-value,0.5604161673281228,0.560,1,0.5604161673281228,1,NA,,5e-4
-aronow_etal_2015,table_5,Spanish-speaking: n,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_5,Muslim Teachers: beta,-0.02986341291572593,-0.030,1,-0.02986341291572593,1,NA,,5e-4
-aronow_etal_2015,table_5,Muslim Teachers: SE,0.0279270033286562,0.028,1,0.0279270033286562,1,NA,,5e-4
-aronow_etal_2015,table_5,Muslim Teachers: p-value,0.28491728021249485,0.285,1,0.28491728021249485,1,NA,,5e-4
-aronow_etal_2015,table_5,Muslim Teachers: n,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_5,CNN: beta,-0.05635615028306745,-0.056,1,-0.05635615028306745,1,NA,,5e-4
-aronow_etal_2015,table_5,CNN: SE,0.04453169417741861,0.045,1,0.04453169417741861,1,NA,,5e-4
-aronow_etal_2015,table_5,CNN: p-value,0.20568176040574537,0.206,1,0.20568176040574537,1,NA,,5e-4
-aronow_etal_2015,table_5,CNN: n,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_6,Nuclear Power: Direct,0.603112840466926,0.603,1,0.603112840466926,1,NA,,5e-4
-aronow_etal_2015,table_6,Nuclear Power: Direct SE,0.02160101353710281,0.022,1,0.02160101353710281,1,NA,,5e-4
-aronow_etal_2015,table_6,Nuclear Power: Standard list,0.4985111813320371,0.499,1,0.4985111813320371,1,NA,,5e-4
-aronow_etal_2015,table_6,Nuclear Power: Standard list SE,0.08870898385281714,0.089,1,0.08870898385281714,1,NA,,5e-4
-aronow_etal_2015,table_6,Nuclear Power: Combined,0.6237909949972206,0.624,1,0.6237909949972206,1,NA,,5e-4
-aronow_etal_2015,table_6,Nuclear Power: Combined SE,0.05169560967231836,0.052,1,0.05169560967231836,1,NA,,5e-4
-aronow_etal_2015,table_6,Nuclear Power: % reduction in sampling variance,66.03965339398063,66.0,1,66.03965339398063,1,NA,,0.05
-aronow_etal_2015,table_6,Public Transportation: Direct,0.5389105058365758,0.539,1,0.538910505836576,1,NA,,5e-4
-aronow_etal_2015,table_6,Public Transportation: Direct SE,0.02200859182465729,0.022,1,0.02200859182465729,1,NA,,5e-4
-aronow_etal_2015,table_6,Public Transportation: Standard list,0.5778787190551893,0.578,1,0.5778787190551897,1,NA,,5e-4
-aronow_etal_2015,table_6,Public Transportation: Standard list SE,0.07316642056141723,0.073,1,0.07316642056141723,1,NA,,5e-4
-aronow_etal_2015,table_6,Public Transportation: Combined,0.6077617168324684,0.608,1,0.6077617168324685,1,NA,,5e-4
-aronow_etal_2015,table_6,Public Transportation: Combined SE,0.05072971047389484,0.051,1,0.05072971047389484,1,NA,,5e-4
-aronow_etal_2015,table_6,Public Transportation: % reduction in sampling variance,51.92700839638642,51.9,1,51.92700839638642,1,NA,,0.05
-aronow_etal_2015,table_6,Spanish-speaking: Direct,0.11284046692607004,0.113,1,0.11284046692607008,1,NA,,5e-4
-aronow_etal_2015,table_6,Spanish-speaking: Direct SE,0.01396929911059536,0.014,1,0.01396929911059536,1,NA,,5e-4
-aronow_etal_2015,table_6,Spanish-speaking: Standard list,0.1440340435842682,0.144,1,0.1440340435842682,1,NA,,5e-4
-aronow_etal_2015,table_6,Spanish-speaking: Standard list SE,0.08328101664389624,0.083,1,0.08328101664389624,1,NA,,5e-4
-aronow_etal_2015,table_6,Spanish-speaking: Combined,0.14859332921015048,0.149,1,0.1485933292101505,1,NA,,5e-4
-aronow_etal_2015,table_6,Spanish-speaking: Combined SE,0.07612969745907543,0.076,1,0.07612969745907543,1,NA,,5e-4
-aronow_etal_2015,table_6,Spanish-speaking: % reduction in sampling variance,16.43658664060432,16.4,1,16.436586640604332,1,NA,,0.05
-aronow_etal_2015,table_6,Muslim Teachers: Direct,0.10311284046692606,0.103,1,0.10311284046692612,1,NA,,5e-4
-aronow_etal_2015,table_6,Muslim Teachers: Direct SE,0.01342661685427843,0.013,1,0.01342661685427843,1,NA,,5e-4
-aronow_etal_2015,table_6,Muslim Teachers: Standard list,0.10650995398842866,0.107,1,0.10650995398842888,1,NA,,5e-4
-aronow_etal_2015,table_6,Muslim Teachers: Standard list SE,0.0826026998196288,0.083,1,0.0826026998196288,1,NA,,5e-4
-aronow_etal_2015,table_6,Muslim Teachers: Combined,0.12288766297718948,0.123,1,0.12288766297718956,1,NA,,5e-4
-aronow_etal_2015,table_6,Muslim Teachers: Combined SE,0.07383936557032518,0.074,1,0.07383936557032518,1,NA,,5e-4
-aronow_etal_2015,table_6,Muslim Teachers: % reduction in sampling variance,20.092521113228212,20.1,1,20.092521113228234,1,NA,,0.05
-aronow_etal_2015,table_6,CNN: Direct,0.4961089494163424,0.496,1,0.4961089494163424,1,NA,,5e-4
-aronow_etal_2015,table_6,CNN: Direct SE,0.02207487081484097,0.022,1,0.02207487081484097,1,NA,,5e-4
-aronow_etal_2015,table_6,CNN: Standard list,0.6450030284675954,0.645,1,0.6450030284675954,1,NA,,5e-4
-aronow_etal_2015,table_6,CNN: Standard list SE,0.10134010860176834,0.101,1,0.10134010860176834,1,NA,,5e-4
-aronow_etal_2015,table_6,CNN: Combined,0.5873763302661592,0.587,1,0.5873763302661592,1,NA,,5e-4
-aronow_etal_2015,table_6,CNN: Combined SE,0.06393112296510452,0.064,1,0.06393112296510452,1,NA,,5e-4
-aronow_etal_2015,table_6,CNN: % reduction in sampling variance,60.20193699413811,60.2,1,60.20193699413814,1,NA,,0.05
-aronow_etal_2015,table_7,Nuclear Power: beta,0.881353815411515,0.881,1,0.881353815411515,1,NA,,5e-4
-aronow_etal_2015,table_7,Nuclear Power: SE,0.1131145044495885,0.113,1,0.1131145044495885,1,NA,,5e-4
-aronow_etal_2015,table_7,Nuclear Power: p-value,0.2942225956651667,0.294,1,0.2942225956651667,1,NA,,5e-4
-aronow_etal_2015,table_7,Nuclear Power: n,310,310,1,310,1,NA,,0.5
-aronow_etal_2015,table_7,Public Transportation: beta,0.9132727652464494,0.913,1,0.9132727652464494,1,NA,,5e-4
-aronow_etal_2015,table_7,Public Transportation: SE,0.09074332373701266,0.091,1,0.09074332373701266,1,NA,,5e-4
-aronow_etal_2015,table_7,Public Transportation: p-value,0.3392024358626336,0.339,1,0.3392024358626336,1,NA,,5e-4
-aronow_etal_2015,table_7,Public Transportation: n,277,277,1,277,1,NA,,0.5
-aronow_etal_2015,table_7,Spanish-speaking: beta,0.7668269230769229,0.767,1,0.7668269230769229,1,NA,,5e-4
-aronow_etal_2015,table_7,Spanish-speaking: SE,0.229316778807112,0.229,1,0.229316778807112,1,NA,,5e-4
-aronow_etal_2015,table_7,Spanish-speaking: p-value,0.3092407468535317,0.309,1,0.3092407468535317,1,NA,,5e-4
-aronow_etal_2015,table_7,Spanish-speaking: n,58,58,1,58,1,NA,,0.5
-aronow_etal_2015,table_7,Muslim Teachers: beta,0.7000000000000002,0.700,1,0.7000000000000002,1,NA,,5e-4
-aronow_etal_2015,table_7,Muslim Teachers: SE,0.28504355742699966,0.285,1,0.28504355742699966,1,NA,,5e-4
-aronow_etal_2015,table_7,Muslim Teachers: p-value,0.2925836342676051,0.293,1,0.2925836342676051,1,NA,,5e-4
-aronow_etal_2015,table_7,Muslim Teachers: n,53,53,1,53,1,NA,,0.5
-aronow_etal_2015,table_7,CNN: beta,0.8465502073645848,0.847,1,0.8465502073645845,1,NA,,5e-4
-aronow_etal_2015,table_7,CNN: SE,0.13496570558402984,0.135,1,0.13496570558402984,1,NA,,5e-4
-aronow_etal_2015,table_7,CNN: p-value,0.2555575352274077,0.256,1,0.255557535227407,1,NA,,5e-4
-aronow_etal_2015,table_7,CNN: n,255,255,1,255,1,NA,,0.5
-aronow_etal_2015,table_8,Nuclear Power: beta,-0.08626033057851235,-0.086,1,-0.08626033057851235,1,NA,,5e-4
-aronow_etal_2015,table_8,Nuclear Power: SE,0.04305363168438152,0.043,1,0.04305363168438152,1,NA,,5e-4
-aronow_etal_2015,table_8,Nuclear Power: p-value,0.04511772161786084,0.045,1,0.04511772161786084,1,NA,,5e-4
-aronow_etal_2015,table_8,Nuclear Power: n,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_8,Public Transportation: beta,0.03441592853357556,0.034,1,0.03441592853357556,1,NA,,5e-4
-aronow_etal_2015,table_8,Public Transportation: SE,0.04403707940810264,0.044,1,0.04403707940810264,1,NA,,5e-4
-aronow_etal_2015,table_8,Public Transportation: p-value,0.4344957807284778,0.434,1,0.4344957807284778,1,NA,,5e-4
-aronow_etal_2015,table_8,Public Transportation: n,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_8,Spanish-speaking: beta,0.02686535520118728,0.027,1,0.02686535520118728,1,NA,,5e-4
-aronow_etal_2015,table_8,Spanish-speaking: SE,0.02798936928608435,0.028,1,0.02798936928608435,1,NA,,5e-4
-aronow_etal_2015,table_8,Spanish-speaking: p-value,0.33713504618287216,0.337,1,0.33713504618287216,1,NA,,5e-4
-aronow_etal_2015,table_8,Spanish-speaking: n,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_8,Muslim Teachers: beta,0.01605090124975324,0.016,1,0.01605090124975324,1,NA,,5e-4
-aronow_etal_2015,table_8,Muslim Teachers: SE,0.02680883217947569,0.027,1,0.02680883217947569,1,NA,,5e-4
-aronow_etal_2015,table_8,Muslim Teachers: p-value,0.5493616766646952,0.549,1,0.5493616766646952,1,NA,,5e-4
-aronow_etal_2015,table_8,Muslim Teachers: n,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_8,CNN: beta,0.132404603270745,0.132,1,0.132404603270745,1,NA,,5e-4
-aronow_etal_2015,table_8,CNN: SE,0.04380550036909481,0.044,1,0.04380550036909481,1,NA,,5e-4
-aronow_etal_2015,table_8,CNN: p-value,0.00250649223422805,0.003,1,0.00250649223422805,1,NA,,5e-4
-aronow_etal_2015,table_8,CNN: n,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,table_a1,Nuclear Power: Direct difference,0.05288715953307399,0.053,1,0.05288715953307399,1,NA,,5e-4
-aronow_etal_2015,table_a1,Nuclear Power: Direct SE,0.03031231186762165,0.030,1,0.03031231186762165,1,NA,,5e-4
-aronow_etal_2015,table_a1,Nuclear Power: Conventional list difference,0.24922791430621816,0.249,1,0.24922791430621816,1,NA,,5e-4
-aronow_etal_2015,table_a1,Nuclear Power: Conventional list SE,0.12245141410842587,0.122,1,0.12245141410842587,1,NA,,5e-4
-aronow_etal_2015,table_a1,Nuclear Power: Combined list difference,0.04182742605541101,0.042,1,0.04182742605541101,1,NA,,5e-4
-aronow_etal_2015,table_a1,Nuclear Power: Combined list SE,0.07081898221169353,0.071,1,0.07081898221169353,1,NA,,5e-4
-aronow_etal_2015,table_a1,Public Transportation: Direct difference,-9.105058365758144e-4,-0.001,1,-9.105058365760366e-4,1,NA,,5e-4
-aronow_etal_2015,table_a1,Public Transportation: Direct SE,0.03134463798701842,0.031,1,0.03134463798701842,1,NA,,5e-4
-aronow_etal_2015,table_a1,Public Transportation: Conventional list difference,-0.06440768178531942,-0.064,1,-0.06440768178531986,1,NA,,5e-4
-aronow_etal_2015,table_a1,Public Transportation: Conventional list SE,0.10290956880205034,0.103,1,0.10290956880205034,1,NA,,5e-4
-aronow_etal_2015,table_a1,Public Transportation: Combined list difference,0.01882010134934986,0.019,1,0.01882010134934964,1,NA,,5e-4
-aronow_etal_2015,table_a1,Public Transportation: Combined list SE,0.070598794740923565,0.071,1,0.070598794740923565,1,NA,,5e-4
-aronow_etal_2015,table_a1,Spanish-speaking: Direct difference,-0.01084046692607004,-0.011,1,-0.01084046692607008,1,NA,,5e-4
-aronow_etal_2015,table_a1,Spanish-speaking: Direct SE,0.01946022702533952,0.019,1,0.01946022702533952,1,NA,,5e-4
-aronow_etal_2015,table_a1,Spanish-speaking: Conventional list difference,-0.10928656883679322,-0.109,1,-0.10928656883679276,1,NA,,5e-4
-aronow_etal_2015,table_a1,Spanish-speaking: Conventional list SE,0.11498692161564208,0.115,1,0.11498692161564208,1,NA,,5e-4
-aronow_etal_2015,table_a1,Spanish-speaking: Combined list difference,-0.1061186193261972,-0.106,1,-0.10611861932619723,1,NA,,5e-4
-aronow_etal_2015,table_a1,Spanish-speaking: Combined list SE,0.10584743635004644,0.106,1,0.10584743635004644,1,NA,,5e-4
-aronow_etal_2015,table_a1,Muslim Teachers: Direct difference,0.00688715953307393,0.007,1,0.00688715953307388,1,NA,,5e-4
-aronow_etal_2015,table_a1,Muslim Teachers: Direct SE,0.01940274271645972,0.019,1,0.01940274271645972,1,NA,,5e-4
-aronow_etal_2015,table_a1,Muslim Teachers: Conventional list difference,0.05963630467836611,0.060,1,0.05963630467836611,1,NA,,5e-4
-aronow_etal_2015,table_a1,Muslim Teachers: Conventional list SE,0.11559593793558132,0.116,1,0.11559593793558132,1,NA,,5e-4
-aronow_etal_2015,table_a1,Muslim Teachers: Combined list difference,0.06442546833594173,0.064,1,0.06442546833594208,1,NA,,5e-4
-aronow_etal_2015,table_a1,Muslim Teachers: Combined list SE,0.10482466614329862,0.105,1,0.10482466614329862,1,NA,,5e-4
-aronow_etal_2015,table_a1,CNN: Direct difference,-0.05210894941634242,-0.052,1,-0.05210894941634236,1,NA,,5e-4
-aronow_etal_2015,table_a1,CNN: Direct SE,0.03133715616263952,0.031,1,0.03133715616263952,1,NA,,5e-4
-aronow_etal_2015,table_a1,CNN: Conventional list difference,-0.30725212779852695,-0.307,1,-0.3072521277985272,1,NA,,5e-4
-aronow_etal_2015,table_a1,CNN: Conventional list SE,0.14561086421158076,0.146,1,0.14561086421158076,1,NA,,5e-4
-aronow_etal_2015,table_a1,CNN: Combined list difference,-0.05412612314105569,-0.054,1,-0.05412612314105569,1,NA,,5e-4
-aronow_etal_2015,table_a1,CNN: Combined list SE,0.09497645951887387,0.095,1,0.09497645951887387,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: Direct,0.6462450592885376,0.646,1,0.6462450592885378,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: Direct SE,0.02127669587585087,0.021,1,0.02127669587585087,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: Standard list,0.57459375,0.575,1,0.57459375,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: Standard list SE,0.086150026435123,0.086,1,0.086150026435123,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: Combined,0.6471809189200493,0.647,1,0.6471809189200495,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: Combined SE,0.04907050676614143,0.049,1,0.04907050676614141,1,NA,,5e-4
-aronow_etal_2015,table_a2,Nuclear Power: % reduction in sampling variance,67.55630902585379,67.556,1,67.55630902585382,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: Direct,0.5553359683794467,0.555,1,0.5553359683794467,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: Direct SE,0.02211302786130988,0.022,1,0.02211302786130988,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: Standard list,0.6345312500000002,0.635,1,0.6345312500000002,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: Standard list SE,0.0727609773518217,0.073,1,0.0727609773518217,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: Combined,0.653243645066541,0.653,1,0.6532436450665408,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: Combined SE,0.04789121041596932,0.048,1,0.04789121041596932,1,NA,,5e-4
-aronow_etal_2015,table_a2,Public Transportation: % reduction in sampling variance,56.677393376137175,56.677,1,56.677393376137175,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: Direct,0.06126482213438735,0.061,1,0.06126482213438739,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: Direct SE,0.01067164687089528,0.011,1,0.01067164687089528,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: Standard list,0.11767464399043348,0.118,1,0.11767464399043348,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: Standard list SE,0.07794901557006517,0.078,1,0.07794901557006517,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: Combined,0.10370426674774524,0.104,1,0.1037042667477453,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: Combined SE,0.07308984591240483,0.073,1,0.07308984591240482,1,NA,,5e-4
-aronow_etal_2015,table_a2,Spanish-speaking: % reduction in sampling variance,12.078958701941534,12.079,1,12.078958701941556,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: Direct,0.08300395256916997,0.083,1,0.08300395256917,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: Direct SE,0.01227686356784557,0.012,1,0.01227686356784557,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: Standard list,0.03374060150375957,0.034,1,0.03374060150375957,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: Standard list SE,0.07830743386480103,0.078,1,0.07830743386480103,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: Combined,0.03615862285138226,0.036,1,0.03615862285138208,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: Combined SE,0.07233547990952506,0.072,1,0.07233547990952506,1,NA,,5e-4
-aronow_etal_2015,table_a2,Muslim Teachers: % reduction in sampling variance,14.67098162586996,14.671,1,14.670981625869985,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: Direct,0.4071146245059288,0.407,1,0.40711462450592895,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: Direct SE,0.0218624098487496,0.022,1,0.0218624098487496,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: Standard list,0.2556390977443608,0.256,1,0.255639097744361,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: Standard list SE,0.09956686053843972,0.100,1,0.09956686053843972,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: Combined,0.2984990644707201,0.298,1,0.2984990644707202,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: Combined SE,0.07360553060260641,0.074,1,0.0736055306026064,1,NA,,5e-4
-aronow_etal_2015,table_a2,CNN: % reduction in sampling variance,45.34986130423183,45.350,1,45.34986130423183,1,NA,,5e-4
-aronow_etal_2015,table_a3,Nuclear Power: beta,0.9375327690809678,0.938,1,0.9375327690809678,1,NA,,5e-4
-aronow_etal_2015,table_a3,Nuclear Power: SE,0.10435652992669728,0.104,1,0.10435652992669728,1,NA,,5e-4
-aronow_etal_2015,table_a3,Nuclear Power: p-value,0.5494434136809274,0.549,1,0.5494434136809274,1,NA,,5e-4
-aronow_etal_2015,table_a3,Nuclear Power: n,327,327,1,327,1,NA,,0.5
-aronow_etal_2015,table_a3,Public Transportation: beta,0.9489868287740628,0.949,1,0.9489868287740628,1,NA,,5e-4
-aronow_etal_2015,table_a3,Public Transportation: SE,0.08891058610221694,0.089,1,0.08891058610221694,1,NA,,5e-4
-aronow_etal_2015,table_a3,Public Transportation: p-value,0.5661314887105505,0.566,1,0.5661314887105505,1,NA,,5e-4
-aronow_etal_2015,table_a3,Public Transportation: n,281,281,1,281,1,NA,,0.5
-aronow_etal_2015,table_a3,Spanish-speaking: beta,0.8157894736842106,0.816,1,0.8157894736842106,1,NA,,5e-4
-aronow_etal_2015,table_a3,Spanish-speaking: SE,0.31091173514989545,0.311,1,0.31091173514989545,1,NA,,5e-4
-aronow_etal_2015,table_a3,Spanish-speaking: p-value,0.553525890504579,0.554,1,0.553525890504579,1,NA,,5e-4
-aronow_etal_2015,table_a3,Spanish-speaking: n,31,31,1,31,1,NA,,0.5
-aronow_etal_2015,table_a3,Muslim Teachers: beta,1.0476190476190477,1.048,1,1.0476190476190477,1,NA,,5e-4
-aronow_etal_2015,table_a3,Muslim Teachers: SE,0.29661736195042737,0.297,1,0.29661736195042737,1,NA,,5e-4
-aronow_etal_2015,table_a3,Muslim Teachers: p-value,0.8724554589743724,0.872,1,0.8724554589743724,1,NA,,5e-4
-aronow_etal_2015,table_a3,Muslim Teachers: n,42,42,1,42,1,NA,,0.5
-aronow_etal_2015,table_a3,CNN: beta,0.7109848484848487,0.711,1,0.710984848484848,1,NA,,5e-4
-aronow_etal_2015,table_a3,CNN: SE,0.13263672247568542,0.133,1,0.13263672247568542,1,NA,,5e-4
-aronow_etal_2015,table_a3,CNN: p-value,0.02933181762366333,0.029,1,0.02933181762366295,1,NA,,5e-4
-aronow_etal_2015,table_a3,CNN: n,206,206,1,206,1,NA,,0.5
-aronow_etal_2015,table_a4,Nuclear Power: beta,-0.05881250000000004,-0.059,1,-0.05881250000000004,1,NA,,5e-4
-aronow_etal_2015,table_a4,Nuclear Power: SE,0.04249884780863732,0.042,1,0.04249884780863732,1,NA,,5e-4
-aronow_etal_2015,table_a4,Nuclear Power: p-value,0.1664010063083682,0.166,1,0.1664010063083682,1,NA,,5e-4
-aronow_etal_2015,table_a4,Nuclear Power: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a4,Public Transportation: beta,0.01712499999999994,0.017,1,0.01712499999999994,1,NA,,5e-4
-aronow_etal_2015,table_a4,Public Transportation: SE,0.04426445180934476,0.044,1,0.04426445180934476,1,NA,,5e-4
-aronow_etal_2015,table_a4,Public Transportation: p-value,0.6988455685756572,0.699,1,0.6988455685756572,1,NA,,5e-4
-aronow_etal_2015,table_a4,Public Transportation: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a4,Spanish-speaking: beta,0.03059103059103059,0.031,1,0.03059103059103059,1,NA,,5e-4
-aronow_etal_2015,table_a4,Spanish-speaking: SE,0.02144535224131771,0.021,1,0.02144535224131771,1,NA,,5e-4
-aronow_etal_2015,table_a4,Spanish-speaking: p-value,0.1537343483621686,0.154,1,0.1537343483621686,1,NA,,5e-4
-aronow_etal_2015,table_a4,Spanish-speaking: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a4,Muslim Teachers: beta,-0.00855263157894736,-0.009,1,-0.00855263157894736,1,NA,,5e-4
-aronow_etal_2015,table_a4,Muslim Teachers: SE,0.02466717032993423,0.025,1,0.02466717032993423,1,NA,,5e-4
-aronow_etal_2015,table_a4,Muslim Teachers: p-value,0.7288007610272695,0.729,1,0.7288007610272695,1,NA,,5e-4
-aronow_etal_2015,table_a4,Muslim Teachers: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a4,CNN: beta,0.07468775889828522,0.075,1,0.07468775889828522,1,NA,,5e-4
-aronow_etal_2015,table_a4,CNN: SE,0.04368369230433541,0.044,1,0.04368369230433541,1,NA,,5e-4
-aronow_etal_2015,table_a4,CNN: p-value,0.08731395055269249,0.087,1,0.08731395055269249,1,NA,,5e-4
-aronow_etal_2015,table_a4,CNN: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a5,Nuclear Power: Direct,0.5909090909090909,0.591,1,0.5909090909090909,1,NA,,5e-4
-aronow_etal_2015,table_a5,Nuclear Power: Direct SE,0.02187885353622464,0.022,1,0.02187885353622464,1,NA,,5e-4
-aronow_etal_2015,table_a5,Nuclear Power: Standard list,0.36436232678305824,0.364,1,0.36436232678305824,1,NA,,5e-4
-aronow_etal_2015,table_a5,Nuclear Power: Standard list SE,0.08727081595407517,0.087,1,0.08727081595407517,1,NA,,5e-4
-aronow_etal_2015,table_a5,Nuclear Power: Combined,0.5206611570247934,0.521,1,0.5206611570247932,1,NA,,5e-4
-aronow_etal_2015,table_a5,Nuclear Power: Combined SE,0.05446342587784363,0.054,1,0.05446342587784365,1,NA,,5e-4
-aronow_etal_2015,table_a5,Nuclear Power: % reduction in sampling variance,61.05319474124512,61.053,1,61.05319474124511,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: Direct,0.5197628458498024,0.520,1,0.5197628458498024,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: Direct SE,0.02223232104075603,0.022,1,0.02223232104075603,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: Standard list,0.6022812971342382,0.602,1,0.6022812971342386,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: Standard list SE,0.07286213495330925,0.073,1,0.07286213495330925,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: Combined,0.6721265754085509,0.672,1,0.672126575408551,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: Combined SE,0.04888266823853893,0.049,1,0.04888266823853893,1,NA,,5e-4
-aronow_etal_2015,table_a5,Public Transportation: % reduction in sampling variance,54.99030994104499,54.990,1,54.990309941045,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: Direct,0.09881422924901186,0.099,1,0.09881422924901188,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: Direct SE,0.01327917877000734,0.013,1,0.01327917877000734,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: Standard list,0.02452759354273581,0.025,1,0.02452759354273537,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: Standard list SE,0.07860225455074264,0.079,1,0.07860225455074264,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: Combined,0.09409307112797444,0.094,1,0.09409307112797448,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: Combined SE,0.07381001482508834,0.074,1,0.07381001482508834,1,NA,,5e-4
-aronow_etal_2015,table_a5,Spanish-speaking: % reduction in sampling variance,11.821932039606876,11.822,1,11.821932039606876,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: Direct,0.10276679841897234,0.103,1,0.10276679841897228,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: Direct SE,0.01351242798401319,0.014,1,0.01351242798401319,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: Standard list,0.19522394629690765,0.195,1,0.19522394629690745,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: Standard list SE,0.08213321816448688,0.082,1,0.08213321816448688,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: Combined,0.16432929457106635,0.164,1,0.16432929457106646,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: Combined SE,0.07411128213393832,0.074,1,0.07411128213393832,1,NA,,5e-4
-aronow_etal_2015,table_a5,Muslim Teachers: % reduction in sampling variance,18.58002329987056,18.580,1,18.58002329987056,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: Direct,0.4565217391304347,0.457,1,0.4565217391304348,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: Direct SE,0.02216542847474029,0.022,1,0.02216542847474029,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: Standard list,0.5858465773995745,0.586,1,0.5858465773995749,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: Standard list SE,0.1065110505477123,0.107,1,0.1065110505477123,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: Combined,0.6044222575843129,0.604,1,0.604422257584313,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: Combined SE,0.07431348166303826,0.074,1,0.07431348166303826,1,NA,,5e-4
-aronow_etal_2015,table_a5,CNN: % reduction in sampling variance,51.32052550247379,51.321,1,51.32052550247379,1,NA,,5e-4
-aronow_etal_2015,table_a6,Nuclear Power: beta,0.7388086480667444,0.739,1,0.7388086480667444,1,NA,,5e-4
-aronow_etal_2015,table_a6,Nuclear Power: SE,0.1101299515754412,0.110,1,0.1101299515754412,1,NA,,5e-4
-aronow_etal_2015,table_a6,Nuclear Power: p-value,0.01770813793341259,0.018,1,0.01770813793341259,1,NA,,5e-4
-aronow_etal_2015,table_a6,Nuclear Power: n,299,299,1,299,1,NA,,0.5
-aronow_etal_2015,table_a6,Public Transportation: beta,0.7953967152440438,0.795,1,0.7953967152440438,1,NA,,5e-4
-aronow_etal_2015,table_a6,Public Transportation: SE,0.0965729672785022,0.097,1,0.0965729672785022,1,NA,,5e-4
-aronow_etal_2015,table_a6,Public Transportation: p-value,0.03412096092990299,0.034,1,0.03412096092990299,1,NA,,5e-4
-aronow_etal_2015,table_a6,Public Transportation: n,263,263,1,263,1,NA,,0.5
-aronow_etal_2015,table_a6,Spanish-speaking: beta,0.3012820512820511,0.301,1,0.3012820512820511,1,NA,,5e-4
-aronow_etal_2015,table_a6,Spanish-speaking: SE,0.26186764755732356,0.262,1,0.26186764755732356,1,NA,,5e-4
-aronow_etal_2015,table_a6,Spanish-speaking: p-value,0.0076256515105789,0.008,1,0.0076256515105789,1,NA,,5e-4
-aronow_etal_2015,table_a6,Spanish-speaking: n,50,50,1,50,1,NA,,0.5
-aronow_etal_2015,table_a6,Muslim Teachers: beta,1.0047846889952152,1.005,1,1.0047846889952152,1,NA,,5e-4
-aronow_etal_2015,table_a6,Muslim Teachers: SE,0.2965494116262284,0.297,1,0.2965494116262284,1,NA,,5e-4
-aronow_etal_2015,table_a6,Muslim Teachers: p-value,0.9871270564097734,0.987,1,0.9871270564097734,1,NA,,5e-4
-aronow_etal_2015,table_a6,Muslim Teachers: n,52,52,1,52,1,NA,,0.5
-aronow_etal_2015,table_a6,CNN: beta,0.7585817524841916,0.759,1,0.7585817524841911,1,NA,,5e-4
-aronow_etal_2015,table_a6,CNN: SE,0.14101540724324443,0.141,1,0.14101540724324443,1,NA,,5e-4
-aronow_etal_2015,table_a6,CNN: p-value,0.08689683793954647,0.087,1,0.0868968379395459,1,NA,,5e-4
-aronow_etal_2015,table_a6,CNN: n,231,231,1,231,1,NA,,0.5
-aronow_etal_2015,table_a7,Nuclear Power: beta,-0.00324121193141779,-0.003,1,-0.00324121193141779,1,NA,,5e-4
-aronow_etal_2015,table_a7,Nuclear Power: SE,0.04385314205920956,0.044,1,0.04385314205920956,1,NA,,5e-4
-aronow_etal_2015,table_a7,Nuclear Power: p-value,0.941081523337404,0.941,1,0.941081523337404,1,NA,,5e-4
-aronow_etal_2015,table_a7,Nuclear Power: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a7,Public Transportation: beta,0.07453494218200102,0.075,1,0.07453494218200102,1,NA,,5e-4
-aronow_etal_2015,table_a7,Public Transportation: SE,0.04448943524918471,0.044,1,0.04448943524918471,1,NA,,5e-4
-aronow_etal_2015,table_a7,Public Transportation: p-value,0.09386748982028816,0.094,1,0.09386748982028816,1,NA,,5e-4
-aronow_etal_2015,table_a7,Public Transportation: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a7,Spanish-speaking: beta,-8.759854836691283e-4,-0.001,1,-8.759854836691283e-4,1,NA,,5e-4
-aronow_etal_2015,table_a7,Spanish-speaking: SE,0.0265978918208384,0.027,1,0.0265978918208384,1,NA,,5e-4
-aronow_etal_2015,table_a7,Spanish-speaking: p-value,0.973726904173459,0.974,1,0.973726904173459,1,NA,,5e-4
-aronow_etal_2015,table_a7,Spanish-speaking: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a7,Muslim Teachers: beta,0.03933405650143848,0.039,1,0.03933405650143848,1,NA,,5e-4
-aronow_etal_2015,table_a7,Muslim Teachers: SE,0.02671168486014183,0.027,1,0.02671168486014183,1,NA,,5e-4
-aronow_etal_2015,table_a7,Muslim Teachers: p-value,0.14087478962833583,0.141,1,0.14087478962833583,1,NA,,5e-4
-aronow_etal_2015,table_a7,Muslim Teachers: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a7,CNN: beta,0.09188462019772237,0.092,1,0.09188462019772237,1,NA,,5e-4
-aronow_etal_2015,table_a7,CNN: SE,0.04423873107606164,0.044,1,0.04423873107606164,1,NA,,5e-4
-aronow_etal_2015,table_a7,CNN: p-value,0.03779994078653444,0.038,1,0.03779994078653444,1,NA,,5e-4
-aronow_etal_2015,table_a7,CNN: n,506,506,1,506,1,NA,,0.5
-aronow_etal_2015,table_a8,Nuclear Power: Direct difference,0.05533596837944665,0.055,1,0.05533596837944687,1,NA,,5e-4
-aronow_etal_2015,table_a8,Nuclear Power: Direct SE,0.03051855205367743,0.031,1,0.03051855205367743,1,NA,,5e-4
-aronow_etal_2015,table_a8,Nuclear Power: Conventional list difference,0.21023142321694177,0.210,1,0.21023142321694177,1,NA,,5e-4
-aronow_etal_2015,table_a8,Nuclear Power: Conventional list SE,0.1226296145800942,0.123,1,0.1226296145800942,1,NA,,5e-4
-aronow_etal_2015,table_a8,Nuclear Power: Combined list difference,0.12651976189525582,0.127,1,0.12651976189525627,1,NA,,5e-4
-aronow_etal_2015,table_a8,Nuclear Power: Combined list SE,0.07330879478369086,0.073,1,0.07330879478369086,1,NA,,5e-4
-aronow_etal_2015,table_a8,Public Transportation: Direct difference,0.03557312252964428,0.036,1,0.03557312252964428,1,NA,,5e-4
-aronow_etal_2015,table_a8,Public Transportation: Direct SE,0.0313570103813216,0.031,1,0.0313570103813216,1,NA,,5e-4
-aronow_etal_2015,table_a8,Public Transportation: Conventional list difference,0.03224995286576204,0.032,1,0.0322499528657616,1,NA,,5e-4
-aronow_etal_2015,table_a8,Public Transportation: Conventional list SE,0.10297111505245808,0.103,1,0.10297111505245808,1,NA,,5e-4
-aronow_etal_2015,table_a8,Public Transportation: Combined list difference,-0.01888293034200994,-0.019,1,-0.01888293034201027,1,NA,,5e-4
-aronow_etal_2015,table_a8,Public Transportation: Combined list SE,0.06843305699167407,0.068,1,0.06843305699167408,1,NA,,5e-4
-aronow_etal_2015,table_a8,Spanish-speaking: Direct difference,-0.0375494071146245,-0.038,1,-0.03754940711462449,1,NA,,5e-4
-aronow_etal_2015,table_a8,Spanish-speaking: Direct SE,0.01703586322271057,0.017,1,0.01703586322271057,1,NA,,5e-4
-aronow_etal_2015,table_a8,Spanish-speaking: Conventional list difference,0.09314705044769768,0.093,1,0.09314705044769812,1,NA,,5e-4
-aronow_etal_2015,table_a8,Spanish-speaking: Conventional list SE,0.11069942840323072,0.111,1,0.11069942840323072,1,NA,,5e-4
-aronow_etal_2015,table_a8,Spanish-speaking: Combined list difference,0.00961119561977079,0.010,1,0.00961119561977082,1,NA,,5e-4
-aronow_etal_2015,table_a8,Spanish-speaking: Combined list SE,0.10387513592760704,0.104,1,0.10387513592760704,1,NA,,5e-4
-aronow_etal_2015,table_a8,Muslim Teachers: Direct difference,-0.01976284584980237,-0.020,1,-0.01976284584980227,1,NA,,5e-4
-aronow_etal_2015,table_a8,Muslim Teachers: Direct SE,0.0182566998410621,0.018,1,0.0182566998410621,1,NA,,5e-4
-aronow_etal_2015,table_a8,Muslim Teachers: Conventional list difference,-0.16148334479314808,-0.161,1,-0.16148334479314785,1,NA,,5e-4
-aronow_etal_2015,table_a8,Muslim Teachers: Conventional list SE,0.11348092229333256,0.113,1,0.11348092229333256,1,NA,,5e-4
-aronow_etal_2015,table_a8,Muslim Teachers: Combined list difference,-0.1281706717196841,-0.128,1,-0.12817067171968438,1,NA,,5e-4
-aronow_etal_2015,table_a8,Muslim Teachers: Combined list SE,0.10356111139456504,0.104,1,0.10356111139456504,1,NA,,5e-4
-aronow_etal_2015,table_a8,CNN: Direct difference,-0.04940711462450592,-0.049,1,-0.04940711462450586,1,NA,,5e-4
-aronow_etal_2015,table_a8,CNN: Direct SE,0.03113312036824339,0.031,1,0.03113312036824339,1,NA,,5e-4
-aronow_etal_2015,table_a8,CNN: Conventional list difference,-0.3302074796552137,-0.330,1,-0.3302074796552139,1,NA,,5e-4
-aronow_etal_2015,table_a8,CNN: Conventional list SE,0.1458017956208305,0.146,1,0.1458017956208305,1,NA,,5e-4
-aronow_etal_2015,table_a8,CNN: Combined list difference,-0.3059231931135928,-0.306,1,-0.3059231931135928,1,NA,,5e-4
-aronow_etal_2015,table_a8,CNN: Combined list SE,0.10459573457925496,0.105,1,0.10459573457925496,1,NA,,5e-4
-aronow_etal_2015,"text, p. 52",Subjects recruited for the main experiment,NA,1023,NA,1023,1,NA,,0.5
-aronow_etal_2015,"text, p. 52",Subjects excluded from the main experiment,NA,9,NA,9,1,NA,The article gives this as two failed attention checks plus seven incomplete responses; the deposited data cannot separate the two,0.5
-aronow_etal_2015,"text, p. 52",Complete cases in the main experiment,NA,1014,NA,1014,1,NA,,0.5
-aronow_etal_2015,table_3 note,Study A sample size,500,500,1,500,1,NA,,0.5
-aronow_etal_2015,table_6 note,Study B sample size,514,514,1,514,1,NA,,0.5
-aronow_etal_2015,"text, p. 54","Smallest reduction in sampling variance, Study A (%)",13.971977720514428,14,1,13.971977720514406,1,NA,The article gives the range as 14 to 67 percent,0.5
-aronow_etal_2015,"text, p. 54","Largest reduction in sampling variance, Study A (%)",67.11760269143052,67,1,67.11760269143052,1,NA,,0.5
-aronow_etal_2015,"text, p. 54",Placebo Test I p-value quoted for Public Transportation,0.02099123660703217,0.02,1,0.02099123660703217,1,NA,,0.005
-aronow_etal_2015,"text, p. 54",Placebo Test I p-value quoted for CNN,0.0335909551012123,0.03,1,0.03359095510121204,1,NA,,0.005
-aronow_etal_2015,"text, p. 57","Effect of the treatment list on the nuclear power direct question, Study B (pp)",8.626033057851235,8.6,1,8.626033057851235,1,NA,The article gives the magnitude and states the direction in words: treated subjects were less likely to declare support,0.05
-aronow_etal_2015,"text, p. 57","Effect of the treatment list on the CNN direct question, Study B (pp)",13.2404603270745,13.2,1,13.2404603270745,1,NA,The article gives the magnitude and states the direction in words: treated subjects were more likely to report watching CNN,0.05
-aronow_etal_2015,appendix E text,Order effect on the conventional list estimate for nuclear power (pp),24.922791430621814,24.9,1,24.922791430621814,1,NA,,0.05
-aronow_etal_2015,appendix E text,Order effect on the conventional list estimate for CNN (pp),30.725212779852697,30.7,1,30.72521277985272,1,NA,The appendix gives the magnitude and states the direction in words: lower when the direct questions are asked first,0.05
-aronow_etal_2015,appendix F text,Users who started the replication survey,NA,1019,NA,1019,1,NA,,0.5
-aronow_etal_2015,appendix F text,Excluded from the replication,NA,7,NA,7,1,NA,,0.5
-aronow_etal_2015,appendix F text,Complete cases in the replication,NA,1012,NA,1012,1,NA,,0.5
-aronow_etal_2015,appendix F text,Replication Study A sample size,NA,506,NA,506,1,NA,,0.5
-aronow_etal_2015,appendix F text,Replication Study B sample size,NA,506,NA,506,1,NA,,0.5
-aronow_etal_2015,figure_1,Plotted estimates depart from the Table 3 estimates by at most,NA,NA,NA,0,NA,NA,"The figure prints no numbers. It is drawn from the Table 3 output file, and this row measures that it is",NA
-aronow_etal_2015,figure_1,Estimates plotted,NA,NA,NA,15,NA,NA,Five items by three estimators,NA
-aronow_etal_2015,figure_2,Plotted estimates depart from the Table 6 estimates by at most,NA,NA,NA,0,NA,NA,"The figure prints no numbers. It is drawn from the Table 6 output file, and this row measures that it is",NA
-aronow_etal_2015,figure_2,Estimates plotted,NA,NA,NA,15,NA,NA,Five items by three estimators,NA
-aronow_etal_2015,figure_a1,Grid cells simulated,NA,NA,NA,7676,NA,NA,"Four panels of 1,919 cells, at 1,000 simulated experiments each",NA
-aronow_etal_2015,appendix C text,Grid cells per panel of Figure A1,NA,1919,NA,1919,1,NA,The appendix prints the sequences rather than their product: 100 to 1000 in steps of 50 by 0 to 1 in steps of 0.01,0.5
-aronow_etal_2015,appendix C text,Power at 800 admitters and 20 percent false confessors,NA,0.80,NA,0.806,0,archive,"The appendix prints this as 80% and hedges the settings as approximate. A cell is 1,000 simulated experiments, so its standard error at power 0.8 is 0.013, wider than the precision the appendix prints to",0.005
-aronow_etal_2015,appendix C text,Power at 800 admitters and 20 percent liars,NA,0.80,NA,0.805,0,archive,,0.005
-aronow_etal_2015,appendix C text,Power at 800 admitters and 20 percent design affected,NA,0.80,NA,0.789,0,archive,,0.005
-aronow_etal_2015,figure_a1,"Power moved by re-running under the pre-3.6 sampler, at most",NA,NA,NA,0.03599999999999997,NA,NA,"The deposit sets no seed, so no sampler reproduces the published figure cell for cell. This row measures what the sampler change alone is worth against a simulation error of 0.016 at power 0.5",NA
-aronow_etal_2015,figure_a2,Cells the deposited script and the rewrite both define,40796,NA,NA,40796,NA,NA,"The figure prints no numbers, so it is verified against a run of the deposited script rather than against the page",NA
-aronow_etal_2015,figure_a2,Cells one grid defines and the other does not,0,NA,NA,0,NA,NA,Eight cells are undefined in both: power.prop.test returns NaN where the two rates are equal at 0 or at 1,NA
-aronow_etal_2015,figure_a2,Maximum absolute difference from the deposited grid,NA,NA,NA,1.1102230246251563e-16,NA,NA,,NA
+paper_id,claim_id,table_figure,claim,claim_type,value_script,value_paper,match,value_rewrite,match_rewrite,defect_locus,evidence,notes,printed_decimals,value_script_printed,value_rewrite_printed,on_rounding_boundary
+aronow_etal_2015,table_1 :: Study A x Study A,table_1,Study A x Study A,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_1 :: Study A x Study B,table_1,Study A x Study B,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: Study A x List 1 T,table_1,Study A x List 1 T,pipeline,245,245,1,245,1,,,,0,245,245,FALSE
+aronow_etal_2015,table_1 :: Study A x List 1 C,table_1,Study A x List 1 C,pipeline,255,255,1,255,1,,,,0,255,255,FALSE
+aronow_etal_2015,table_1 :: Study A x List 2 T,table_1,Study A x List 2 T,pipeline,238,238,1,238,1,,,,0,238,238,FALSE
+aronow_etal_2015,table_1 :: Study A x List 2 C,table_1,Study A x List 2 C,pipeline,262,262,1,262,1,,,,0,262,262,FALSE
+aronow_etal_2015,table_1 :: Study A x List 3 T,table_1,Study A x List 3 T,pipeline,275,275,1,275,1,,,,0,275,275,FALSE
+aronow_etal_2015,table_1 :: Study A x List 3 C,table_1,Study A x List 3 C,pipeline,225,225,1,225,1,,,,0,225,225,FALSE
+aronow_etal_2015,table_1 :: Study A x List 4 T,table_1,Study A x List 4 T,pipeline,243,243,1,243,1,,,,0,243,243,FALSE
+aronow_etal_2015,table_1 :: Study A x List 4 C,table_1,Study A x List 4 C,pipeline,257,257,1,257,1,,,,0,257,257,FALSE
+aronow_etal_2015,table_1 :: Study A x List 5 T,table_1,Study A x List 5 T,pipeline,232,232,1,232,1,,,,0,232,232,FALSE
+aronow_etal_2015,table_1 :: Study A x List 5 C,table_1,Study A x List 5 C,pipeline,268,268,1,268,1,,,,0,268,268,FALSE
+aronow_etal_2015,table_1 :: Study B x Study A,table_1,Study B x Study A,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: Study B x Study B,table_1,Study B x Study B,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_1 :: Study B x List 1 T,table_1,Study B x List 1 T,pipeline,272,272,1,272,1,,,,0,272,272,FALSE
+aronow_etal_2015,table_1 :: Study B x List 1 C,table_1,Study B x List 1 C,pipeline,242,242,1,242,1,,,,0,242,242,FALSE
+aronow_etal_2015,table_1 :: Study B x List 2 T,table_1,Study B x List 2 T,pipeline,259,259,1,259,1,,,,0,259,259,FALSE
+aronow_etal_2015,table_1 :: Study B x List 2 C,table_1,Study B x List 2 C,pipeline,255,255,1,255,1,,,,0,255,255,FALSE
+aronow_etal_2015,table_1 :: Study B x List 3 T,table_1,Study B x List 3 T,pipeline,253,253,1,253,1,,,,0,253,253,FALSE
+aronow_etal_2015,table_1 :: Study B x List 3 C,table_1,Study B x List 3 C,pipeline,261,261,1,261,1,,,,0,261,261,FALSE
+aronow_etal_2015,table_1 :: Study B x List 4 T,table_1,Study B x List 4 T,pipeline,271,271,1,271,1,,,,0,271,271,FALSE
+aronow_etal_2015,table_1 :: Study B x List 4 C,table_1,Study B x List 4 C,pipeline,243,243,1,243,1,,,,0,243,243,FALSE
+aronow_etal_2015,table_1 :: Study B x List 5 T,table_1,Study B x List 5 T,pipeline,260,260,1,260,1,,,,0,260,260,FALSE
+aronow_etal_2015,table_1 :: Study B x List 5 C,table_1,Study B x List 5 C,pipeline,254,254,1,254,1,,,,0,254,254,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 1 T,table_1,List 1 T x List 1 T,pipeline,517,517,1,517,1,,,,0,517,517,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 1 C,table_1,List 1 T x List 1 C,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 2 T,table_1,List 1 T x List 2 T,pipeline,251,251,1,251,1,,,,0,251,251,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 2 C,table_1,List 1 T x List 2 C,pipeline,266,266,1,266,1,,,,0,266,266,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 3 T,table_1,List 1 T x List 3 T,pipeline,273,273,1,273,1,,,,0,273,273,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 3 C,table_1,List 1 T x List 3 C,pipeline,244,244,1,244,1,,,,0,244,244,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 4 T,table_1,List 1 T x List 4 T,pipeline,269,269,1,269,1,,,,0,269,269,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 4 C,table_1,List 1 T x List 4 C,pipeline,248,248,1,248,1,,,,0,248,248,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 5 T,table_1,List 1 T x List 5 T,pipeline,273,273,1,273,1,,,,0,273,273,FALSE
+aronow_etal_2015,table_1 :: List 1 T x List 5 C,table_1,List 1 T x List 5 C,pipeline,244,244,1,244,1,,,,0,244,244,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 1 T,table_1,List 1 C x List 1 T,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 1 C,table_1,List 1 C x List 1 C,pipeline,497,497,1,497,1,,,,0,497,497,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 2 T,table_1,List 1 C x List 2 T,pipeline,246,246,1,246,1,,,,0,246,246,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 2 C,table_1,List 1 C x List 2 C,pipeline,251,251,1,251,1,,,,0,251,251,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 3 T,table_1,List 1 C x List 3 T,pipeline,255,255,1,255,1,,,,0,255,255,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 3 C,table_1,List 1 C x List 3 C,pipeline,242,242,1,242,1,,,,0,242,242,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 4 T,table_1,List 1 C x List 4 T,pipeline,245,245,1,245,1,,,,0,245,245,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 4 C,table_1,List 1 C x List 4 C,pipeline,252,252,1,252,1,,,,0,252,252,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 5 T,table_1,List 1 C x List 5 T,pipeline,219,219,1,219,1,,,,0,219,219,FALSE
+aronow_etal_2015,table_1 :: List 1 C x List 5 C,table_1,List 1 C x List 5 C,pipeline,278,278,1,278,1,,,,0,278,278,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 2 T,table_1,List 2 T x List 2 T,pipeline,497,497,1,497,1,,,,0,497,497,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 2 C,table_1,List 2 T x List 2 C,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 3 T,table_1,List 2 T x List 3 T,pipeline,253,253,1,253,1,,,,0,253,253,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 3 C,table_1,List 2 T x List 3 C,pipeline,244,244,1,244,1,,,,0,244,244,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 4 T,table_1,List 2 T x List 4 T,pipeline,246,246,1,246,1,,,,0,246,246,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 4 C,table_1,List 2 T x List 4 C,pipeline,251,251,1,251,1,,,,0,251,251,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 5 T,table_1,List 2 T x List 5 T,pipeline,240,240,1,240,1,,,,0,240,240,FALSE
+aronow_etal_2015,table_1 :: List 2 T x List 5 C,table_1,List 2 T x List 5 C,pipeline,257,257,1,257,1,,,,0,257,257,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 2 T,table_1,List 2 C x List 2 T,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 2 C,table_1,List 2 C x List 2 C,pipeline,517,517,1,517,1,,,,0,517,517,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 3 T,table_1,List 2 C x List 3 T,pipeline,275,275,1,275,1,,,,0,275,275,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 3 C,table_1,List 2 C x List 3 C,pipeline,242,242,1,242,1,,,,0,242,242,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 4 T,table_1,List 2 C x List 4 T,pipeline,268,268,1,268,1,,,,0,268,268,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 4 C,table_1,List 2 C x List 4 C,pipeline,249,249,1,249,1,,,,0,249,249,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 5 T,table_1,List 2 C x List 5 T,pipeline,252,252,1,252,1,,,,0,252,252,FALSE
+aronow_etal_2015,table_1 :: List 2 C x List 5 C,table_1,List 2 C x List 5 C,pipeline,265,265,1,265,1,,,,0,265,265,FALSE
+aronow_etal_2015,table_1 :: List 3 T x List 3 T,table_1,List 3 T x List 3 T,pipeline,528,528,1,528,1,,,,0,528,528,FALSE
+aronow_etal_2015,table_1 :: List 3 T x List 3 C,table_1,List 3 T x List 3 C,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 3 T x List 4 T,table_1,List 3 T x List 4 T,pipeline,269,269,1,269,1,,,,0,269,269,FALSE
+aronow_etal_2015,table_1 :: List 3 T x List 4 C,table_1,List 3 T x List 4 C,pipeline,259,259,1,259,1,,,,0,259,259,FALSE
+aronow_etal_2015,table_1 :: List 3 T x List 5 T,table_1,List 3 T x List 5 T,pipeline,263,263,1,263,1,,,,0,263,263,FALSE
+aronow_etal_2015,table_1 :: List 3 T x List 5 C,table_1,List 3 T x List 5 C,pipeline,265,265,1,265,1,,,,0,265,265,FALSE
+aronow_etal_2015,table_1 :: List 3 C x List 3 T,table_1,List 3 C x List 3 T,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 3 C x List 3 C,table_1,List 3 C x List 3 C,pipeline,486,486,1,486,1,,,,0,486,486,FALSE
+aronow_etal_2015,table_1 :: List 3 C x List 4 T,table_1,List 3 C x List 4 T,pipeline,245,245,1,245,1,,,,0,245,245,FALSE
+aronow_etal_2015,table_1 :: List 3 C x List 4 C,table_1,List 3 C x List 4 C,pipeline,241,241,1,241,1,,,,0,241,241,FALSE
+aronow_etal_2015,table_1 :: List 3 C x List 5 T,table_1,List 3 C x List 5 T,pipeline,229,229,1,229,1,,,,0,229,229,FALSE
+aronow_etal_2015,table_1 :: List 3 C x List 5 C,table_1,List 3 C x List 5 C,pipeline,257,257,1,257,1,,,,0,257,257,FALSE
+aronow_etal_2015,table_1 :: List 4 T x List 4 T,table_1,List 4 T x List 4 T,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_1 :: List 4 T x List 4 C,table_1,List 4 T x List 4 C,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 4 T x List 5 T,table_1,List 4 T x List 5 T,pipeline,256,256,1,256,1,,,,0,256,256,FALSE
+aronow_etal_2015,table_1 :: List 4 T x List 5 C,table_1,List 4 T x List 5 C,pipeline,258,258,1,258,1,,,,0,258,258,FALSE
+aronow_etal_2015,table_1 :: List 4 C x List 4 T,table_1,List 4 C x List 4 T,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 4 C x List 4 C,table_1,List 4 C x List 4 C,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_1 :: List 4 C x List 5 T,table_1,List 4 C x List 5 T,pipeline,236,236,1,236,1,,,,0,236,236,FALSE
+aronow_etal_2015,table_1 :: List 4 C x List 5 C,table_1,List 4 C x List 5 C,pipeline,264,264,1,264,1,,,,0,264,264,FALSE
+aronow_etal_2015,table_1 :: List 5 T x List 5 T,table_1,List 5 T x List 5 T,pipeline,492,492,1,492,1,,,,0,492,492,FALSE
+aronow_etal_2015,table_1 :: List 5 T x List 5 C,table_1,List 5 T x List 5 C,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 5 C x List 5 T,table_1,List 5 C x List 5 T,pipeline,0,0,1,0,1,,,,0,0,0,FALSE
+aronow_etal_2015,table_1 :: List 5 C x List 5 C,table_1,List 5 C x List 5 C,pipeline,522,522,1,522,1,,,,0,522,522,FALSE
+aronow_etal_2015,table_2 :: 18 to 24: Study A Treat,table_2,18 to 24: Study A Treat,pipeline,24.49,24.49,1,24.489795918367346,1,,,,2,24.49,24.49,FALSE
+aronow_etal_2015,table_2 :: 18 to 24: Study A Control,table_2,18 to 24: Study A Control,pipeline,25.49,25.49,1,25.49019607843137,1,,,,2,25.49,25.49,FALSE
+aronow_etal_2015,table_2 :: 18 to 24: Study B Treat,table_2,18 to 24: Study B Treat,pipeline,23.53,23.53,1,23.529411764705884,1,,,,2,23.53,23.53,FALSE
+aronow_etal_2015,table_2 :: 18 to 24: Study B Control,table_2,18 to 24: Study B Control,pipeline,32.64,32.64,1,32.64462809917355,1,,,,2,32.64,32.64,FALSE
+aronow_etal_2015,table_2 :: 25 to 34: Study A Treat,table_2,25 to 34: Study A Treat,pipeline,40.82,40.82,1,40.81632653061224,1,,,,2,40.82,40.82,FALSE
+aronow_etal_2015,table_2 :: 25 to 34: Study A Control,table_2,25 to 34: Study A Control,pipeline,43.92,43.92,1,43.92156862745098,1,,,,2,43.92,43.92,FALSE
+aronow_etal_2015,table_2 :: 25 to 34: Study B Treat,table_2,25 to 34: Study B Treat,pipeline,41.18,41.18,1,41.1764705882353,1,,,,2,41.18,41.18,FALSE
+aronow_etal_2015,table_2 :: 25 to 34: Study B Control,table_2,25 to 34: Study B Control,pipeline,40.91,40.91,1,40.90909090909091,1,,,,2,40.91,40.91,FALSE
+aronow_etal_2015,table_2 :: 35 to 44: Study A Treat,table_2,35 to 44: Study A Treat,pipeline,20,20.00,1,20,1,,,,2,20.00,20.00,FALSE
+aronow_etal_2015,table_2 :: 35 to 44: Study A Control,table_2,35 to 44: Study A Control,pipeline,15.29,15.29,1,15.294117647058824,1,,,,2,15.29,15.29,FALSE
+aronow_etal_2015,table_2 :: 35 to 44: Study B Treat,table_2,35 to 44: Study B Treat,pipeline,17.28,17.28,1,17.279411764705884,1,,,,2,17.28,17.28,FALSE
+aronow_etal_2015,table_2 :: 35 to 44: Study B Control,table_2,35 to 44: Study B Control,pipeline,14.88,14.88,1,14.87603305785124,1,,,,2,14.88,14.88,FALSE
+aronow_etal_2015,table_2 :: 45 to 54: Study A Treat,table_2,45 to 54: Study A Treat,pipeline,8.16,8.16,1,8.16326530612245,1,,,,2,8.16,8.16,FALSE
+aronow_etal_2015,table_2 :: 45 to 54: Study A Control,table_2,45 to 54: Study A Control,pipeline,10.98,10.98,1,10.980392156862743,1,,,,2,10.98,10.98,FALSE
+aronow_etal_2015,table_2 :: 45 to 54: Study B Treat,table_2,45 to 54: Study B Treat,pipeline,10.66,10.66,1,10.661764705882351,1,,,,2,10.66,10.66,FALSE
+aronow_etal_2015,table_2 :: 45 to 54: Study B Control,table_2,45 to 54: Study B Control,pipeline,6.2,6.20,1,6.198347107438017,1,,,,2,6.20,6.20,FALSE
+aronow_etal_2015,table_2 :: 55 to 64: Study A Treat,table_2,55 to 64: Study A Treat,pipeline,4.9,4.90,1,4.8979591836734695,1,,,,2,4.90,4.90,FALSE
+aronow_etal_2015,table_2 :: 55 to 64: Study A Control,table_2,55 to 64: Study A Control,pipeline,3.92,3.92,1,3.92156862745098,1,,,,2,3.92,3.92,FALSE
+aronow_etal_2015,table_2 :: 55 to 64: Study B Treat,table_2,55 to 64: Study B Treat,pipeline,5.88,5.88,1,5.882352941176471,1,,,,2,5.88,5.88,FALSE
+aronow_etal_2015,table_2 :: 55 to 64: Study B Control,table_2,55 to 64: Study B Control,pipeline,3.72,3.72,1,3.71900826446281,1,,,,2,3.72,3.72,FALSE
+aronow_etal_2015,table_2 :: 65 or over: Study A Treat,table_2,65 or over: Study A Treat,pipeline,1.63,1.63,1,1.6326530612244898,1,,,,2,1.63,1.63,FALSE
+aronow_etal_2015,table_2 :: 65 or over: Study A Control,table_2,65 or over: Study A Control,pipeline,0.39,0.39,1,0.392156862745098,1,,,,2,0.39,0.39,FALSE
+aronow_etal_2015,table_2 :: 65 or over: Study B Treat,table_2,65 or over: Study B Treat,pipeline,1.47,1.47,1,1.4705882352941178,1,,,,2,1.47,1.47,FALSE
+aronow_etal_2015,table_2 :: 65 or over: Study B Control,table_2,65 or over: Study B Control,pipeline,1.65,1.65,1,1.6528925619834711,1,,,,2,1.65,1.65,FALSE
+aronow_etal_2015,table_2 :: Female: Study A Treat,table_2,Female: Study A Treat,pipeline,46.12,46.12,1,46.12244897959184,1,,,,2,46.12,46.12,FALSE
+aronow_etal_2015,table_2 :: Female: Study A Control,table_2,Female: Study A Control,pipeline,47.45,47.45,1,47.450980392156865,1,,,,2,47.45,47.45,FALSE
+aronow_etal_2015,table_2 :: Female: Study B Treat,table_2,Female: Study B Treat,pipeline,46.32,46.32,1,46.3235294117647,1,,,,2,46.32,46.32,FALSE
+aronow_etal_2015,table_2 :: Female: Study B Control,table_2,Female: Study B Control,pipeline,42.98,42.98,1,42.97520661157025,1,,,,2,42.98,42.98,FALSE
+aronow_etal_2015,table_2 :: Male: Study A Treat,table_2,Male: Study A Treat,pipeline,53.88,53.88,1,53.87755102040816,1,,,,2,53.88,53.88,FALSE
+aronow_etal_2015,table_2 :: Male: Study A Control,table_2,Male: Study A Control,pipeline,52.16,52.16,1,52.15686274509804,1,,,,2,52.16,52.16,FALSE
+aronow_etal_2015,table_2 :: Male: Study B Treat,table_2,Male: Study B Treat,pipeline,53.31,53.31,1,53.30882352941177,1,,,,2,53.31,53.31,FALSE
+aronow_etal_2015,table_2 :: Male: Study B Control,table_2,Male: Study B Control,pipeline,57.02,57.02,1,57.02479338842975,1,,,,2,57.02,57.02,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Gender: Study A Treat,table_2,Prefer not to say -- Gender: Study A Treat,pipeline,0,0.00,1,0,1,,,,2,0.00,0.00,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Gender: Study A Control,table_2,Prefer not to say -- Gender: Study A Control,pipeline,0.39,0.39,1,0.392156862745098,1,,,,2,0.39,0.39,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Gender: Study B Treat,table_2,Prefer not to say -- Gender: Study B Treat,pipeline,0.37,0.37,1,0.36764705882352944,1,,,,2,0.37,0.37,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Gender: Study B Control,table_2,Prefer not to say -- Gender: Study B Control,pipeline,0,0.00,1,0,1,,,,2,0.00,0.00,FALSE
+aronow_etal_2015,table_2 :: Liberal: Study A Treat,table_2,Liberal: Study A Treat,pipeline,50.61,50.61,1,50.61224489795919,1,,,,2,50.61,50.61,FALSE
+aronow_etal_2015,table_2 :: Liberal: Study A Control,table_2,Liberal: Study A Control,pipeline,42.35,42.35,1,42.35294117647059,1,,,,2,42.35,42.35,FALSE
+aronow_etal_2015,table_2 :: Liberal: Study B Treat,table_2,Liberal: Study B Treat,pipeline,50.37,50.37,1,50.36764705882353,1,,,,2,50.37,50.37,FALSE
+aronow_etal_2015,table_2 :: Liberal: Study B Control,table_2,Liberal: Study B Control,pipeline,51.65,51.65,1,51.65289256198347,1,,,,2,51.65,51.65,FALSE
+aronow_etal_2015,table_2 :: Moderate: Study A Treat,table_2,Moderate: Study A Treat,pipeline,28.16,28.16,1,28.163265306122447,1,,,,2,28.16,28.16,FALSE
+aronow_etal_2015,table_2 :: Moderate: Study A Control,table_2,Moderate: Study A Control,pipeline,34.51,34.51,1,34.509803921568626,1,,,,2,34.51,34.51,FALSE
+aronow_etal_2015,table_2 :: Moderate: Study B Treat,table_2,Moderate: Study B Treat,pipeline,26.84,26.84,1,26.83823529411765,1,,,,2,26.84,26.84,FALSE
+aronow_etal_2015,table_2 :: Moderate: Study B Control,table_2,Moderate: Study B Control,pipeline,28.51,28.51,1,28.512396694214875,1,,,,2,28.51,28.51,FALSE
+aronow_etal_2015,table_2 :: Conservative: Study A Treat,table_2,Conservative: Study A Treat,pipeline,18.37,18.37,1,18.367346938775512,1,,,,2,18.37,18.37,FALSE
+aronow_etal_2015,table_2 :: Conservative: Study A Control,table_2,Conservative: Study A Control,pipeline,19.22,19.22,1,19.215686274509803,1,,,,2,19.22,19.22,FALSE
+aronow_etal_2015,table_2 :: Conservative: Study B Treat,table_2,Conservative: Study B Treat,pipeline,20.59,20.59,1,20.58823529411765,1,,,,2,20.59,20.59,FALSE
+aronow_etal_2015,table_2 :: Conservative: Study B Control,table_2,Conservative: Study B Control,pipeline,14.46,14.46,1,14.462809917355372,1,,,,2,14.46,14.46,FALSE
+aronow_etal_2015,table_2 :: Haven't thought much about this: Study A Treat,table_2,Haven't thought much about this: Study A Treat,pipeline,2.86,2.86,1,2.857142857142857,1,,,,2,2.86,2.86,FALSE
+aronow_etal_2015,table_2 :: Haven't thought much about this: Study A Control,table_2,Haven't thought much about this: Study A Control,pipeline,3.92,3.92,1,3.92156862745098,1,,,,2,3.92,3.92,FALSE
+aronow_etal_2015,table_2 :: Haven't thought much about this: Study B Treat,table_2,Haven't thought much about this: Study B Treat,pipeline,2.21,2.21,1,2.2058823529411766,1,,,,2,2.21,2.21,FALSE
+aronow_etal_2015,table_2 :: Haven't thought much about this: Study B Control,table_2,Haven't thought much about this: Study B Control,pipeline,5.37,5.37,1,5.371900826446281,1,,,,2,5.37,5.37,FALSE
+aronow_etal_2015,table_2 :: Less than High School: Study A Treat,table_2,Less than High School: Study A Treat,pipeline,0.41,0.41,1,0.40816326530612246,1,,,,2,0.41,0.41,FALSE
+aronow_etal_2015,table_2 :: Less than High School: Study A Control,table_2,Less than High School: Study A Control,pipeline,0.78,0.78,1,0.7843137254901961,1,,,,2,0.78,0.78,FALSE
+aronow_etal_2015,table_2 :: Less than High School: Study B Treat,table_2,Less than High School: Study B Treat,pipeline,0.74,0.74,1,0.7352941176470589,1,,,,2,0.74,0.74,FALSE
+aronow_etal_2015,table_2 :: Less than High School: Study B Control,table_2,Less than High School: Study B Control,pipeline,1.24,1.24,1,1.2396694214876034,1,,,,2,1.24,1.24,FALSE
+aronow_etal_2015,table_2 :: High School / GED: Study A Treat,table_2,High School / GED: Study A Treat,pipeline,11.02,11.02,1,11.020408163265309,1,,,,2,11.02,11.02,FALSE
+aronow_etal_2015,table_2 :: High School / GED: Study A Control,table_2,High School / GED: Study A Control,pipeline,11.76,11.76,1,11.764705882352942,1,,,,2,11.76,11.76,FALSE
+aronow_etal_2015,table_2 :: High School / GED: Study B Treat,table_2,High School / GED: Study B Treat,pipeline,10.66,10.66,1,10.661764705882351,1,,,,2,10.66,10.66,FALSE
+aronow_etal_2015,table_2 :: High School / GED: Study B Control,table_2,High School / GED: Study B Control,pipeline,7.44,7.44,1,7.43801652892562,1,,,,2,7.44,7.44,FALSE
+aronow_etal_2015,table_2 :: Some College: Study A Treat,table_2,Some College: Study A Treat,pipeline,42.45,42.45,1,42.44897959183673,1,,,,2,42.45,42.45,FALSE
+aronow_etal_2015,table_2 :: Some College: Study A Control,table_2,Some College: Study A Control,pipeline,42.75,42.75,1,42.74509803921568,1,,,,2,42.75,42.75,FALSE
+aronow_etal_2015,table_2 :: Some College: Study B Treat,table_2,Some College: Study B Treat,pipeline,40.44,40.44,1,40.44117647058823,1,,,,2,40.44,40.44,FALSE
+aronow_etal_2015,table_2 :: Some College: Study B Control,table_2,Some College: Study B Control,pipeline,40.91,40.91,1,40.90909090909091,1,,,,2,40.91,40.91,FALSE
+aronow_etal_2015,table_2 :: 4-year College Degree: Study A Treat,table_2,4-year College Degree: Study A Treat,pipeline,33.47,33.47,1,33.46938775510204,1,,,,2,33.47,33.47,FALSE
+aronow_etal_2015,table_2 :: 4-year College Degree: Study A Control,table_2,4-year College Degree: Study A Control,pipeline,33.73,33.73,1,33.72549019607843,1,,,,2,33.73,33.73,FALSE
+aronow_etal_2015,table_2 :: 4-year College Degree: Study B Treat,table_2,4-year College Degree: Study B Treat,pipeline,35.29,35.29,1,35.294117647058826,1,,,,2,35.29,35.29,FALSE
+aronow_etal_2015,table_2 :: 4-year College Degree: Study B Control,table_2,4-year College Degree: Study B Control,pipeline,36.36,36.36,1,36.36363636363637,1,,,,2,36.36,36.36,FALSE
+aronow_etal_2015,table_2 :: Graduate School: Study A Treat,table_2,Graduate School: Study A Treat,pipeline,12.65,12.65,1,12.653061224489797,1,,,,2,12.65,12.65,FALSE
+aronow_etal_2015,table_2 :: Graduate School: Study A Control,table_2,Graduate School: Study A Control,pipeline,10.98,10.98,1,10.980392156862743,1,,,,2,10.98,10.98,FALSE
+aronow_etal_2015,table_2 :: Graduate School: Study B Treat,table_2,Graduate School: Study B Treat,pipeline,12.87,12.87,1,12.867647058823527,1,,,,2,12.87,12.87,FALSE
+aronow_etal_2015,table_2 :: Graduate School: Study B Control,table_2,Graduate School: Study B Control,pipeline,14.05,14.05,1,14.049586776859504,1,,,,2,14.05,14.05,FALSE
+aronow_etal_2015,"table_2 :: White, non Hispanic: Study A Treat",table_2,"White, non Hispanic: Study A Treat",pipeline,79.18,79.18,1,79.18367346938776,1,,,,2,79.18,79.18,FALSE
+aronow_etal_2015,"table_2 :: White, non Hispanic: Study A Control",table_2,"White, non Hispanic: Study A Control",pipeline,77.65,77.65,1,77.6470588235294,1,,,,2,77.65,77.65,FALSE
+aronow_etal_2015,"table_2 :: White, non Hispanic: Study B Treat",table_2,"White, non Hispanic: Study B Treat",pipeline,79.78,79.78,1,79.77941176470588,1,,,,2,79.78,79.78,FALSE
+aronow_etal_2015,"table_2 :: White, non Hispanic: Study B Control",table_2,"White, non Hispanic: Study B Control",pipeline,80.17,80.17,1,80.16528925619835,1,,,,2,80.17,80.17,FALSE
+aronow_etal_2015,table_2 :: African-American: Study A Treat,table_2,African-American: Study A Treat,pipeline,7.76,7.76,1,7.755102040816326,1,,,,2,7.76,7.76,FALSE
+aronow_etal_2015,table_2 :: African-American: Study A Control,table_2,African-American: Study A Control,pipeline,10.98,10.98,1,10.980392156862743,1,,,,2,10.98,10.98,FALSE
+aronow_etal_2015,table_2 :: African-American: Study B Treat,table_2,African-American: Study B Treat,pipeline,6.62,6.62,1,6.617647058823529,1,,,,2,6.62,6.62,FALSE
+aronow_etal_2015,table_2 :: African-American: Study B Control,table_2,African-American: Study B Control,pipeline,4.55,4.55,1,4.545454545454546,1,,,,2,4.55,4.55,FALSE
+aronow_etal_2015,table_2 :: Asian/Pacific Islander: Study A Treat,table_2,Asian/Pacific Islander: Study A Treat,pipeline,5.71,5.71,1,5.714285714285714,1,,,,2,5.71,5.71,FALSE
+aronow_etal_2015,table_2 :: Asian/Pacific Islander: Study A Control,table_2,Asian/Pacific Islander: Study A Control,pipeline,4.71,4.71,1,4.705882352941177,1,,,,2,4.71,4.71,FALSE
+aronow_etal_2015,table_2 :: Asian/Pacific Islander: Study B Treat,table_2,Asian/Pacific Islander: Study B Treat,pipeline,5.15,5.15,1,5.147058823529412,1,,,,2,5.15,5.15,FALSE
+aronow_etal_2015,table_2 :: Asian/Pacific Islander: Study B Control,table_2,Asian/Pacific Islander: Study B Control,pipeline,9.92,9.92,1,9.917355371900827,1,,,,2,9.92,9.92,FALSE
+aronow_etal_2015,table_2 :: Hispanic: Study A Treat,table_2,Hispanic: Study A Treat,pipeline,4.9,4.90,1,4.8979591836734695,1,,,,2,4.90,4.90,FALSE
+aronow_etal_2015,table_2 :: Hispanic: Study A Control,table_2,Hispanic: Study A Control,pipeline,3.92,3.92,1,3.92156862745098,1,,,,2,3.92,3.92,FALSE
+aronow_etal_2015,table_2 :: Hispanic: Study B Treat,table_2,Hispanic: Study B Treat,pipeline,6.25,6.25,1,6.25,1,,,,2,6.25,6.25,FALSE
+aronow_etal_2015,table_2 :: Hispanic: Study B Control,table_2,Hispanic: Study B Control,pipeline,4.13,4.13,1,4.132231404958677,1,,,,2,4.13,4.13,FALSE
+aronow_etal_2015,table_2 :: Native American: Study A Treat,table_2,Native American: Study A Treat,pipeline,0.82,0.82,1,0.8163265306122449,1,,,,2,0.82,0.82,FALSE
+aronow_etal_2015,table_2 :: Native American: Study A Control,table_2,Native American: Study A Control,pipeline,0.78,0.78,1,0.7843137254901961,1,,,,2,0.78,0.78,FALSE
+aronow_etal_2015,table_2 :: Native American: Study B Treat,table_2,Native American: Study B Treat,pipeline,1.1,1.10,1,1.1029411764705883,1,,,,2,1.10,1.10,FALSE
+aronow_etal_2015,table_2 :: Native American: Study B Control,table_2,Native American: Study B Control,pipeline,0.83,0.83,1,0.8264462809917356,1,,,,2,0.83,0.83,FALSE
+aronow_etal_2015,table_2 :: Other: Study A Treat,table_2,Other: Study A Treat,pipeline,1.22,1.22,1,1.2244897959183674,1,,,,2,1.22,1.22,FALSE
+aronow_etal_2015,table_2 :: Other: Study A Control,table_2,Other: Study A Control,pipeline,1.18,1.18,1,1.1764705882352942,1,,,,2,1.18,1.18,FALSE
+aronow_etal_2015,table_2 :: Other: Study B Treat,table_2,Other: Study B Treat,pipeline,1.1,1.10,1,1.1029411764705883,1,,,,2,1.10,1.10,FALSE
+aronow_etal_2015,table_2 :: Other: Study B Control,table_2,Other: Study B Control,pipeline,0.41,0.41,1,0.4132231404958678,1,,,,2,0.41,0.41,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Race: Study A Treat,table_2,Prefer not to say -- Race: Study A Treat,pipeline,0.41,0.41,1,0.40816326530612246,1,,,,2,0.41,0.41,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Race: Study A Control,table_2,Prefer not to say -- Race: Study A Control,pipeline,0.78,0.78,1,0.7843137254901961,1,,,,2,0.78,0.78,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Race: Study B Treat,table_2,Prefer not to say -- Race: Study B Treat,pipeline,0,0.00,1,0,1,,,,2,0.00,0.00,FALSE
+aronow_etal_2015,table_2 :: Prefer not to say -- Race: Study B Control,table_2,Prefer not to say -- Race: Study B Control,pipeline,0,0.00,1,0,1,,,,2,0.00,0.00,FALSE
+aronow_etal_2015,table_2 :: n: Study A Treat,table_2,n: Study A Treat,pipeline,245,245,1,245,1,,,,0,245,245,FALSE
+aronow_etal_2015,table_2 :: n: Study A Control,table_2,n: Study A Control,pipeline,255,255,1,255,1,,,,0,255,255,FALSE
+aronow_etal_2015,table_2 :: n: Study B Treat,table_2,n: Study B Treat,pipeline,272,272,1,272,1,,,,0,272,272,FALSE
+aronow_etal_2015,table_2 :: n: Study B Control,table_2,n: Study B Control,pipeline,242,242,1,242,1,,,,0,242,242,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: Direct,table_3,Nuclear Power: Direct,pipeline,0.656,0.656,1,0.656,1,,,,3,0.656,0.656,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: Direct SE,table_3,Nuclear Power: Direct SE,pipeline,0.02126575803797874,0.021,1,0.02126575803797874,1,,,,3,0.021,0.021,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: Standard list,table_3,Nuclear Power: Standard list,pipeline,0.7477390956382552,0.748,1,0.7477390956382552,1,,,,3,0.748,0.748,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: Standard list SE,table_3,Nuclear Power: Standard list SE,pipeline,0.08441010011221306,0.084,1,0.08441010011221306,1,,,,3,0.084,0.084,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: Combined,table_3,Nuclear Power: Combined,pipeline,0.6656184210526316,0.666,1,0.6656184210526316,1,,,,3,0.666,0.666,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: Combined SE,table_3,Nuclear Power: Combined SE,pipeline,0.04840343151169624,0.048,1,0.04840343151169624,1,,,,3,0.048,0.048,FALSE
+aronow_etal_2015,table_3 :: Nuclear Power: % reduction in sampling variance,table_3,Nuclear Power: % reduction in sampling variance,pipeline,67.11760269143052,67.1,1,67.11760269143052,1,,,,1,67.1,67.1,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: Direct,table_3,Public Transportation: Direct,pipeline,0.538,0.538,1,0.5379999999999999,1,,,,3,0.538,0.538,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: Direct SE,table_3,Public Transportation: Direct SE,pipeline,0.02231833811987053,0.022,1,0.02231833811987053,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: Standard list,table_3,Public Transportation: Standard list,pipeline,0.5134710372698699,0.513,1,0.5134710372698699,1,,,,3,0.513,0.513,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: Standard list SE,table_3,Public Transportation: Standard list SE,pipeline,0.07236749445195512,0.072,1,0.07236749445195512,1,,,,3,0.072,0.072,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: Combined,table_3,Public Transportation: Combined,pipeline,0.6265818181818182,0.627,1,0.6265818181818181,1,,,,3,0.627,0.627,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: Combined SE,table_3,Public Transportation: Combined SE,pipeline,0.04909874024968318,0.049,1,0.04909874024968318,1,,,,3,0.049,0.049,FALSE
+aronow_etal_2015,table_3 :: Public Transportation: % reduction in sampling variance,table_3,Public Transportation: % reduction in sampling variance,pipeline,53.9686591444396,54.0,1,53.96865914443958,1,,,,1,54.0,54.0,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: Direct,table_3,Spanish-speaking: Direct,pipeline,0.102,0.102,1,0.10199999999999998,1,,,,3,0.102,0.102,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: Direct SE,table_3,Spanish-speaking: Direct SE,pipeline,0.01354839910234689,0.014,1,0.01354839910234689,1,,,,3,0.014,0.014,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: Standard list,table_3,Spanish-speaking: Standard list,pipeline,0.03474747474747497,0.035,1,0.03474747474747541,1,,,,3,0.035,0.035,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: Standard list SE,table_3,Spanish-speaking: Standard list SE,pipeline,0.07928596603057121,0.079,1,0.07928596603057121,1,,,,3,0.079,0.079,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: Combined,table_3,Spanish-speaking: Combined,pipeline,0.04247470988395327,0.042,1,0.04247470988395326,1,,,,3,0.042,0.042,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: Combined SE,table_3,Spanish-speaking: Combined SE,pipeline,0.07353875812567665,0.074,1,0.07353875812567665,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_3 :: Spanish-speaking: % reduction in sampling variance,table_3,Spanish-speaking: % reduction in sampling variance,pipeline,13.971977720514428,14.0,1,13.971977720514406,1,,,,1,14.0,14.0,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: Direct,table_3,Muslim Teachers: Direct,pipeline,0.11,0.110,1,0.11,1,,,,3,0.110,0.110,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: Direct SE,table_3,Muslim Teachers: Direct SE,pipeline,0.01400686919941558,0.014,1,0.01400686919941558,1,,,,3,0.014,0.014,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: Standard list,table_3,Muslim Teachers: Standard list,pipeline,0.16614625866679478,0.166,1,0.166146258666795,1,,,,3,0.166,0.166,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: Standard list SE,table_3,Muslim Teachers: Standard list SE,pipeline,0.0808654119492077,0.081,1,0.0808654119492077,1,,,,3,0.081,0.081,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: Combined,table_3,Muslim Teachers: Combined,pipeline,0.1873131313131312,0.187,1,0.18731313131313165,1,,,,3,0.187,0.187,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: Combined SE,table_3,Muslim Teachers: Combined SE,pipeline,0.07440402357551566,0.074,1,0.07440402357551568,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_3 :: Muslim Teachers: % reduction in sampling variance,table_3,Muslim Teachers: % reduction in sampling variance,pipeline,15.3421496088768,15.3,1,15.342149608876754,1,,,,1,15.3,15.3,FALSE
+aronow_etal_2015,table_3 :: CNN: Direct,table_3,CNN: Direct,pipeline,0.444,0.444,1,0.44400000000000006,1,,,,3,0.444,0.444,FALSE
+aronow_etal_2015,table_3 :: CNN: Direct SE,table_3,CNN: Direct SE,pipeline,0.02224224437573102,0.022,1,0.02224224437573102,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_3 :: CNN: Standard list,table_3,CNN: Standard list,pipeline,0.33775090066906843,0.338,1,0.3377509006690682,1,,,,3,0.338,0.338,FALSE
+aronow_etal_2015,table_3 :: CNN: Standard list SE,table_3,CNN: Standard list SE,pipeline,0.10455958189006502,0.105,1,0.10455958189006502,1,,,,3,0.105,0.105,FALSE
+aronow_etal_2015,table_3 :: CNN: Combined,table_3,CNN: Combined,pipeline,0.5332502071251035,0.533,1,0.5332502071251035,1,,,,3,0.533,0.533,FALSE
+aronow_etal_2015,table_3 :: CNN: Combined SE,table_3,CNN: Combined SE,pipeline,0.07023773472401411,0.070,1,0.07023773472401411,1,,,,3,0.070,0.070,FALSE
+aronow_etal_2015,table_3 :: CNN: % reduction in sampling variance,table_3,CNN: % reduction in sampling variance,pipeline,54.87540500317105,54.9,1,54.87540500317105,1,,,,1,54.9,54.9,FALSE
+aronow_etal_2015,table_4 :: Nuclear Power: beta,table_4,Nuclear Power: beta,pipeline,1.0539615198541177,1.054,1,1.0539615198541177,1,,,,3,1.054,1.054,FALSE
+aronow_etal_2015,table_4 :: Nuclear Power: SE,table_4,Nuclear Power: SE,pipeline,0.09452733798518592,0.095,1,0.09452733798518592,1,,,,3,0.095,0.095,FALSE
+aronow_etal_2015,table_4 :: Nuclear Power: p-value,table_4,Nuclear Power: p-value,pipeline,0.5680971026037596,0.568,1,0.5680971026037596,1,,,,3,0.568,0.568,FALSE
+aronow_etal_2015,table_4 :: Nuclear Power: n,table_4,Nuclear Power: n,pipeline,328,328,1,328,1,,,,0,328,328,FALSE
+aronow_etal_2015,table_4 :: Public Transportation: beta,table_4,Public Transportation: beta,pipeline,0.7901152482269502,0.790,1,0.7901152482269502,1,,,,3,0.790,0.790,FALSE
+aronow_etal_2015,table_4 :: Public Transportation: SE,table_4,Public Transportation: SE,pipeline,0.09093233713555184,0.091,1,0.09093233713555184,1,,,,3,0.091,0.091,FALSE
+aronow_etal_2015,table_4 :: Public Transportation: p-value,table_4,Public Transportation: p-value,pipeline,0.02099123660703217,0.021,1,0.02099123660703217,1,,,,3,0.021,0.021,FALSE
+aronow_etal_2015,table_4 :: Public Transportation: n,table_4,Public Transportation: n,pipeline,269,269,1,269,1,,,,0,269,269,FALSE
+aronow_etal_2015,table_4 :: Spanish-speaking: beta,table_4,Spanish-speaking: beta,pipeline,0.8476190476190477,0.848,1,0.8476190476190477,1,,,,3,0.848,0.848,FALSE
+aronow_etal_2015,table_4 :: Spanish-speaking: SE,table_4,Spanish-speaking: SE,pipeline,0.2788109646188823,0.279,1,0.2788109646188823,1,,,,3,0.279,0.279,FALSE
+aronow_etal_2015,table_4 :: Spanish-speaking: p-value,table_4,Spanish-speaking: p-value,pipeline,0.5846957665334547,0.585,1,0.5846957665334547,1,,,,3,0.585,0.585,FALSE
+aronow_etal_2015,table_4 :: Spanish-speaking: n,table_4,Spanish-speaking: n,pipeline,51,51,1,51,1,,,,0,51,51,FALSE
+aronow_etal_2015,table_4 :: Muslim Teachers: beta,table_4,Muslim Teachers: beta,pipeline,1.0081521739130437,1.008,1,1.0081521739130437,1,,,,3,1.008,1.008,FALSE
+aronow_etal_2015,table_4 :: Muslim Teachers: SE,table_4,Muslim Teachers: SE,pipeline,0.23748376260473228,0.237,1,0.23748376260473228,1,,,,3,0.237,0.237,FALSE
+aronow_etal_2015,table_4 :: Muslim Teachers: p-value,table_4,Muslim Teachers: p-value,pipeline,0.9726161636720836,0.973,1,0.9726161636720836,1,,,,3,0.973,0.973,FALSE
+aronow_etal_2015,table_4 :: Muslim Teachers: n,table_4,Muslim Teachers: n,pipeline,55,55,1,55,1,,,,0,55,55,FALSE
+aronow_etal_2015,table_4 :: CNN: beta,table_4,CNN: beta,pipeline,0.6964285714285716,0.696,1,0.6964285714285712,1,,,,3,0.696,0.696,FALSE
+aronow_etal_2015,table_4 :: CNN: SE,table_4,CNN: SE,pipeline,0.14286064114346603,0.143,1,0.14286064114346603,1,,,,3,0.143,0.143,FALSE
+aronow_etal_2015,table_4 :: CNN: p-value,table_4,CNN: p-value,pipeline,0.0335909551012123,0.034,1,0.03359095510121204,1,,,,3,0.034,0.034,FALSE
+aronow_etal_2015,table_4 :: CNN: n,table_4,CNN: n,pipeline,222,222,1,222,1,,,,0,222,222,FALSE
+aronow_etal_2015,table_5 :: Nuclear Power: beta,table_5,Nuclear Power: beta,pipeline,0.0662665066026411,0.066,1,0.0662665066026411,1,,,,3,0.066,0.066,FALSE
+aronow_etal_2015,table_5 :: Nuclear Power: SE,table_5,Nuclear Power: SE,pipeline,0.04243974718547155,0.042,1,0.04243974718547155,1,,,,3,0.042,0.042,FALSE
+aronow_etal_2015,table_5 :: Nuclear Power: p-value,table_5,Nuclear Power: p-value,pipeline,0.11842337172584767,0.118,1,0.11842337172584767,1,,,,3,0.118,0.118,FALSE
+aronow_etal_2015,table_5 :: Nuclear Power: n,table_5,Nuclear Power: n,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_5 :: Public Transportation: beta,table_5,Public Transportation: beta,pipeline,-3.528128808775177e-4,-0.000,1,-3.528128808775177e-4,1,,,,3,-0.000,-0.000,FALSE
+aronow_etal_2015,table_5 :: Public Transportation: SE,table_5,Public Transportation: SE,pipeline,0.04473356081506337,0.045,1,0.04473356081506337,1,,,,3,0.045,0.045,FALSE
+aronow_etal_2015,table_5 :: Public Transportation: p-value,table_5,Public Transportation: p-value,pipeline,0.9937071624316698,0.994,1,0.9937071624316698,1,,,,3,0.994,0.994,FALSE
+aronow_etal_2015,table_5 :: Public Transportation: n,table_5,Public Transportation: n,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_5 :: Spanish-speaking: beta,table_5,Spanish-speaking: beta,pipeline,0.01575757575757574,0.016,1,0.01575757575757574,1,,,,3,0.016,0.016,FALSE
+aronow_etal_2015,table_5 :: Spanish-speaking: SE,table_5,Spanish-speaking: SE,pipeline,0.02706448057136118,0.027,1,0.02706448057136118,1,,,,3,0.027,0.027,FALSE
+aronow_etal_2015,table_5 :: Spanish-speaking: p-value,table_5,Spanish-speaking: p-value,pipeline,0.5604161673281228,0.560,1,0.5604161673281228,1,,,,3,0.560,0.560,FALSE
+aronow_etal_2015,table_5 :: Spanish-speaking: n,table_5,Spanish-speaking: n,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_5 :: Muslim Teachers: beta,table_5,Muslim Teachers: beta,pipeline,-0.02986341291572593,-0.030,1,-0.02986341291572593,1,,,,3,-0.030,-0.030,FALSE
+aronow_etal_2015,table_5 :: Muslim Teachers: SE,table_5,Muslim Teachers: SE,pipeline,0.0279270033286562,0.028,1,0.0279270033286562,1,,,,3,0.028,0.028,FALSE
+aronow_etal_2015,table_5 :: Muslim Teachers: p-value,table_5,Muslim Teachers: p-value,pipeline,0.28491728021249485,0.285,1,0.28491728021249485,1,,,,3,0.285,0.285,FALSE
+aronow_etal_2015,table_5 :: Muslim Teachers: n,table_5,Muslim Teachers: n,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_5 :: CNN: beta,table_5,CNN: beta,pipeline,-0.05635615028306745,-0.056,1,-0.05635615028306745,1,,,,3,-0.056,-0.056,FALSE
+aronow_etal_2015,table_5 :: CNN: SE,table_5,CNN: SE,pipeline,0.04453169417741861,0.045,1,0.04453169417741861,1,,,,3,0.045,0.045,FALSE
+aronow_etal_2015,table_5 :: CNN: p-value,table_5,CNN: p-value,pipeline,0.20568176040574537,0.206,1,0.20568176040574537,1,,,,3,0.206,0.206,FALSE
+aronow_etal_2015,table_5 :: CNN: n,table_5,CNN: n,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: Direct,table_6,Nuclear Power: Direct,pipeline,0.603112840466926,0.603,1,0.603112840466926,1,,,,3,0.603,0.603,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: Direct SE,table_6,Nuclear Power: Direct SE,pipeline,0.02160101353710281,0.022,1,0.02160101353710281,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: Standard list,table_6,Nuclear Power: Standard list,pipeline,0.4985111813320371,0.499,1,0.4985111813320371,1,,,,3,0.499,0.499,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: Standard list SE,table_6,Nuclear Power: Standard list SE,pipeline,0.08870898385281714,0.089,1,0.08870898385281714,1,,,,3,0.089,0.089,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: Combined,table_6,Nuclear Power: Combined,pipeline,0.6237909949972206,0.624,1,0.6237909949972206,1,,,,3,0.624,0.624,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: Combined SE,table_6,Nuclear Power: Combined SE,pipeline,0.05169560967231836,0.052,1,0.05169560967231836,1,,,,3,0.052,0.052,FALSE
+aronow_etal_2015,table_6 :: Nuclear Power: % reduction in sampling variance,table_6,Nuclear Power: % reduction in sampling variance,pipeline,66.03965339398063,66.0,1,66.03965339398063,1,,,,1,66.0,66.0,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: Direct,table_6,Public Transportation: Direct,pipeline,0.5389105058365758,0.539,1,0.538910505836576,1,,,,3,0.539,0.539,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: Direct SE,table_6,Public Transportation: Direct SE,pipeline,0.02200859182465729,0.022,1,0.02200859182465729,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: Standard list,table_6,Public Transportation: Standard list,pipeline,0.5778787190551893,0.578,1,0.5778787190551897,1,,,,3,0.578,0.578,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: Standard list SE,table_6,Public Transportation: Standard list SE,pipeline,0.07316642056141723,0.073,1,0.07316642056141723,1,,,,3,0.073,0.073,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: Combined,table_6,Public Transportation: Combined,pipeline,0.6077617168324684,0.608,1,0.6077617168324685,1,,,,3,0.608,0.608,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: Combined SE,table_6,Public Transportation: Combined SE,pipeline,0.05072971047389484,0.051,1,0.05072971047389484,1,,,,3,0.051,0.051,FALSE
+aronow_etal_2015,table_6 :: Public Transportation: % reduction in sampling variance,table_6,Public Transportation: % reduction in sampling variance,pipeline,51.92700839638642,51.9,1,51.92700839638642,1,,,,1,51.9,51.9,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: Direct,table_6,Spanish-speaking: Direct,pipeline,0.11284046692607004,0.113,1,0.11284046692607008,1,,,,3,0.113,0.113,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: Direct SE,table_6,Spanish-speaking: Direct SE,pipeline,0.01396929911059536,0.014,1,0.01396929911059536,1,,,,3,0.014,0.014,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: Standard list,table_6,Spanish-speaking: Standard list,pipeline,0.1440340435842682,0.144,1,0.1440340435842682,1,,,,3,0.144,0.144,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: Standard list SE,table_6,Spanish-speaking: Standard list SE,pipeline,0.08328101664389624,0.083,1,0.08328101664389624,1,,,,3,0.083,0.083,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: Combined,table_6,Spanish-speaking: Combined,pipeline,0.14859332921015048,0.149,1,0.1485933292101505,1,,,,3,0.149,0.149,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: Combined SE,table_6,Spanish-speaking: Combined SE,pipeline,0.07612969745907543,0.076,1,0.07612969745907543,1,,,,3,0.076,0.076,FALSE
+aronow_etal_2015,table_6 :: Spanish-speaking: % reduction in sampling variance,table_6,Spanish-speaking: % reduction in sampling variance,pipeline,16.43658664060432,16.4,1,16.436586640604332,1,,,,1,16.4,16.4,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: Direct,table_6,Muslim Teachers: Direct,pipeline,0.10311284046692606,0.103,1,0.10311284046692612,1,,,,3,0.103,0.103,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: Direct SE,table_6,Muslim Teachers: Direct SE,pipeline,0.01342661685427843,0.013,1,0.01342661685427843,1,,,,3,0.013,0.013,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: Standard list,table_6,Muslim Teachers: Standard list,pipeline,0.10650995398842866,0.107,1,0.10650995398842888,1,,,,3,0.107,0.107,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: Standard list SE,table_6,Muslim Teachers: Standard list SE,pipeline,0.0826026998196288,0.083,1,0.0826026998196288,1,,,,3,0.083,0.083,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: Combined,table_6,Muslim Teachers: Combined,pipeline,0.12288766297718948,0.123,1,0.12288766297718956,1,,,,3,0.123,0.123,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: Combined SE,table_6,Muslim Teachers: Combined SE,pipeline,0.07383936557032518,0.074,1,0.07383936557032518,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_6 :: Muslim Teachers: % reduction in sampling variance,table_6,Muslim Teachers: % reduction in sampling variance,pipeline,20.092521113228212,20.1,1,20.092521113228234,1,,,,1,20.1,20.1,FALSE
+aronow_etal_2015,table_6 :: CNN: Direct,table_6,CNN: Direct,pipeline,0.4961089494163424,0.496,1,0.4961089494163424,1,,,,3,0.496,0.496,FALSE
+aronow_etal_2015,table_6 :: CNN: Direct SE,table_6,CNN: Direct SE,pipeline,0.02207487081484097,0.022,1,0.02207487081484097,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_6 :: CNN: Standard list,table_6,CNN: Standard list,pipeline,0.6450030284675954,0.645,1,0.6450030284675954,1,,,,3,0.645,0.645,FALSE
+aronow_etal_2015,table_6 :: CNN: Standard list SE,table_6,CNN: Standard list SE,pipeline,0.10134010860176834,0.101,1,0.10134010860176834,1,,,,3,0.101,0.101,FALSE
+aronow_etal_2015,table_6 :: CNN: Combined,table_6,CNN: Combined,pipeline,0.5873763302661592,0.587,1,0.5873763302661592,1,,,,3,0.587,0.587,FALSE
+aronow_etal_2015,table_6 :: CNN: Combined SE,table_6,CNN: Combined SE,pipeline,0.06393112296510452,0.064,1,0.06393112296510452,1,,,,3,0.064,0.064,FALSE
+aronow_etal_2015,table_6 :: CNN: % reduction in sampling variance,table_6,CNN: % reduction in sampling variance,pipeline,60.20193699413811,60.2,1,60.20193699413814,1,,,,1,60.2,60.2,FALSE
+aronow_etal_2015,table_7 :: Nuclear Power: beta,table_7,Nuclear Power: beta,pipeline,0.881353815411515,0.881,1,0.881353815411515,1,,,,3,0.881,0.881,FALSE
+aronow_etal_2015,table_7 :: Nuclear Power: SE,table_7,Nuclear Power: SE,pipeline,0.1131145044495885,0.113,1,0.1131145044495885,1,,,,3,0.113,0.113,FALSE
+aronow_etal_2015,table_7 :: Nuclear Power: p-value,table_7,Nuclear Power: p-value,pipeline,0.2942225956651667,0.294,1,0.2942225956651667,1,,,,3,0.294,0.294,FALSE
+aronow_etal_2015,table_7 :: Nuclear Power: n,table_7,Nuclear Power: n,pipeline,310,310,1,310,1,,,,0,310,310,FALSE
+aronow_etal_2015,table_7 :: Public Transportation: beta,table_7,Public Transportation: beta,pipeline,0.9132727652464494,0.913,1,0.9132727652464494,1,,,,3,0.913,0.913,FALSE
+aronow_etal_2015,table_7 :: Public Transportation: SE,table_7,Public Transportation: SE,pipeline,0.09074332373701266,0.091,1,0.09074332373701266,1,,,,3,0.091,0.091,FALSE
+aronow_etal_2015,table_7 :: Public Transportation: p-value,table_7,Public Transportation: p-value,pipeline,0.3392024358626336,0.339,1,0.3392024358626336,1,,,,3,0.339,0.339,FALSE
+aronow_etal_2015,table_7 :: Public Transportation: n,table_7,Public Transportation: n,pipeline,277,277,1,277,1,,,,0,277,277,FALSE
+aronow_etal_2015,table_7 :: Spanish-speaking: beta,table_7,Spanish-speaking: beta,pipeline,0.7668269230769229,0.767,1,0.7668269230769229,1,,,,3,0.767,0.767,FALSE
+aronow_etal_2015,table_7 :: Spanish-speaking: SE,table_7,Spanish-speaking: SE,pipeline,0.229316778807112,0.229,1,0.229316778807112,1,,,,3,0.229,0.229,FALSE
+aronow_etal_2015,table_7 :: Spanish-speaking: p-value,table_7,Spanish-speaking: p-value,pipeline,0.3092407468535317,0.309,1,0.3092407468535317,1,,,,3,0.309,0.309,FALSE
+aronow_etal_2015,table_7 :: Spanish-speaking: n,table_7,Spanish-speaking: n,pipeline,58,58,1,58,1,,,,0,58,58,FALSE
+aronow_etal_2015,table_7 :: Muslim Teachers: beta,table_7,Muslim Teachers: beta,pipeline,0.7000000000000002,0.700,1,0.7000000000000002,1,,,,3,0.700,0.700,FALSE
+aronow_etal_2015,table_7 :: Muslim Teachers: SE,table_7,Muslim Teachers: SE,pipeline,0.28504355742699966,0.285,1,0.28504355742699966,1,,,,3,0.285,0.285,FALSE
+aronow_etal_2015,table_7 :: Muslim Teachers: p-value,table_7,Muslim Teachers: p-value,pipeline,0.2925836342676051,0.293,1,0.2925836342676051,1,,,,3,0.293,0.293,FALSE
+aronow_etal_2015,table_7 :: Muslim Teachers: n,table_7,Muslim Teachers: n,pipeline,53,53,1,53,1,,,,0,53,53,FALSE
+aronow_etal_2015,table_7 :: CNN: beta,table_7,CNN: beta,pipeline,0.8465502073645848,0.847,1,0.8465502073645845,1,,,,3,0.847,0.847,FALSE
+aronow_etal_2015,table_7 :: CNN: SE,table_7,CNN: SE,pipeline,0.13496570558402984,0.135,1,0.13496570558402984,1,,,,3,0.135,0.135,FALSE
+aronow_etal_2015,table_7 :: CNN: p-value,table_7,CNN: p-value,pipeline,0.2555575352274077,0.256,1,0.255557535227407,1,,,,3,0.256,0.256,FALSE
+aronow_etal_2015,table_7 :: CNN: n,table_7,CNN: n,pipeline,255,255,1,255,1,,,,0,255,255,FALSE
+aronow_etal_2015,table_8 :: Nuclear Power: beta,table_8,Nuclear Power: beta,pipeline,-0.08626033057851235,-0.086,1,-0.08626033057851235,1,,,,3,-0.086,-0.086,FALSE
+aronow_etal_2015,table_8 :: Nuclear Power: SE,table_8,Nuclear Power: SE,pipeline,0.04305363168438152,0.043,1,0.04305363168438152,1,,,,3,0.043,0.043,FALSE
+aronow_etal_2015,table_8 :: Nuclear Power: p-value,table_8,Nuclear Power: p-value,pipeline,0.04511772161786084,0.045,1,0.04511772161786084,1,,,,3,0.045,0.045,FALSE
+aronow_etal_2015,table_8 :: Nuclear Power: n,table_8,Nuclear Power: n,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_8 :: Public Transportation: beta,table_8,Public Transportation: beta,pipeline,0.03441592853357556,0.034,1,0.03441592853357556,1,,,,3,0.034,0.034,FALSE
+aronow_etal_2015,table_8 :: Public Transportation: SE,table_8,Public Transportation: SE,pipeline,0.04403707940810264,0.044,1,0.04403707940810264,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_8 :: Public Transportation: p-value,table_8,Public Transportation: p-value,pipeline,0.4344957807284778,0.434,1,0.4344957807284778,1,,,,3,0.434,0.434,FALSE
+aronow_etal_2015,table_8 :: Public Transportation: n,table_8,Public Transportation: n,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_8 :: Spanish-speaking: beta,table_8,Spanish-speaking: beta,pipeline,0.02686535520118728,0.027,1,0.02686535520118728,1,,,,3,0.027,0.027,FALSE
+aronow_etal_2015,table_8 :: Spanish-speaking: SE,table_8,Spanish-speaking: SE,pipeline,0.02798936928608435,0.028,1,0.02798936928608435,1,,,,3,0.028,0.028,FALSE
+aronow_etal_2015,table_8 :: Spanish-speaking: p-value,table_8,Spanish-speaking: p-value,pipeline,0.33713504618287216,0.337,1,0.33713504618287216,1,,,,3,0.337,0.337,FALSE
+aronow_etal_2015,table_8 :: Spanish-speaking: n,table_8,Spanish-speaking: n,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_8 :: Muslim Teachers: beta,table_8,Muslim Teachers: beta,pipeline,0.01605090124975324,0.016,1,0.01605090124975324,1,,,,3,0.016,0.016,FALSE
+aronow_etal_2015,table_8 :: Muslim Teachers: SE,table_8,Muslim Teachers: SE,pipeline,0.02680883217947569,0.027,1,0.02680883217947569,1,,,,3,0.027,0.027,FALSE
+aronow_etal_2015,table_8 :: Muslim Teachers: p-value,table_8,Muslim Teachers: p-value,pipeline,0.5493616766646952,0.549,1,0.5493616766646952,1,,,,3,0.549,0.549,FALSE
+aronow_etal_2015,table_8 :: Muslim Teachers: n,table_8,Muslim Teachers: n,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_8 :: CNN: beta,table_8,CNN: beta,pipeline,0.132404603270745,0.132,1,0.132404603270745,1,,,,3,0.132,0.132,FALSE
+aronow_etal_2015,table_8 :: CNN: SE,table_8,CNN: SE,pipeline,0.04380550036909481,0.044,1,0.04380550036909481,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_8 :: CNN: p-value,table_8,CNN: p-value,pipeline,0.00250649223422805,0.003,1,0.00250649223422805,1,,,,3,0.003,0.003,FALSE
+aronow_etal_2015,table_8 :: CNN: n,table_8,CNN: n,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,table_a1 :: Nuclear Power: Direct difference,table_a1,Nuclear Power: Direct difference,pipeline,0.05288715953307399,0.053,1,0.05288715953307399,1,,,,3,0.053,0.053,FALSE
+aronow_etal_2015,table_a1 :: Nuclear Power: Direct SE,table_a1,Nuclear Power: Direct SE,pipeline,0.03031231186762165,0.030,1,0.03031231186762165,1,,,,3,0.030,0.030,FALSE
+aronow_etal_2015,table_a1 :: Nuclear Power: Conventional list difference,table_a1,Nuclear Power: Conventional list difference,pipeline,0.24922791430621816,0.249,1,0.24922791430621816,1,,,,3,0.249,0.249,FALSE
+aronow_etal_2015,table_a1 :: Nuclear Power: Conventional list SE,table_a1,Nuclear Power: Conventional list SE,pipeline,0.12245141410842587,0.122,1,0.12245141410842587,1,,,,3,0.122,0.122,FALSE
+aronow_etal_2015,table_a1 :: Nuclear Power: Combined list difference,table_a1,Nuclear Power: Combined list difference,pipeline,0.04182742605541101,0.042,1,0.04182742605541101,1,,,,3,0.042,0.042,FALSE
+aronow_etal_2015,table_a1 :: Nuclear Power: Combined list SE,table_a1,Nuclear Power: Combined list SE,pipeline,0.07081898221169353,0.071,1,0.07081898221169353,1,,,,3,0.071,0.071,FALSE
+aronow_etal_2015,table_a1 :: Public Transportation: Direct difference,table_a1,Public Transportation: Direct difference,pipeline,-9.105058365758144e-4,-0.001,1,-9.105058365760366e-4,1,,,,3,-0.001,-0.001,FALSE
+aronow_etal_2015,table_a1 :: Public Transportation: Direct SE,table_a1,Public Transportation: Direct SE,pipeline,0.03134463798701842,0.031,1,0.03134463798701842,1,,,,3,0.031,0.031,FALSE
+aronow_etal_2015,table_a1 :: Public Transportation: Conventional list difference,table_a1,Public Transportation: Conventional list difference,pipeline,-0.06440768178531942,-0.064,1,-0.06440768178531986,1,,,,3,-0.064,-0.064,FALSE
+aronow_etal_2015,table_a1 :: Public Transportation: Conventional list SE,table_a1,Public Transportation: Conventional list SE,pipeline,0.10290956880205034,0.103,1,0.10290956880205034,1,,,,3,0.103,0.103,FALSE
+aronow_etal_2015,table_a1 :: Public Transportation: Combined list difference,table_a1,Public Transportation: Combined list difference,pipeline,0.01882010134934986,0.019,1,0.01882010134934964,1,,,,3,0.019,0.019,FALSE
+aronow_etal_2015,table_a1 :: Public Transportation: Combined list SE,table_a1,Public Transportation: Combined list SE,pipeline,0.070598794740923565,0.071,1,0.070598794740923565,1,,,,3,0.071,0.071,FALSE
+aronow_etal_2015,table_a1 :: Spanish-speaking: Direct difference,table_a1,Spanish-speaking: Direct difference,pipeline,-0.01084046692607004,-0.011,1,-0.01084046692607008,1,,,,3,-0.011,-0.011,FALSE
+aronow_etal_2015,table_a1 :: Spanish-speaking: Direct SE,table_a1,Spanish-speaking: Direct SE,pipeline,0.01946022702533952,0.019,1,0.01946022702533952,1,,,,3,0.019,0.019,FALSE
+aronow_etal_2015,table_a1 :: Spanish-speaking: Conventional list difference,table_a1,Spanish-speaking: Conventional list difference,pipeline,-0.10928656883679322,-0.109,1,-0.10928656883679276,1,,,,3,-0.109,-0.109,FALSE
+aronow_etal_2015,table_a1 :: Spanish-speaking: Conventional list SE,table_a1,Spanish-speaking: Conventional list SE,pipeline,0.11498692161564208,0.115,1,0.11498692161564208,1,,,,3,0.115,0.115,FALSE
+aronow_etal_2015,table_a1 :: Spanish-speaking: Combined list difference,table_a1,Spanish-speaking: Combined list difference,pipeline,-0.1061186193261972,-0.106,1,-0.10611861932619723,1,,,,3,-0.106,-0.106,FALSE
+aronow_etal_2015,table_a1 :: Spanish-speaking: Combined list SE,table_a1,Spanish-speaking: Combined list SE,pipeline,0.10584743635004644,0.106,1,0.10584743635004644,1,,,,3,0.106,0.106,FALSE
+aronow_etal_2015,table_a1 :: Muslim Teachers: Direct difference,table_a1,Muslim Teachers: Direct difference,pipeline,0.00688715953307393,0.007,1,0.00688715953307388,1,,,,3,0.007,0.007,FALSE
+aronow_etal_2015,table_a1 :: Muslim Teachers: Direct SE,table_a1,Muslim Teachers: Direct SE,pipeline,0.01940274271645972,0.019,1,0.01940274271645972,1,,,,3,0.019,0.019,FALSE
+aronow_etal_2015,table_a1 :: Muslim Teachers: Conventional list difference,table_a1,Muslim Teachers: Conventional list difference,pipeline,0.05963630467836611,0.060,1,0.05963630467836611,1,,,,3,0.060,0.060,FALSE
+aronow_etal_2015,table_a1 :: Muslim Teachers: Conventional list SE,table_a1,Muslim Teachers: Conventional list SE,pipeline,0.11559593793558132,0.116,1,0.11559593793558132,1,,,,3,0.116,0.116,FALSE
+aronow_etal_2015,table_a1 :: Muslim Teachers: Combined list difference,table_a1,Muslim Teachers: Combined list difference,pipeline,0.06442546833594173,0.064,1,0.06442546833594208,1,,,,3,0.064,0.064,FALSE
+aronow_etal_2015,table_a1 :: Muslim Teachers: Combined list SE,table_a1,Muslim Teachers: Combined list SE,pipeline,0.10482466614329862,0.105,1,0.10482466614329862,1,,,,3,0.105,0.105,FALSE
+aronow_etal_2015,table_a1 :: CNN: Direct difference,table_a1,CNN: Direct difference,pipeline,-0.05210894941634242,-0.052,1,-0.05210894941634236,1,,,,3,-0.052,-0.052,FALSE
+aronow_etal_2015,table_a1 :: CNN: Direct SE,table_a1,CNN: Direct SE,pipeline,0.03133715616263952,0.031,1,0.03133715616263952,1,,,,3,0.031,0.031,FALSE
+aronow_etal_2015,table_a1 :: CNN: Conventional list difference,table_a1,CNN: Conventional list difference,pipeline,-0.30725212779852695,-0.307,1,-0.3072521277985272,1,,,,3,-0.307,-0.307,FALSE
+aronow_etal_2015,table_a1 :: CNN: Conventional list SE,table_a1,CNN: Conventional list SE,pipeline,0.14561086421158076,0.146,1,0.14561086421158076,1,,,,3,0.146,0.146,FALSE
+aronow_etal_2015,table_a1 :: CNN: Combined list difference,table_a1,CNN: Combined list difference,pipeline,-0.05412612314105569,-0.054,1,-0.05412612314105569,1,,,,3,-0.054,-0.054,FALSE
+aronow_etal_2015,table_a1 :: CNN: Combined list SE,table_a1,CNN: Combined list SE,pipeline,0.09497645951887387,0.095,1,0.09497645951887387,1,,,,3,0.095,0.095,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: Direct,table_a2,Nuclear Power: Direct,pipeline,0.6462450592885376,0.646,1,0.6462450592885378,1,,,,3,0.646,0.646,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: Direct SE,table_a2,Nuclear Power: Direct SE,pipeline,0.02127669587585087,0.021,1,0.02127669587585087,1,,,,3,0.021,0.021,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: Standard list,table_a2,Nuclear Power: Standard list,pipeline,0.57459375,0.575,1,0.57459375,1,,,,3,0.575,0.575,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: Standard list SE,table_a2,Nuclear Power: Standard list SE,pipeline,0.086150026435123,0.086,1,0.086150026435123,1,,,,3,0.086,0.086,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: Combined,table_a2,Nuclear Power: Combined,pipeline,0.6471809189200493,0.647,1,0.6471809189200495,1,,,,3,0.647,0.647,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: Combined SE,table_a2,Nuclear Power: Combined SE,pipeline,0.04907050676614143,0.049,1,0.04907050676614141,1,,,,3,0.049,0.049,FALSE
+aronow_etal_2015,table_a2 :: Nuclear Power: % reduction in sampling variance,table_a2,Nuclear Power: % reduction in sampling variance,pipeline,67.55630902585379,67.556,1,67.55630902585382,1,,,,3,67.556,67.556,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: Direct,table_a2,Public Transportation: Direct,pipeline,0.5553359683794467,0.555,1,0.5553359683794467,1,,,,3,0.555,0.555,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: Direct SE,table_a2,Public Transportation: Direct SE,pipeline,0.02211302786130988,0.022,1,0.02211302786130988,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: Standard list,table_a2,Public Transportation: Standard list,pipeline,0.6345312500000002,0.635,1,0.6345312500000002,1,,,,3,0.635,0.635,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: Standard list SE,table_a2,Public Transportation: Standard list SE,pipeline,0.0727609773518217,0.073,1,0.0727609773518217,1,,,,3,0.073,0.073,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: Combined,table_a2,Public Transportation: Combined,pipeline,0.653243645066541,0.653,1,0.6532436450665408,1,,,,3,0.653,0.653,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: Combined SE,table_a2,Public Transportation: Combined SE,pipeline,0.04789121041596932,0.048,1,0.04789121041596932,1,,,,3,0.048,0.048,FALSE
+aronow_etal_2015,table_a2 :: Public Transportation: % reduction in sampling variance,table_a2,Public Transportation: % reduction in sampling variance,pipeline,56.677393376137175,56.677,1,56.677393376137175,1,,,,3,56.677,56.677,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: Direct,table_a2,Spanish-speaking: Direct,pipeline,0.06126482213438735,0.061,1,0.06126482213438739,1,,,,3,0.061,0.061,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: Direct SE,table_a2,Spanish-speaking: Direct SE,pipeline,0.01067164687089528,0.011,1,0.01067164687089528,1,,,,3,0.011,0.011,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: Standard list,table_a2,Spanish-speaking: Standard list,pipeline,0.11767464399043348,0.118,1,0.11767464399043348,1,,,,3,0.118,0.118,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: Standard list SE,table_a2,Spanish-speaking: Standard list SE,pipeline,0.07794901557006517,0.078,1,0.07794901557006517,1,,,,3,0.078,0.078,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: Combined,table_a2,Spanish-speaking: Combined,pipeline,0.10370426674774524,0.104,1,0.1037042667477453,1,,,,3,0.104,0.104,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: Combined SE,table_a2,Spanish-speaking: Combined SE,pipeline,0.07308984591240483,0.073,1,0.07308984591240482,1,,,,3,0.073,0.073,FALSE
+aronow_etal_2015,table_a2 :: Spanish-speaking: % reduction in sampling variance,table_a2,Spanish-speaking: % reduction in sampling variance,pipeline,12.078958701941534,12.079,1,12.078958701941556,1,,,,3,12.079,12.079,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: Direct,table_a2,Muslim Teachers: Direct,pipeline,0.08300395256916997,0.083,1,0.08300395256917,1,,,,3,0.083,0.083,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: Direct SE,table_a2,Muslim Teachers: Direct SE,pipeline,0.01227686356784557,0.012,1,0.01227686356784557,1,,,,3,0.012,0.012,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: Standard list,table_a2,Muslim Teachers: Standard list,pipeline,0.03374060150375957,0.034,1,0.03374060150375957,1,,,,3,0.034,0.034,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: Standard list SE,table_a2,Muslim Teachers: Standard list SE,pipeline,0.07830743386480103,0.078,1,0.07830743386480103,1,,,,3,0.078,0.078,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: Combined,table_a2,Muslim Teachers: Combined,pipeline,0.03615862285138226,0.036,1,0.03615862285138208,1,,,,3,0.036,0.036,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: Combined SE,table_a2,Muslim Teachers: Combined SE,pipeline,0.07233547990952506,0.072,1,0.07233547990952506,1,,,,3,0.072,0.072,FALSE
+aronow_etal_2015,table_a2 :: Muslim Teachers: % reduction in sampling variance,table_a2,Muslim Teachers: % reduction in sampling variance,pipeline,14.67098162586996,14.671,1,14.670981625869985,1,,,,3,14.671,14.671,FALSE
+aronow_etal_2015,table_a2 :: CNN: Direct,table_a2,CNN: Direct,pipeline,0.4071146245059288,0.407,1,0.40711462450592895,1,,,,3,0.407,0.407,FALSE
+aronow_etal_2015,table_a2 :: CNN: Direct SE,table_a2,CNN: Direct SE,pipeline,0.0218624098487496,0.022,1,0.0218624098487496,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_a2 :: CNN: Standard list,table_a2,CNN: Standard list,pipeline,0.2556390977443608,0.256,1,0.255639097744361,1,,,,3,0.256,0.256,FALSE
+aronow_etal_2015,table_a2 :: CNN: Standard list SE,table_a2,CNN: Standard list SE,pipeline,0.09956686053843972,0.100,1,0.09956686053843972,1,,,,3,0.100,0.100,FALSE
+aronow_etal_2015,table_a2 :: CNN: Combined,table_a2,CNN: Combined,pipeline,0.2984990644707201,0.298,1,0.2984990644707202,1,,,,3,0.298,0.298,FALSE
+aronow_etal_2015,table_a2 :: CNN: Combined SE,table_a2,CNN: Combined SE,pipeline,0.07360553060260641,0.074,1,0.0736055306026064,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_a2 :: CNN: % reduction in sampling variance,table_a2,CNN: % reduction in sampling variance,pipeline,45.34986130423183,45.350,1,45.34986130423183,1,,,,3,45.350,45.350,FALSE
+aronow_etal_2015,table_a3 :: Nuclear Power: beta,table_a3,Nuclear Power: beta,pipeline,0.9375327690809678,0.938,1,0.9375327690809678,1,,,,3,0.938,0.938,FALSE
+aronow_etal_2015,table_a3 :: Nuclear Power: SE,table_a3,Nuclear Power: SE,pipeline,0.10435652992669728,0.104,1,0.10435652992669728,1,,,,3,0.104,0.104,FALSE
+aronow_etal_2015,table_a3 :: Nuclear Power: p-value,table_a3,Nuclear Power: p-value,pipeline,0.5494434136809274,0.549,1,0.5494434136809274,1,,,,3,0.549,0.549,FALSE
+aronow_etal_2015,table_a3 :: Nuclear Power: n,table_a3,Nuclear Power: n,pipeline,327,327,1,327,1,,,,0,327,327,FALSE
+aronow_etal_2015,table_a3 :: Public Transportation: beta,table_a3,Public Transportation: beta,pipeline,0.9489868287740628,0.949,1,0.9489868287740628,1,,,,3,0.949,0.949,FALSE
+aronow_etal_2015,table_a3 :: Public Transportation: SE,table_a3,Public Transportation: SE,pipeline,0.08891058610221694,0.089,1,0.08891058610221694,1,,,,3,0.089,0.089,FALSE
+aronow_etal_2015,table_a3 :: Public Transportation: p-value,table_a3,Public Transportation: p-value,pipeline,0.5661314887105505,0.566,1,0.5661314887105505,1,,,,3,0.566,0.566,FALSE
+aronow_etal_2015,table_a3 :: Public Transportation: n,table_a3,Public Transportation: n,pipeline,281,281,1,281,1,,,,0,281,281,FALSE
+aronow_etal_2015,table_a3 :: Spanish-speaking: beta,table_a3,Spanish-speaking: beta,pipeline,0.8157894736842106,0.816,1,0.8157894736842106,1,,,,3,0.816,0.816,FALSE
+aronow_etal_2015,table_a3 :: Spanish-speaking: SE,table_a3,Spanish-speaking: SE,pipeline,0.31091173514989545,0.311,1,0.31091173514989545,1,,,,3,0.311,0.311,FALSE
+aronow_etal_2015,table_a3 :: Spanish-speaking: p-value,table_a3,Spanish-speaking: p-value,pipeline,0.553525890504579,0.554,1,0.553525890504579,1,,,,3,0.554,0.554,FALSE
+aronow_etal_2015,table_a3 :: Spanish-speaking: n,table_a3,Spanish-speaking: n,pipeline,31,31,1,31,1,,,,0,31,31,FALSE
+aronow_etal_2015,table_a3 :: Muslim Teachers: beta,table_a3,Muslim Teachers: beta,pipeline,1.0476190476190477,1.048,1,1.0476190476190477,1,,,,3,1.048,1.048,FALSE
+aronow_etal_2015,table_a3 :: Muslim Teachers: SE,table_a3,Muslim Teachers: SE,pipeline,0.29661736195042737,0.297,1,0.29661736195042737,1,,,,3,0.297,0.297,FALSE
+aronow_etal_2015,table_a3 :: Muslim Teachers: p-value,table_a3,Muslim Teachers: p-value,pipeline,0.8724554589743724,0.872,1,0.8724554589743724,1,,,,3,0.872,0.872,FALSE
+aronow_etal_2015,table_a3 :: Muslim Teachers: n,table_a3,Muslim Teachers: n,pipeline,42,42,1,42,1,,,,0,42,42,FALSE
+aronow_etal_2015,table_a3 :: CNN: beta,table_a3,CNN: beta,pipeline,0.7109848484848487,0.711,1,0.710984848484848,1,,,,3,0.711,0.711,FALSE
+aronow_etal_2015,table_a3 :: CNN: SE,table_a3,CNN: SE,pipeline,0.13263672247568542,0.133,1,0.13263672247568542,1,,,,3,0.133,0.133,FALSE
+aronow_etal_2015,table_a3 :: CNN: p-value,table_a3,CNN: p-value,pipeline,0.02933181762366333,0.029,1,0.02933181762366295,1,,,,3,0.029,0.029,FALSE
+aronow_etal_2015,table_a3 :: CNN: n,table_a3,CNN: n,pipeline,206,206,1,206,1,,,,0,206,206,FALSE
+aronow_etal_2015,table_a4 :: Nuclear Power: beta,table_a4,Nuclear Power: beta,pipeline,-0.05881250000000004,-0.059,1,-0.05881250000000004,1,,,,3,-0.059,-0.059,FALSE
+aronow_etal_2015,table_a4 :: Nuclear Power: SE,table_a4,Nuclear Power: SE,pipeline,0.04249884780863732,0.042,1,0.04249884780863732,1,,,,3,0.042,0.042,FALSE
+aronow_etal_2015,table_a4 :: Nuclear Power: p-value,table_a4,Nuclear Power: p-value,pipeline,0.1664010063083682,0.166,1,0.1664010063083682,1,,,,3,0.166,0.166,FALSE
+aronow_etal_2015,table_a4 :: Nuclear Power: n,table_a4,Nuclear Power: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a4 :: Public Transportation: beta,table_a4,Public Transportation: beta,pipeline,0.01712499999999994,0.017,1,0.01712499999999994,1,,,,3,0.017,0.017,FALSE
+aronow_etal_2015,table_a4 :: Public Transportation: SE,table_a4,Public Transportation: SE,pipeline,0.04426445180934476,0.044,1,0.04426445180934476,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_a4 :: Public Transportation: p-value,table_a4,Public Transportation: p-value,pipeline,0.6988455685756572,0.699,1,0.6988455685756572,1,,,,3,0.699,0.699,FALSE
+aronow_etal_2015,table_a4 :: Public Transportation: n,table_a4,Public Transportation: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a4 :: Spanish-speaking: beta,table_a4,Spanish-speaking: beta,pipeline,0.03059103059103059,0.031,1,0.03059103059103059,1,,,,3,0.031,0.031,FALSE
+aronow_etal_2015,table_a4 :: Spanish-speaking: SE,table_a4,Spanish-speaking: SE,pipeline,0.02144535224131771,0.021,1,0.02144535224131771,1,,,,3,0.021,0.021,FALSE
+aronow_etal_2015,table_a4 :: Spanish-speaking: p-value,table_a4,Spanish-speaking: p-value,pipeline,0.1537343483621686,0.154,1,0.1537343483621686,1,,,,3,0.154,0.154,FALSE
+aronow_etal_2015,table_a4 :: Spanish-speaking: n,table_a4,Spanish-speaking: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a4 :: Muslim Teachers: beta,table_a4,Muslim Teachers: beta,pipeline,-0.00855263157894736,-0.009,1,-0.00855263157894736,1,,,,3,-0.009,-0.009,FALSE
+aronow_etal_2015,table_a4 :: Muslim Teachers: SE,table_a4,Muslim Teachers: SE,pipeline,0.02466717032993423,0.025,1,0.02466717032993423,1,,,,3,0.025,0.025,FALSE
+aronow_etal_2015,table_a4 :: Muslim Teachers: p-value,table_a4,Muslim Teachers: p-value,pipeline,0.7288007610272695,0.729,1,0.7288007610272695,1,,,,3,0.729,0.729,FALSE
+aronow_etal_2015,table_a4 :: Muslim Teachers: n,table_a4,Muslim Teachers: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a4 :: CNN: beta,table_a4,CNN: beta,pipeline,0.07468775889828522,0.075,1,0.07468775889828522,1,,,,3,0.075,0.075,FALSE
+aronow_etal_2015,table_a4 :: CNN: SE,table_a4,CNN: SE,pipeline,0.04368369230433541,0.044,1,0.04368369230433541,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_a4 :: CNN: p-value,table_a4,CNN: p-value,pipeline,0.08731395055269249,0.087,1,0.08731395055269249,1,,,,3,0.087,0.087,FALSE
+aronow_etal_2015,table_a4 :: CNN: n,table_a4,CNN: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: Direct,table_a5,Nuclear Power: Direct,pipeline,0.5909090909090909,0.591,1,0.5909090909090909,1,,,,3,0.591,0.591,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: Direct SE,table_a5,Nuclear Power: Direct SE,pipeline,0.02187885353622464,0.022,1,0.02187885353622464,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: Standard list,table_a5,Nuclear Power: Standard list,pipeline,0.36436232678305824,0.364,1,0.36436232678305824,1,,,,3,0.364,0.364,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: Standard list SE,table_a5,Nuclear Power: Standard list SE,pipeline,0.08727081595407517,0.087,1,0.08727081595407517,1,,,,3,0.087,0.087,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: Combined,table_a5,Nuclear Power: Combined,pipeline,0.5206611570247934,0.521,1,0.5206611570247932,1,,,,3,0.521,0.521,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: Combined SE,table_a5,Nuclear Power: Combined SE,pipeline,0.05446342587784363,0.054,1,0.05446342587784365,1,,,,3,0.054,0.054,FALSE
+aronow_etal_2015,table_a5 :: Nuclear Power: % reduction in sampling variance,table_a5,Nuclear Power: % reduction in sampling variance,pipeline,61.05319474124512,61.053,1,61.05319474124511,1,,,,3,61.053,61.053,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: Direct,table_a5,Public Transportation: Direct,pipeline,0.5197628458498024,0.520,1,0.5197628458498024,1,,,,3,0.520,0.520,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: Direct SE,table_a5,Public Transportation: Direct SE,pipeline,0.02223232104075603,0.022,1,0.02223232104075603,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: Standard list,table_a5,Public Transportation: Standard list,pipeline,0.6022812971342382,0.602,1,0.6022812971342386,1,,,,3,0.602,0.602,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: Standard list SE,table_a5,Public Transportation: Standard list SE,pipeline,0.07286213495330925,0.073,1,0.07286213495330925,1,,,,3,0.073,0.073,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: Combined,table_a5,Public Transportation: Combined,pipeline,0.6721265754085509,0.672,1,0.672126575408551,1,,,,3,0.672,0.672,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: Combined SE,table_a5,Public Transportation: Combined SE,pipeline,0.04888266823853893,0.049,1,0.04888266823853893,1,,,,3,0.049,0.049,FALSE
+aronow_etal_2015,table_a5 :: Public Transportation: % reduction in sampling variance,table_a5,Public Transportation: % reduction in sampling variance,pipeline,54.99030994104499,54.990,1,54.990309941045,1,,,,3,54.990,54.990,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: Direct,table_a5,Spanish-speaking: Direct,pipeline,0.09881422924901186,0.099,1,0.09881422924901188,1,,,,3,0.099,0.099,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: Direct SE,table_a5,Spanish-speaking: Direct SE,pipeline,0.01327917877000734,0.013,1,0.01327917877000734,1,,,,3,0.013,0.013,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: Standard list,table_a5,Spanish-speaking: Standard list,pipeline,0.02452759354273581,0.025,1,0.02452759354273537,1,,,,3,0.025,0.025,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: Standard list SE,table_a5,Spanish-speaking: Standard list SE,pipeline,0.07860225455074264,0.079,1,0.07860225455074264,1,,,,3,0.079,0.079,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: Combined,table_a5,Spanish-speaking: Combined,pipeline,0.09409307112797444,0.094,1,0.09409307112797448,1,,,,3,0.094,0.094,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: Combined SE,table_a5,Spanish-speaking: Combined SE,pipeline,0.07381001482508834,0.074,1,0.07381001482508834,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_a5 :: Spanish-speaking: % reduction in sampling variance,table_a5,Spanish-speaking: % reduction in sampling variance,pipeline,11.821932039606876,11.822,1,11.821932039606876,1,,,,3,11.822,11.822,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: Direct,table_a5,Muslim Teachers: Direct,pipeline,0.10276679841897234,0.103,1,0.10276679841897228,1,,,,3,0.103,0.103,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: Direct SE,table_a5,Muslim Teachers: Direct SE,pipeline,0.01351242798401319,0.014,1,0.01351242798401319,1,,,,3,0.014,0.014,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: Standard list,table_a5,Muslim Teachers: Standard list,pipeline,0.19522394629690765,0.195,1,0.19522394629690745,1,,,,3,0.195,0.195,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: Standard list SE,table_a5,Muslim Teachers: Standard list SE,pipeline,0.08213321816448688,0.082,1,0.08213321816448688,1,,,,3,0.082,0.082,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: Combined,table_a5,Muslim Teachers: Combined,pipeline,0.16432929457106635,0.164,1,0.16432929457106646,1,,,,3,0.164,0.164,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: Combined SE,table_a5,Muslim Teachers: Combined SE,pipeline,0.07411128213393832,0.074,1,0.07411128213393832,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_a5 :: Muslim Teachers: % reduction in sampling variance,table_a5,Muslim Teachers: % reduction in sampling variance,pipeline,18.58002329987056,18.580,1,18.58002329987056,1,,,,3,18.580,18.580,FALSE
+aronow_etal_2015,table_a5 :: CNN: Direct,table_a5,CNN: Direct,pipeline,0.4565217391304347,0.457,1,0.4565217391304348,1,,,,3,0.457,0.457,FALSE
+aronow_etal_2015,table_a5 :: CNN: Direct SE,table_a5,CNN: Direct SE,pipeline,0.02216542847474029,0.022,1,0.02216542847474029,1,,,,3,0.022,0.022,FALSE
+aronow_etal_2015,table_a5 :: CNN: Standard list,table_a5,CNN: Standard list,pipeline,0.5858465773995745,0.586,1,0.5858465773995749,1,,,,3,0.586,0.586,FALSE
+aronow_etal_2015,table_a5 :: CNN: Standard list SE,table_a5,CNN: Standard list SE,pipeline,0.1065110505477123,0.107,1,0.1065110505477123,1,,,,3,0.107,0.107,FALSE
+aronow_etal_2015,table_a5 :: CNN: Combined,table_a5,CNN: Combined,pipeline,0.6044222575843129,0.604,1,0.604422257584313,1,,,,3,0.604,0.604,FALSE
+aronow_etal_2015,table_a5 :: CNN: Combined SE,table_a5,CNN: Combined SE,pipeline,0.07431348166303826,0.074,1,0.07431348166303826,1,,,,3,0.074,0.074,FALSE
+aronow_etal_2015,table_a5 :: CNN: % reduction in sampling variance,table_a5,CNN: % reduction in sampling variance,pipeline,51.32052550247379,51.321,1,51.32052550247379,1,,,,3,51.321,51.321,FALSE
+aronow_etal_2015,table_a6 :: Nuclear Power: beta,table_a6,Nuclear Power: beta,pipeline,0.7388086480667444,0.739,1,0.7388086480667444,1,,,,3,0.739,0.739,FALSE
+aronow_etal_2015,table_a6 :: Nuclear Power: SE,table_a6,Nuclear Power: SE,pipeline,0.1101299515754412,0.110,1,0.1101299515754412,1,,,,3,0.110,0.110,FALSE
+aronow_etal_2015,table_a6 :: Nuclear Power: p-value,table_a6,Nuclear Power: p-value,pipeline,0.01770813793341259,0.018,1,0.01770813793341259,1,,,,3,0.018,0.018,FALSE
+aronow_etal_2015,table_a6 :: Nuclear Power: n,table_a6,Nuclear Power: n,pipeline,299,299,1,299,1,,,,0,299,299,FALSE
+aronow_etal_2015,table_a6 :: Public Transportation: beta,table_a6,Public Transportation: beta,pipeline,0.7953967152440438,0.795,1,0.7953967152440438,1,,,,3,0.795,0.795,FALSE
+aronow_etal_2015,table_a6 :: Public Transportation: SE,table_a6,Public Transportation: SE,pipeline,0.0965729672785022,0.097,1,0.0965729672785022,1,,,,3,0.097,0.097,FALSE
+aronow_etal_2015,table_a6 :: Public Transportation: p-value,table_a6,Public Transportation: p-value,pipeline,0.03412096092990299,0.034,1,0.03412096092990299,1,,,,3,0.034,0.034,FALSE
+aronow_etal_2015,table_a6 :: Public Transportation: n,table_a6,Public Transportation: n,pipeline,263,263,1,263,1,,,,0,263,263,FALSE
+aronow_etal_2015,table_a6 :: Spanish-speaking: beta,table_a6,Spanish-speaking: beta,pipeline,0.3012820512820511,0.301,1,0.3012820512820511,1,,,,3,0.301,0.301,FALSE
+aronow_etal_2015,table_a6 :: Spanish-speaking: SE,table_a6,Spanish-speaking: SE,pipeline,0.26186764755732356,0.262,1,0.26186764755732356,1,,,,3,0.262,0.262,FALSE
+aronow_etal_2015,table_a6 :: Spanish-speaking: p-value,table_a6,Spanish-speaking: p-value,pipeline,0.0076256515105789,0.008,1,0.0076256515105789,1,,,,3,0.008,0.008,FALSE
+aronow_etal_2015,table_a6 :: Spanish-speaking: n,table_a6,Spanish-speaking: n,pipeline,50,50,1,50,1,,,,0,50,50,FALSE
+aronow_etal_2015,table_a6 :: Muslim Teachers: beta,table_a6,Muslim Teachers: beta,pipeline,1.0047846889952152,1.005,1,1.0047846889952152,1,,,,3,1.005,1.005,FALSE
+aronow_etal_2015,table_a6 :: Muslim Teachers: SE,table_a6,Muslim Teachers: SE,pipeline,0.2965494116262284,0.297,1,0.2965494116262284,1,,,,3,0.297,0.297,FALSE
+aronow_etal_2015,table_a6 :: Muslim Teachers: p-value,table_a6,Muslim Teachers: p-value,pipeline,0.9871270564097734,0.987,1,0.9871270564097734,1,,,,3,0.987,0.987,FALSE
+aronow_etal_2015,table_a6 :: Muslim Teachers: n,table_a6,Muslim Teachers: n,pipeline,52,52,1,52,1,,,,0,52,52,FALSE
+aronow_etal_2015,table_a6 :: CNN: beta,table_a6,CNN: beta,pipeline,0.7585817524841916,0.759,1,0.7585817524841911,1,,,,3,0.759,0.759,FALSE
+aronow_etal_2015,table_a6 :: CNN: SE,table_a6,CNN: SE,pipeline,0.14101540724324443,0.141,1,0.14101540724324443,1,,,,3,0.141,0.141,FALSE
+aronow_etal_2015,table_a6 :: CNN: p-value,table_a6,CNN: p-value,pipeline,0.08689683793954647,0.087,1,0.0868968379395459,1,,,,3,0.087,0.087,FALSE
+aronow_etal_2015,table_a6 :: CNN: n,table_a6,CNN: n,pipeline,231,231,1,231,1,,,,0,231,231,FALSE
+aronow_etal_2015,table_a7 :: Nuclear Power: beta,table_a7,Nuclear Power: beta,pipeline,-0.00324121193141779,-0.003,1,-0.00324121193141779,1,,,,3,-0.003,-0.003,FALSE
+aronow_etal_2015,table_a7 :: Nuclear Power: SE,table_a7,Nuclear Power: SE,pipeline,0.04385314205920956,0.044,1,0.04385314205920956,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_a7 :: Nuclear Power: p-value,table_a7,Nuclear Power: p-value,pipeline,0.941081523337404,0.941,1,0.941081523337404,1,,,,3,0.941,0.941,FALSE
+aronow_etal_2015,table_a7 :: Nuclear Power: n,table_a7,Nuclear Power: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a7 :: Public Transportation: beta,table_a7,Public Transportation: beta,pipeline,0.07453494218200102,0.075,1,0.07453494218200102,1,,,,3,0.075,0.075,FALSE
+aronow_etal_2015,table_a7 :: Public Transportation: SE,table_a7,Public Transportation: SE,pipeline,0.04448943524918471,0.044,1,0.04448943524918471,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_a7 :: Public Transportation: p-value,table_a7,Public Transportation: p-value,pipeline,0.09386748982028816,0.094,1,0.09386748982028816,1,,,,3,0.094,0.094,FALSE
+aronow_etal_2015,table_a7 :: Public Transportation: n,table_a7,Public Transportation: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a7 :: Spanish-speaking: beta,table_a7,Spanish-speaking: beta,pipeline,-8.759854836691283e-4,-0.001,1,-8.759854836691283e-4,1,,,,3,-0.001,-0.001,FALSE
+aronow_etal_2015,table_a7 :: Spanish-speaking: SE,table_a7,Spanish-speaking: SE,pipeline,0.0265978918208384,0.027,1,0.0265978918208384,1,,,,3,0.027,0.027,FALSE
+aronow_etal_2015,table_a7 :: Spanish-speaking: p-value,table_a7,Spanish-speaking: p-value,pipeline,0.973726904173459,0.974,1,0.973726904173459,1,,,,3,0.974,0.974,FALSE
+aronow_etal_2015,table_a7 :: Spanish-speaking: n,table_a7,Spanish-speaking: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a7 :: Muslim Teachers: beta,table_a7,Muslim Teachers: beta,pipeline,0.03933405650143848,0.039,1,0.03933405650143848,1,,,,3,0.039,0.039,FALSE
+aronow_etal_2015,table_a7 :: Muslim Teachers: SE,table_a7,Muslim Teachers: SE,pipeline,0.02671168486014183,0.027,1,0.02671168486014183,1,,,,3,0.027,0.027,FALSE
+aronow_etal_2015,table_a7 :: Muslim Teachers: p-value,table_a7,Muslim Teachers: p-value,pipeline,0.14087478962833583,0.141,1,0.14087478962833583,1,,,,3,0.141,0.141,FALSE
+aronow_etal_2015,table_a7 :: Muslim Teachers: n,table_a7,Muslim Teachers: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a7 :: CNN: beta,table_a7,CNN: beta,pipeline,0.09188462019772237,0.092,1,0.09188462019772237,1,,,,3,0.092,0.092,FALSE
+aronow_etal_2015,table_a7 :: CNN: SE,table_a7,CNN: SE,pipeline,0.04423873107606164,0.044,1,0.04423873107606164,1,,,,3,0.044,0.044,FALSE
+aronow_etal_2015,table_a7 :: CNN: p-value,table_a7,CNN: p-value,pipeline,0.03779994078653444,0.038,1,0.03779994078653444,1,,,,3,0.038,0.038,FALSE
+aronow_etal_2015,table_a7 :: CNN: n,table_a7,CNN: n,pipeline,506,506,1,506,1,,,,0,506,506,FALSE
+aronow_etal_2015,table_a8 :: Nuclear Power: Direct difference,table_a8,Nuclear Power: Direct difference,pipeline,0.05533596837944665,0.055,1,0.05533596837944687,1,,,,3,0.055,0.055,FALSE
+aronow_etal_2015,table_a8 :: Nuclear Power: Direct SE,table_a8,Nuclear Power: Direct SE,pipeline,0.03051855205367743,0.031,1,0.03051855205367743,1,,,,3,0.031,0.031,FALSE
+aronow_etal_2015,table_a8 :: Nuclear Power: Conventional list difference,table_a8,Nuclear Power: Conventional list difference,pipeline,0.21023142321694177,0.210,1,0.21023142321694177,1,,,,3,0.210,0.210,FALSE
+aronow_etal_2015,table_a8 :: Nuclear Power: Conventional list SE,table_a8,Nuclear Power: Conventional list SE,pipeline,0.1226296145800942,0.123,1,0.1226296145800942,1,,,,3,0.123,0.123,FALSE
+aronow_etal_2015,table_a8 :: Nuclear Power: Combined list difference,table_a8,Nuclear Power: Combined list difference,pipeline,0.12651976189525582,0.127,1,0.12651976189525627,1,,,,3,0.127,0.127,FALSE
+aronow_etal_2015,table_a8 :: Nuclear Power: Combined list SE,table_a8,Nuclear Power: Combined list SE,pipeline,0.07330879478369086,0.073,1,0.07330879478369086,1,,,,3,0.073,0.073,FALSE
+aronow_etal_2015,table_a8 :: Public Transportation: Direct difference,table_a8,Public Transportation: Direct difference,pipeline,0.03557312252964428,0.036,1,0.03557312252964428,1,,,,3,0.036,0.036,FALSE
+aronow_etal_2015,table_a8 :: Public Transportation: Direct SE,table_a8,Public Transportation: Direct SE,pipeline,0.0313570103813216,0.031,1,0.0313570103813216,1,,,,3,0.031,0.031,FALSE
+aronow_etal_2015,table_a8 :: Public Transportation: Conventional list difference,table_a8,Public Transportation: Conventional list difference,pipeline,0.03224995286576204,0.032,1,0.0322499528657616,1,,,,3,0.032,0.032,FALSE
+aronow_etal_2015,table_a8 :: Public Transportation: Conventional list SE,table_a8,Public Transportation: Conventional list SE,pipeline,0.10297111505245808,0.103,1,0.10297111505245808,1,,,,3,0.103,0.103,FALSE
+aronow_etal_2015,table_a8 :: Public Transportation: Combined list difference,table_a8,Public Transportation: Combined list difference,pipeline,-0.01888293034200994,-0.019,1,-0.01888293034201027,1,,,,3,-0.019,-0.019,FALSE
+aronow_etal_2015,table_a8 :: Public Transportation: Combined list SE,table_a8,Public Transportation: Combined list SE,pipeline,0.06843305699167407,0.068,1,0.06843305699167408,1,,,,3,0.068,0.068,FALSE
+aronow_etal_2015,table_a8 :: Spanish-speaking: Direct difference,table_a8,Spanish-speaking: Direct difference,pipeline,-0.0375494071146245,-0.038,1,-0.03754940711462449,1,,,,3,-0.038,-0.038,FALSE
+aronow_etal_2015,table_a8 :: Spanish-speaking: Direct SE,table_a8,Spanish-speaking: Direct SE,pipeline,0.01703586322271057,0.017,1,0.01703586322271057,1,,,,3,0.017,0.017,FALSE
+aronow_etal_2015,table_a8 :: Spanish-speaking: Conventional list difference,table_a8,Spanish-speaking: Conventional list difference,pipeline,0.09314705044769768,0.093,1,0.09314705044769812,1,,,,3,0.093,0.093,FALSE
+aronow_etal_2015,table_a8 :: Spanish-speaking: Conventional list SE,table_a8,Spanish-speaking: Conventional list SE,pipeline,0.11069942840323072,0.111,1,0.11069942840323072,1,,,,3,0.111,0.111,FALSE
+aronow_etal_2015,table_a8 :: Spanish-speaking: Combined list difference,table_a8,Spanish-speaking: Combined list difference,pipeline,0.00961119561977079,0.010,1,0.00961119561977082,1,,,,3,0.010,0.010,FALSE
+aronow_etal_2015,table_a8 :: Spanish-speaking: Combined list SE,table_a8,Spanish-speaking: Combined list SE,pipeline,0.10387513592760704,0.104,1,0.10387513592760704,1,,,,3,0.104,0.104,FALSE
+aronow_etal_2015,table_a8 :: Muslim Teachers: Direct difference,table_a8,Muslim Teachers: Direct difference,pipeline,-0.01976284584980237,-0.020,1,-0.01976284584980227,1,,,,3,-0.020,-0.020,FALSE
+aronow_etal_2015,table_a8 :: Muslim Teachers: Direct SE,table_a8,Muslim Teachers: Direct SE,pipeline,0.0182566998410621,0.018,1,0.0182566998410621,1,,,,3,0.018,0.018,FALSE
+aronow_etal_2015,table_a8 :: Muslim Teachers: Conventional list difference,table_a8,Muslim Teachers: Conventional list difference,pipeline,-0.16148334479314808,-0.161,1,-0.16148334479314785,1,,,,3,-0.161,-0.161,FALSE
+aronow_etal_2015,table_a8 :: Muslim Teachers: Conventional list SE,table_a8,Muslim Teachers: Conventional list SE,pipeline,0.11348092229333256,0.113,1,0.11348092229333256,1,,,,3,0.113,0.113,FALSE
+aronow_etal_2015,table_a8 :: Muslim Teachers: Combined list difference,table_a8,Muslim Teachers: Combined list difference,pipeline,-0.1281706717196841,-0.128,1,-0.12817067171968438,1,,,,3,-0.128,-0.128,FALSE
+aronow_etal_2015,table_a8 :: Muslim Teachers: Combined list SE,table_a8,Muslim Teachers: Combined list SE,pipeline,0.10356111139456504,0.104,1,0.10356111139456504,1,,,,3,0.104,0.104,FALSE
+aronow_etal_2015,table_a8 :: CNN: Direct difference,table_a8,CNN: Direct difference,pipeline,-0.04940711462450592,-0.049,1,-0.04940711462450586,1,,,,3,-0.049,-0.049,FALSE
+aronow_etal_2015,table_a8 :: CNN: Direct SE,table_a8,CNN: Direct SE,pipeline,0.03113312036824339,0.031,1,0.03113312036824339,1,,,,3,0.031,0.031,FALSE
+aronow_etal_2015,table_a8 :: CNN: Conventional list difference,table_a8,CNN: Conventional list difference,pipeline,-0.3302074796552137,-0.330,1,-0.3302074796552139,1,,,,3,-0.330,-0.330,FALSE
+aronow_etal_2015,table_a8 :: CNN: Conventional list SE,table_a8,CNN: Conventional list SE,pipeline,0.1458017956208305,0.146,1,0.1458017956208305,1,,,,3,0.146,0.146,FALSE
+aronow_etal_2015,table_a8 :: CNN: Combined list difference,table_a8,CNN: Combined list difference,pipeline,-0.3059231931135928,-0.306,1,-0.3059231931135928,1,,,,3,-0.306,-0.306,FALSE
+aronow_etal_2015,table_a8 :: CNN: Combined list SE,table_a8,CNN: Combined list SE,pipeline,0.10459573457925496,0.105,1,0.10459573457925496,1,,,,3,0.105,0.105,FALSE
+aronow_etal_2015,"text, p. 50 :: Admitters in the low power example","text, p. 50",Admitters in the low power example,definitional,,200,,,,,,,0,,,
+aronow_etal_2015,"text, p. 50 :: Power at 200 admitters and 20 percent false confessors (%)","text, p. 50",Power at 200 admitters and 20 percent false confessors (%),pipeline,,30,,30.7,0,archive,,"The rewrite prints 31 where the page prints 30. The article hedges this as approximate. A grid cell is 1,000 simulated experiments and the deposit sets no seed",0,,31,FALSE
+aronow_etal_2015,"text, p. 51 :: Power at 800 admitters and 20 percent false confessors (%)","text, p. 51",Power at 800 admitters and 20 percent false confessors (%),pipeline,,80,,80.60000000000001,0,archive,,The rewrite prints 81 where the page prints 80.,0,,81,FALSE
+aronow_etal_2015,"text, p. 52 :: List experiments conducted","text, p. 52",List experiments conducted,structural,,5,,,,,,,0,,,
+aronow_etal_2015,"text, p. 52 :: List experiments on topics that are not socially sensitive","text, p. 52",List experiments on topics that are not socially sensitive,structural,,3,,,,,,,0,,,
+aronow_etal_2015,"text, p. 52 :: List experiments on racial and religious prejudice","text, p. 52",List experiments on racial and religious prejudice,structural,,2,,,,,,,0,,,
+aronow_etal_2015,"text, p. 52 :: Subjects recruited for the main experiment","text, p. 52",Subjects recruited for the main experiment,pipeline,,1023,,1023,1,,,,0,,1023,FALSE
+aronow_etal_2015,"text, p. 52 :: Payment per subject (dollars)","text, p. 52",Payment per subject (dollars),definitional,,1.00,,,,,,,2,,,
+aronow_etal_2015,"text, p. 52 :: Equivalent hourly rate (dollars)","text, p. 52",Equivalent hourly rate (dollars),definitional,,15.45,,,,,,,2,,,
+aronow_etal_2015,"text, p. 52 :: Subjects who failed the attention question","text, p. 52",Subjects who failed the attention question,structural,,2,,,,,,,0,,,
+aronow_etal_2015,"text, p. 52 :: Subjects who left a question blank","text, p. 52",Subjects who left a question blank,structural,,7,,,,,,,0,,,
+aronow_etal_2015,"text, p. 52 :: Subjects excluded from the main experiment","text, p. 52",Subjects excluded from the main experiment,pipeline,,9,,9,1,,,The article gives this as two failed attention checks plus seven incomplete responses; the deposited data cannot separate the two,0,,9,FALSE
+aronow_etal_2015,"text, p. 52 :: Complete cases in the main experiment","text, p. 52",Complete cases in the main experiment,pipeline,,1014,,1014,1,,,,0,,1014,FALSE
+aronow_etal_2015,"text, p. 53 :: Bernoulli assignment probability","text, p. 53",Bernoulli assignment probability,definitional,,0.5,,,,,,,1,,,
+aronow_etal_2015,"text, p. 53 :: Every off-diagonal crossing holds about a quarter of the subjects","text, p. 53",Every off-diagonal crossing holds about a quarter of the subjects,descriptive,,,,,,,"60 crossings outside the diagonal blocks, holding 219 to 278 subjects, which is 21.6 to 27.4 percent of the 1014 complete cases against a quarter at 25.0",,,,,
+aronow_etal_2015,"text, p. 53 :: The subject pool is disproportionately white, male, liberal, educated and young","text, p. 53","The subject pool is disproportionately white, male, liberal, educated and young",descriptive,,,,,,,"In the Study A treatment group: white 79.2, male 53.9, liberal 50.6, some college or more 88.6, under 35 65.3 percent","The comparison the sentence makes is against the general population, which the deposit does not carry",,,,
+aronow_etal_2015,table_3 note :: Study A sample size,table_3 note,Study A sample size,pipeline,500,500,1,500,1,,,,0,500,500,FALSE
+aronow_etal_2015,"text, p. 54 :: Direct question estimate for Muslim teachers (%)","text, p. 54",Direct question estimate for Muslim teachers (%),pipeline,11,11,1,11,1,,,,0,11,11,FALSE
+aronow_etal_2015,"text, p. 54 :: Standard list estimate for Muslim teachers (%)","text, p. 54",Standard list estimate for Muslim teachers (%),pipeline,16.61462586667948,17,1,16.6146258666795,1,,,,0,17,17,FALSE
+aronow_etal_2015,"text, p. 54 :: Combined estimate for Muslim teachers (%)","text, p. 54",Combined estimate for Muslim teachers (%),pipeline,18.731313131313122,19,1,18.731313131313165,1,,,,0,19,19,FALSE
+aronow_etal_2015,"text, p. 54 :: Smallest reduction in sampling variance, Study A (%)","text, p. 54","Smallest reduction in sampling variance, Study A (%)",pipeline,13.971977720514428,14,1,13.971977720514406,1,,,The article gives the range as 14 to 67 percent,0,14,14,FALSE
+aronow_etal_2015,"text, p. 54 :: Largest reduction in sampling variance, Study A (%)","text, p. 54","Largest reduction in sampling variance, Study A (%)",pipeline,67.11760269143052,67,1,67.11760269143052,1,,,,0,67,67,FALSE
+aronow_etal_2015,"text, p. 54 :: Reductions are larger where more subjects answer Yes","text, p. 54",Reductions are larger where more subjects answer Yes,descriptive,,,,,,,"Across the five items the direct question estimate and the variance reduction correlate at 0.988; the reductions in ascending order of the direct estimate are 14, 15.3, 54.9, 54, 67.1",,,,,
+aronow_etal_2015,"text, p. 54 :: Confidence interval width for the plotted estimates","text, p. 54",Confidence interval width for the plotted estimates,definitional,,95,,,,,,,0,,,
+aronow_etal_2015,"text, p. 54 :: The combined interval is always tighter than the standard list interval","text, p. 54",The combined interval is always tighter than the standard list interval,descriptive,,,,,,,"The combined standard error is smaller than the standard list standard error in 5 of 5 items; the ratios are 0.573, 0.678, 0.928, 0.92, 0.672",,,,,
+aronow_etal_2015,"text, p. 54 :: Placebo Test I rejections in Study A","text, p. 54",Placebo Test I rejections in Study A,descriptive,,,,2,,,"2 of 5 reject at 0.05: Public Transportation and CNN. p-values 0.568, 0.021, 0.585, 0.973, 0.034",,,,,
+aronow_etal_2015,"text, p. 54 :: Placebo Test I p-value quoted for Public Transportation","text, p. 54",Placebo Test I p-value quoted for Public Transportation,pipeline,0.02099123660703217,0.02,1,0.02099123660703217,1,,,,2,0.02,0.02,FALSE
+aronow_etal_2015,"text, p. 54 :: Placebo Test I p-value quoted for CNN","text, p. 54",Placebo Test I p-value quoted for CNN,pipeline,0.0335909551012123,0.03,1,0.03359095510121204,1,,,,2,0.03,0.03,FALSE
+aronow_etal_2015,"footnote 1, p. 54 :: Spanish speaking runs the other way in the main experiment","footnote 1, p. 54",Spanish speaking runs the other way in the main experiment,descriptive,,,,,,,"Study A Spanish-speaking: direct 0.102, standard list 0.035, combined 0.042",,,,,
+aronow_etal_2015,"footnote 1, p. 54 :: Spanish speaking runs the other way again in the replication","footnote 1, p. 54",Spanish speaking runs the other way again in the replication,descriptive,,,,,,,"Replication Study A Spanish-speaking: direct 0.061, standard list 0.118, combined 0.104",,,,,
+aronow_etal_2015,table_6 note :: Study B sample size,table_6 note,Study B sample size,pipeline,514,514,1,514,1,,,,0,514,514,FALSE
+aronow_etal_2015,"text, p. 56 :: No direct question estimate differs between the studies","text, p. 56",No direct question estimate differs between the studies,descriptive,,,,,,,"Study A minus Study B direct differences over their standard errors: 1.74, -0.03, -0.56, 0.35, -1.66; 0 of 5 reject at 0.05",,,,,
+aronow_etal_2015,"text, p. 56 :: Study B sampling variance reductions fall in a similar range","text, p. 56",Study B sampling variance reductions fall in a similar range,descriptive,,,,,,,Study A reductions run 14 to 67.1 percent and Study B reductions 16.4 to 66 percent,,,,,
+aronow_etal_2015,"text, p. 56 :: No Placebo Test I rejection in Study B","text, p. 56",No Placebo Test I rejection in Study B,descriptive,,,,0,,,"0 of 5 reject at 0.05; p-values 0.294, 0.339, 0.309, 0.293, 0.256",,,,,
+aronow_etal_2015,"text, p. 56 :: Fisher's method joint test of Placebo Test I in Study B","text, p. 56",Fisher's method joint test of Placebo Test I in Study B,descriptive,,,,0.27559687085453904,,,"Fisher's method over the five Study B p-values gives chi-squared 12.14 on 10 degrees of freedom, p = 0.276","The article reports this test and prints no value for it, so the statistic is reconstructed from the item level p-values it does print",,,,
+aronow_etal_2015,"text, p. 57 :: Placebo Test II rejections in Study B","text, p. 57",Placebo Test II rejections in Study B,descriptive,,,,2,,,"2 of 5 reject at 0.05: Nuclear Power and CNN. p-values 0.045, 0.434, 0.337, 0.549, 0.003",,,,,
+aronow_etal_2015,"text, p. 57 :: Effect of the treatment list on the nuclear power direct question, Study B (pp)","text, p. 57","Effect of the treatment list on the nuclear power direct question, Study B (pp)",pipeline,8.626033057851235,8.6,1,8.626033057851235,1,,,The article gives the magnitude and states the direction in words: treated subjects were less likely to declare support,1,8.6,8.6,FALSE
+aronow_etal_2015,"text, p. 57 :: Effect of the treatment list on the CNN direct question, Study B (pp)","text, p. 57","Effect of the treatment list on the CNN direct question, Study B (pp)",pipeline,13.2404603270745,13.2,1,13.2404603270745,1,,,The article gives the magnitude and states the direction in words: treated subjects were more likely to report watching CNN,1,13.2,13.2,FALSE
+aronow_etal_2015,"text, p. 57 :: Replication Study A sample size","text, p. 57",Replication Study A sample size,pipeline,,506,,506,1,,,,0,,506,FALSE
+aronow_etal_2015,"text, p. 57 :: Replication Study B sample size","text, p. 57",Replication Study B sample size,pipeline,,506,,506,1,,,,0,,506,FALSE
+aronow_etal_2015,"text, p. 58 :: No estimate differs between the original experiment and the replication","text, p. 58",No estimate differs between the original experiment and the replication,descriptive,,,,,,,"2 of 30 original against replication comparisons reject at 0.05; the smallest p-value is 0.018, and among the standard list estimates alone it is 0.151",No published table reports this comparison; it is built by differencing each estimate against its counterpart in the other experiment,,,,
+aronow_etal_2015,"text, p. 58 :: Placebo Test I rejections in the replication of Study A","text, p. 58",Placebo Test I rejections in the replication of Study A,descriptive,,,,1,,,1 of 5 reject at 0.05: CNN,,,,,
+aronow_etal_2015,"text, p. 58 :: Placebo Test I rejections in the replication of Study B","text, p. 58",Placebo Test I rejections in the replication of Study B,descriptive,,,,3,,,"3 of 5 reject at 0.05: Nuclear Power, Public Transportation and Spanish-speaking",,,,,
+aronow_etal_2015,"text, p. 58 :: The CNN treatment list effect replicates","text, p. 58",The CNN treatment list effect replicates,descriptive,,,,,,,"CNN Placebo Test II: main experiment Study B 0.132 (p = 0.003), replication Study B 0.092 (p = 0.038)",,,,,
+aronow_etal_2015,"discussion, p. 59 :: Placebo Test I rejections restated for Study A","discussion, p. 59",Placebo Test I rejections restated for Study A,descriptive,,,,2,,,"Main experiment Placebo Test I: Study A 2 of 5, Study B 0 of 5",,,,,
+aronow_etal_2015,"discussion, p. 59 :: Placebo Test I rejections restated for the replication","discussion, p. 59",Placebo Test I rejections restated for the replication,descriptive,,,,1,,,"Replication Placebo Test I: Study A 1 of 5, Study B 3 of 5",,,,,
+aronow_etal_2015,"discussion, p. 59 :: Placebo Test I rejections across all four studies","discussion, p. 59",Placebo Test I rejections across all four studies,pipeline,,6,,6,1,,,,0,,6,FALSE
+aronow_etal_2015,"discussion, p. 59 :: Placebo Test I opportunities across all four studies","discussion, p. 59",Placebo Test I opportunities across all four studies,pipeline,,20,,20,1,,,,0,,20,FALSE
+aronow_etal_2015,appendix C text :: Control list binomial success probability,appendix C text,Control list binomial success probability,definitional,,0.4,,,,,,,1,,,
+aronow_etal_2015,appendix C text :: Control list binomial trials,appendix C text,Control list binomial trials,definitional,,4,,,,,,,0,,,
+aronow_etal_2015,appendix C text :: False confessor proportion fixed in the final panel,appendix C text,False confessor proportion fixed in the final panel,definitional,,0.20,,,,,,,2,,,
+aronow_etal_2015,appendix C text :: Binomial probability that maximises variability,appendix C text,Binomial probability that maximises variability,definitional,,0.5,,,,,,,1,,,
+aronow_etal_2015,appendix C text :: Smallest number of admitters on the grid,appendix C text,Smallest number of admitters on the grid,structural,,100,,100,1,,,,0,,100,FALSE
+aronow_etal_2015,appendix C text :: Largest number of admitters on the grid,appendix C text,Largest number of admitters on the grid,structural,,1000,,1000,1,,,,0,,1000,FALSE
+aronow_etal_2015,appendix C text :: Step between admitter counts,appendix C text,Step between admitter counts,structural,,50,,50,1,,,,0,,50,FALSE
+aronow_etal_2015,appendix C text :: Step between proportions,appendix C text,Step between proportions,structural,,0.01,,0.01,1,,,,2,,0.01,FALSE
+aronow_etal_2015,appendix C text :: Simulations per grid cell,appendix C text,Simulations per grid cell,structural,,1000,,1000,1,,,,0,,1000,FALSE
+aronow_etal_2015,appendix C text :: Grid cells per panel of Figure A1,appendix C text,Grid cells per panel of Figure A1,structural,,1919,,1919,1,,,The appendix prints the sequences rather than their product,0,,1919,FALSE
+aronow_etal_2015,appendix C text :: Power target the shading marks,appendix C text,Power target the shading marks,definitional,,0.80,,,,,,,2,,,
+aronow_etal_2015,appendix C text :: Power at 800 admitters and 20 percent false confessors (%),appendix C text,Power at 800 admitters and 20 percent false confessors (%),pipeline,,80,,80.60000000000001,0,archive,,The rewrite prints 81 where the page prints 80. The appendix prints this as 80% and hedges the settings as approximate,0,,81,FALSE
+aronow_etal_2015,appendix C text :: Power at 800 admitters and 20 percent liars (%),appendix C text,Power at 800 admitters and 20 percent liars (%),pipeline,,80,,80.5,1,,,,0,,80,TRUE
+aronow_etal_2015,appendix C text :: Power at 800 admitters and 20 percent design affected (%),appendix C text,Power at 800 admitters and 20 percent design affected (%),pipeline,,80,,78.9,0,archive,,The rewrite prints 79 where the page prints 80.,0,,79,FALSE
+aronow_etal_2015,appendix E text :: Question order does not move the direct or combined estimates,appendix E text,Question order does not move the direct or combined estimates,descriptive,,,,,,,"Rejections at 0.05 out of five items: direct 0, conventional list 2, combined 0",,,,,
+aronow_etal_2015,appendix E text :: Order effect on the conventional list estimate for nuclear power (pp),appendix E text,Order effect on the conventional list estimate for nuclear power (pp),pipeline,24.922791430621814,24.9,1,24.922791430621814,1,,,,1,24.9,24.9,FALSE
+aronow_etal_2015,appendix E text :: Order effect on the conventional list estimate for CNN (pp),appendix E text,Order effect on the conventional list estimate for CNN (pp),pipeline,30.725212779852697,30.7,1,30.72521277985272,1,,,The appendix gives the magnitude and states the direction in words: lower when the direct questions are asked first,1,30.7,30.7,FALSE
+aronow_etal_2015,appendix F text :: Months between the two experiments,appendix F text,Months between the two experiments,definitional,,10,,,,,,,0,,,
+aronow_etal_2015,appendix F text :: Users who started the replication survey,appendix F text,Users who started the replication survey,pipeline,,1019,,1019,1,,,,0,,1019,FALSE
+aronow_etal_2015,appendix F text :: Excluded from the replication,appendix F text,Excluded from the replication,pipeline,,7,,7,1,,,,0,,7,FALSE
+aronow_etal_2015,appendix F text :: Complete cases in the replication,appendix F text,Complete cases in the replication,pipeline,,1012,,1012,1,,,,0,,1012,FALSE
+aronow_etal_2015,appendix F text :: Replication Study A sample size,appendix F text,Replication Study A sample size,pipeline,,506,,506,1,,,,0,,506,FALSE
+aronow_etal_2015,appendix F text :: Replication Study B sample size,appendix F text,Replication Study B sample size,pipeline,,506,,506,1,,,,0,,506,FALSE
+aronow_etal_2015,appendix F text :: Placebo Test I rejections restated for the main experiment,appendix F text,Placebo Test I rejections restated for the main experiment,descriptive,,,,2,,,"Main experiment Placebo Test I: Study A 2 of 5, Study B 0 of 5",,,,,
+aronow_etal_2015,appendix F text :: Placebo Test I rejections restated for the replication,appendix F text,Placebo Test I rejections restated for the replication,descriptive,,,,1,,,"Replication Placebo Test I: Study A 1 of 5, Study B 3 of 5",,,,,
+aronow_etal_2015,appendix F text :: Placebo Test II rejections in the main experiment and the replication,appendix F text,Placebo Test II rejections in the main experiment and the replication,descriptive,,,,,,,Placebo Test II rejections at 0.05: main experiment Study B Nuclear Power and CNN; replication Study B CNN,,,,,
+aronow_etal_2015,appendix F text :: Size of the replicated CNN treatment list effect,appendix F text,Size of the replicated CNN treatment list effect,descriptive,,,,,,,"CNN Placebo Test II effect in percentage points: main experiment 13.2, replication 9.2",,,,,
+aronow_etal_2015,figure_1 :: Plotted estimates depart from the Table 3 estimates by at most,figure_1,Plotted estimates depart from the Table 3 estimates by at most,pipeline,,,,0,,,,"The figure prints no numbers. It is drawn from the Table 3 output file, and this row measures that it is",,,,
+aronow_etal_2015,figure_1 :: Estimates plotted,figure_1,Estimates plotted,structural,,,,15,,,,Five items by three estimators,,,,
+aronow_etal_2015,figure_2 :: Plotted estimates depart from the Table 6 estimates by at most,figure_2,Plotted estimates depart from the Table 6 estimates by at most,pipeline,,,,0,,,,"The figure prints no numbers. It is drawn from the Table 6 output file, and this row measures that it is",,,,
+aronow_etal_2015,figure_2 :: Estimates plotted,figure_2,Estimates plotted,structural,,,,15,,,,Five items by three estimators,,,,
+aronow_etal_2015,figure_a1 :: Grid cells simulated,figure_a1,Grid cells simulated,structural,,,,7676,,,,4 panels at 1000 simulated experiments per cell,,,,
+aronow_etal_2015,"figure_a1 :: Power moved by re-running under the pre-3.6 sampler, at most",figure_a1,"Power moved by re-running under the pre-3.6 sampler, at most",pipeline,,,,0.03599999999999997,,,,"The deposit sets no seed, so no sampler reproduces the published figure cell for cell. This row measures what the sampler change alone is worth",,,,
+aronow_etal_2015,figure_a2 :: Cells the deposited script and the rewrite both define,figure_a2,Cells the deposited script and the rewrite both define,pipeline,40796,,,40796,,,,"The figure prints no numbers, so it is verified against a run of the deposited script rather than against the page",,,,
+aronow_etal_2015,figure_a2 :: Cells one grid defines and the other does not,figure_a2,Cells one grid defines and the other does not,pipeline,0,,,0,,,,8 cells are undefined in both: power.prop.test returns NaN where the two rates are equal at 0 or at 1,,,,
+aronow_etal_2015,figure_a2 :: Maximum absolute difference from the deposited grid,figure_a2,Maximum absolute difference from the deposited grid,pipeline,,,,1.1102230246251563e-16,,,,,,,,

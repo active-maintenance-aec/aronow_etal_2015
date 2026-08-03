@@ -11,6 +11,7 @@ format:
     toc: true
     toc-depth: 2
     number-sections: true
+from: markdown-smart
 execute:
   echo: false
   warning: false
@@ -32,20 +33,38 @@ latex_out <- knitr::is_latex_output()
 # table renders as a pipe table. Each call site says what LaTeX alone gets.
 latex_only <- function(k, f) if (latex_out) f(k) else k
 
+# value_paper is the string the published page prints and must stay one: read as a
+# number, a published "0.80" comes back as 0.8 and the precision it was printed to
+# is gone.
 gt <- read_csv(here::here("ground_truth", "aronow_etal_2015_ground_truth.csv"),
-               show_col_types = FALSE)
+               col_types = cols(value_paper = col_character(),
+                                claim_type = col_character(),
+                                defect_locus = col_character(),
+                                evidence = col_character(),
+                                notes = col_character(),
+                                .default = col_guess()))
 
-published_tables <- gt |> filter(str_starts(table_figure, "table_"), !str_detect(table_figure, "note"))
+published_claims <- read_csv(here::here("ground_truth", "published_claims.csv"),
+                             col_types = cols(.default = col_character()))
+
+published_tables <- gt |> filter(str_detect(table_figure, "^table_(\\d+|a\\d+)$"))
+prose_claims <- gt |> filter(!str_detect(table_figure, "^(table|figure)_"))
 
 manifest <- read_csv(here::here("original_manifest.csv"), show_col_types = FALSE)
 
 # Written by run_all.R, so anything this report says about how long the run takes is
 # the measurement from the run that produced the numbers beside it.
-timings <- read_csv(here::here("report", "run_timings.csv"), show_col_types = FALSE)
+timings <- read_csv(here::here("run_timings.csv"), show_col_types = FALSE)
 step_seconds <- function(name) timings$seconds[timings$step == name]
 
 fa1 <- read_csv(here::here("maintained", "output", "figure_a1_placebo_i_power.csv"),
                 show_col_types = FALSE)
+
+# The Figure A1 grid as the script that built it recorded it, so the report's
+# description of the simulation cannot drift from the simulation.
+grid_spec <- read_csv(here::here("maintained", "output", "text_figure_a1_grid_spec.csv"),
+                      show_col_types = FALSE)
+sims_per_cell <- grid_spec$value[grid_spec$claim == "Simulations per grid cell"]
 
 scripts <- list.files(here::here("maintained"), pattern = "\\.R$")
 n_scripts <- function(prefix) sum(str_starts(scripts, prefix))
@@ -72,7 +91,7 @@ This repository holds the actively maintained replication code for Aronow, Coppo
 
 **The data are not redistributed here.** The deposit is `r round(sum(manifest$bytes) / 1024)` KB across `r in_words(nrow(manifest))` files and lives at Harvard Dataverse, which is the only copy this repository points at. `download_original.R` fetches it and verifies every file on checksum and on byte size, and stops if `original/` holds anything the manifest does not list; `original_manifest.csv` pins the file identifiers, sizes and checksums, so the exact bytes this code was written against are recorded in version control even though the bytes themselves are not.
 
-**Repository layout.** `maintained/` is the maintained rewrite: one script per published table or figure, writing to `output/`, which is committed so a reader can compare a fresh run against it without downloading anything. `ground_truth/` ties every published number to the code that produces it, in two steps: `run_archive.R` runs the deposited scripts in a scratch copy and records what they compute, and `build_ground_truth.R` joins that to the values typed off the published pages and to the rewrite's own output. `original/` is created by the download script and is deliberately absent from the repository. This file is the reproducibility report, also available as a PDF in `report/`.
+**Repository layout.** `maintained/` is the maintained rewrite: one script per published table or figure, writing to `output/`, which is committed so a reader can compare a fresh run against it without downloading anything. `ground_truth/` ties every published number to the code that produces it. `published_claims.csv` is the transcription: every numeric token in the article and the online supplement, read off the page and classified by hand. `run_archive.R` runs the deposited scripts in a scratch copy and records what they compute, and `build_ground_truth.R` joins the transcription to that run and to the rewrite's own output. `maintained/in_text_claims.R` then prints every claim the article makes in prose beside the sentence that makes it, recomputing each number from the same output files by a path independent of the ground truth's. `original/` is created by the download script and is deliberately absent from the repository. This file is the reproducibility report, also available as a PDF in `report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this repository maintains. See `LICENSE`.
 
@@ -82,9 +101,9 @@ This repository holds the actively maintained replication code for Aronow, Coppo
 source("run_all.R")
 ```
 
-That fetches the deposit, verifies its `r in_words(nrow(manifest))` files, produces every table and figure into `maintained/output/`, runs the deposited scripts in a scratch copy, rebuilds the ground truth, and verifies the deposit a second time so that a script that damaged it during the run is caught by the run itself. Required packages: tidyverse, patchwork, here, knitr and kableExtra for the rewrite and the report, plus xtable, lmtest and lattice, which the deposited scripts load and which the verification steps therefore need. All are on CRAN, and lattice ships with R. Paths resolve through `here`, so nothing depends on the working directory. A successful run overwrites `maintained/output/`, which is committed: **`git diff` on that folder is the reproduction check.**
+That fetches the deposit, verifies its `r in_words(nrow(manifest))` files, produces every table and figure into `maintained/output/`, runs the deposited scripts in a scratch copy, rebuilds the ground truth, prints every claim the article makes in prose beside the number the pipeline computes for it, and verifies the deposit a second time so that a script that damaged it during the run is caught by the run itself. Required packages: tidyverse, patchwork, here, knitr and kableExtra for the rewrite and the report, plus xtable, lmtest and lattice, which the deposited scripts load and which the verification steps therefore need. All are on CRAN, and lattice ships with R. Paths resolve through `here`, so nothing depends on the working directory. A successful run overwrites `maintained/output/`, which is committed: **`git diff` on that folder is the reproduction check.**
 
-The run is dominated by one step. The tables and the two prevalence figures take a few seconds each; the Figure A1 power simulation covers `r format(nrow(fa1), big.mark = ",")` grid cells at 1,000 simulated experiments apiece and took `r round(step_seconds("figure_a1_placebo_i_power.R") / 60, 1)` minutes of the `r round(sum(timings$seconds) / 60, 1)` the whole run took on the machine described at the end of this report. `run_all.R` writes its own timings to `report/run_timings.csv`, so those two figures are measurements from the run behind this page rather than remembered ones.
+The run is dominated by one step. The tables and the two prevalence figures take a few seconds each; the Figure A1 power simulation covers `r format(nrow(fa1), big.mark = ",")` grid cells at `r format(sims_per_cell, big.mark = ",")` simulated experiments apiece and took `r round(step_seconds("figure_a1_placebo_i_power.R") / 60, 1)` minutes of the `r round(sum(timings$seconds) / 60, 1)` the whole run took on the machine described at the end of this report. `run_all.R` writes its own timings to `run_timings.csv`, so those two figures are measurements from the run behind this page rather than remembered ones.
 
 # Summary
 
@@ -96,7 +115,9 @@ n_rewrite_match <- sum(gt$match_rewrite == 1, na.rm = TRUE)
 n_rewrite_fail <- sum(gt$match_rewrite == 0, na.rm = TRUE)
 n_tables <- n_distinct(published_tables$table_figure)
 n_table_claims <- nrow(published_tables)
-n_text_claims <- sum(str_detect(gt$table_figure, "text|note"))
+n_text_claims <- nrow(prose_claims)
+n_descriptive <- sum(gt$claim_type == "descriptive")
+n_pipeline <- sum(gt$claim_type == "pipeline")
 a2 <- read_csv(here::here("maintained", "output", "text_figure_a2_archive_grid.csv"),
                show_col_types = FALSE)
 a2_cells <- a2$value[a2$claim == "Cells where both grids are defined"]
@@ -106,10 +127,13 @@ a2_both_na <- a2$value[a2$claim == "Cells undefined in both grids"]
 sampler <- read_csv(here::here("maintained", "output", "text_placebo_i_sampler.csv"),
                     show_col_types = FALSE)
 
-# The Monte Carlo standard error of one Figure A1 cell, which is 1,000 draws.
-mc_se <- function(p) sqrt(p * (1 - p) / 1000)
+# The Monte Carlo standard error of one Figure A1 cell.
+mc_se <- function(p) sqrt(p * (1 - p) / sims_per_cell)
 
-power_claims <- gt |> filter(str_starts(claim, "Power at 800 admitters"))
+power_claims <- gt |> filter(str_detect(claim, "^Power at (200|800) admitters"))
+# The main text and the appendix read one of these cells twice, so the distinct
+# cells are what the report describes.
+power_cells <- distinct(power_claims, claim, value_rewrite)
 
 sizes <- read_csv(here::here("maintained", "output", "text_sample_sizes.csv"),
                   show_col_types = FALSE)
@@ -127,13 +151,13 @@ All four analysis scripts open with a `setwd()` to a directory that exists on no
 
 The fourth, `ACCG_list_placebo_I_power.R`, needs three further edits, and one of them is a defect in the deposited source file rather than in the caller. `list_simulator()` in `ACCG_list_source.R` reads its p-value with `placeboI_test(...)$p_value`, but `placeboI_test()` returns a named numeric vector, and `$` on an atomic vector is an error in every version of R there has ever been. The function therefore fails on its first call, which means the deposited code cannot have produced the published Figure A1. The power script also calls `listsimulator()`, which does not exist under that name, and passes dot-separated argument names to a function whose formals are underscore separated. With all three fixed, the script runs to completion.
 
-None of this changes a published number. `r n_archive_match` of the `r n_claims` recorded claims reproduce from the deposited scripts and `r n_archive_fail` do not, with the remaining `r sum(is.na(gt$match))` covering quantities the deposited scripts never compute.
+None of this changes a published number. `r n_archive_match` of the `r n_claims` recorded claims reproduce from the deposited scripts and `r if (n_archive_fail == 0) "none fails" else paste(n_archive_fail, "fail")`; the remaining `r sum(is.na(gt$match))` cover quantities the deposited scripts never compute, which is most of them, since the deposit prints tables and states nothing in prose.
 
 ## Does the maintained rewrite reproduce the paper?
 
-Every number in a published table does, and every number in the prose does except one, read three times off a figure. `r n_rewrite_match` of the ground truth claims carrying a published value match it at the precision the page prints, `r n_rewrite_fail` do not, and `r sum(is.na(gt$match_rewrite))` have no published value to be compared against. All `r n_table_claims` cells of the `r n_tables` published tables match, as do the `r n_text_claims - n_rewrite_fail` sample sizes, ranges and effect magnitudes stated in the prose of the article and the online appendix.
+Every number in a published table does, as does every number the article states in prose, except the readings it takes off one figure. `r n_rewrite_match` of the `r n_claims` recorded claims match the page at the precision the page prints, `r n_rewrite_fail` do not, and `r sum(is.na(gt$match_rewrite))` state no number to be compared against, being either the `r n_descriptive` claims the article makes about shape, sign or count, or quantities it describes without printing. All `r n_table_claims` cells of the `r n_tables` published tables match, as do the sample sizes, ranges and effect magnitudes stated in prose.
 
-The `r n_rewrite_fail` that do not are the same claim in three panels, and the fault lies with what the deposit can establish rather than with either the rewrite or the article. Appendix C says the placebo test "achieves 80% power" when about 20 percent of a sample of 800 confessors violate an assumption. The rewrite's simulation puts that at `r str_flatten_comma(format(round(power_claims$value_rewrite, 3), nsmall = 3), last = " and ")` in the three panels. A grid cell is 1,000 simulated experiments, so its standard error at power 0.8 is `r round(mc_se(0.8), 3)`, wider than the last digit the appendix prints, and the deposit sets no seed, so the published figure is one unlabelled draw. The claim is right to the precision it can be made at and cannot be checked to the precision it is written at.
+The `r n_rewrite_fail` that do not are all readings of one figure, and the fault lies with what the deposit can establish rather than with either the rewrite or the article. Section 4.1 and Appendix C take power off the Figure A1 grid at `r in_words(nrow(power_cells))` points, one of which both passages state, and give the answers as "about 30 percent", "approximately 80 percent" and "80% power". The rewrite's simulation puts those points at `r str_flatten_comma(sprintf("%.1f", sort(power_cells$value_rewrite)), last = " and ")` percent, so all but one of them prints something else at the precision the page uses. A grid cell is `r format(sims_per_cell, big.mark = ",")` simulated experiments, so its standard error at power 0.8 is `r round(100 * mc_se(0.8), 1)` percentage points, wider than the last digit either passage prints, and the deposit sets no seed, so the published figure is one unlabelled draw. `r sum(gt$on_rounding_boundary, na.rm = TRUE)` of these points falls exactly half a printed digit from the page and rounds either way. The claims are right to the precision they can be made at and cannot be checked to the precision they are written at.
 
 The four figures print no numbers, so each is checked against something other than the page. Figures 1 and 2 are drawn from the Table 3 and Table 6 output files rather than recomputed, so the check is that the plotted values are those values, and the build stops if they are not. Figure A2 is analytical, so the deposited script is run and its grid compared with the rewrite's cell by cell: the two agree to `r signif(a2_gap, 2)` across all `r format(a2_cells, big.mark = ",")` cells where the power calculation is defined, and the `r in_words(a2_both_na)` cells where it is not are the same ones in both. Figure A1 is a Monte Carlo simulation for which the deposit sets no seed, so it can be reproduced only up to simulation error of about `r round(mc_se(0.5), 3)` at power 0.5; the rewrite seeds each of its `r format(nrow(fa1), big.mark = ",")` grid cells separately, which makes it reproducible run to run and independent of the number of cores available.
 
@@ -201,7 +225,7 @@ All three are unambiguous naming and indexing slips rather than analytical choic
 
 ## No seed anywhere
 
-The deposit sets no seed in any script. Two of the four scripts are deterministic and it does not matter. The third, `ACCG_list_main_experiment.R`, computes five chi-squared tests by Monte Carlo with `simulate.p.value = TRUE`, but none of those five p-values appears in the published Table 2, so nothing is at stake. The fourth is a Monte Carlo power analysis over `r format(nrow(fa1), big.mark = ",")` grid cells at 1,000 simulations each, and there the absence of a seed means the published figure cannot be reproduced cell for cell by anyone, including the authors. At power 0.5 the standard error of a cell is `r round(mc_se(0.5), 3)`, which is invisible at the resolution the figure is drawn, so nothing the appendix argues from the figure turns on it. It does put the appendix's one numeric reading of the figure, 80 percent power at 800 admitters, beyond what a single grid can settle. The rewrite seeds every cell.
+The deposit sets no seed in any script. Two of the four scripts are deterministic and it does not matter. The third, `ACCG_list_main_experiment.R`, computes five chi-squared tests by Monte Carlo with `simulate.p.value = TRUE`, but none of those five p-values appears in the published Table 2, so nothing is at stake. The fourth is a Monte Carlo power analysis over `r format(nrow(fa1), big.mark = ",")` grid cells at `r format(sims_per_cell, big.mark = ",")` simulations each, and there the absence of a seed means the published figure cannot be reproduced cell for cell by anyone, including the authors. At power 0.5 the standard error of a cell is `r round(mc_se(0.5), 3)`, which is invisible at the resolution the figure is drawn, so nothing the appendix argues from the figure turns on it. It does put the appendix's one numeric reading of the figure, 80 percent power at 800 admitters, beyond what a single grid can settle. The rewrite seeds every cell.
 
 ## The sampler changed underneath the simulation
 
@@ -239,15 +263,25 @@ gt |>
   latex_only(\(k) k |> kable_styling(latex_options = "hold_position", font_size = 9))
 ```
 
-Every published number in the article and its online appendix is recorded: the `r sum(gt$table_figure == "table_1")` crossing counts of Table 1, the `r sum(gt$table_figure == "table_2")` covariate balance cells of Table 2, and the `r sum(str_starts(gt$table_figure, "table_") & !gt$table_figure %in% c("table_1", "table_2") & !str_detect(gt$table_figure, "note"))` estimates, standard errors, p-values and sample sizes of the `r in_words(n_tables - 2)` analysis tables. `value_paper` was read off the article and appendix PDFs and never taken from a script run, which is what makes the comparison worth anything.
+Every published number in the article and its online appendix is recorded: the `r sum(gt$table_figure == "table_1")` crossing counts of Table 1, the `r sum(gt$table_figure == "table_2")` covariate balance cells of Table 2, the `r nrow(published_tables) - sum(gt$table_figure %in% c("table_1", "table_2"))` estimates, standard errors, p-values and sample sizes of the `r in_words(n_tables - 2)` analysis tables, and the `r n_text_claims` claims the two documents make in prose. The published value was read off the article and appendix PDFs and never taken from a script run, which is what makes the comparison worth anything.
+
+The extraction that produced it is exhaustive rather than selective. Every numeric token in both documents was pulled with its surrounding context and classified by hand. Four kinds occur: `r sum(published_claims$claim_type == "pipeline")` the pipeline must reproduce, `r sum(published_claims$claim_type == "descriptive")` claims about shape, sign or count that have no number of their own, `r sum(published_claims$claim_type == "structural")` facts about how the study or the simulation was built, and `r sum(published_claims$claim_type == "definitional")` design parameters such as the payment rate and the assignment probability. Nothing in this article is transcribed from another paper, which is the fifth kind. Searching for numbers by pattern rather than extracting all of them is how a claim in prose goes uncovered, and the prose is where the largest gaps in this pass were.
 
 Figures 1 and 2 carry no printed numbers: they are bar charts of the Table 3 and Table 6 estimates with 95 percent confidence intervals. The rewrite draws them from `table_3_study_a_prevalence.csv` and `table_6_study_b_prevalence.csv` rather than recomputing, so the figure and the table cannot come apart. Figures A1 and A2 print no numbers either. Rows for all four appear in the ground truth carrying a blank published value and an NA verdict, which is what an unprintable claim honestly looks like; the checks that can be made on them are made as assertions inside `build_ground_truth.R`, so a figure that stopped agreeing with its source stops the build.
 
-One published float has no row here, and it is the only one. The article prints its own Appendix A.1 with a Table A1 giving the wording of every list question and every direct question, and there is nothing in it to reproduce. Note that the number is reused: the Table A1 the online supplement prints, and the one the rewrite and this report mean throughout, is the factorial comparison of Study A against Study B.
+One caption in the online supplement is wrong, and it is a labelling error rather than a numerical one. Table A4 is headed "Study A (Direct First): Placebo Test I" and prints Placebo Test II: its estimates are centred on zero rather than on one, and its sample size is the full Study A sample in every row rather than the count of admitters, which is what the Placebo Test I table above it reports. Every cell of it reproduces. The rewrite writes it as Placebo Test II, which is what it is.
+
+## What the article says in prose
+
+`maintained/in_text_claims.R` prints every claim the two documents make in prose, in the order a reader meets them, with the published sentence quoted verbatim beside the number the pipeline computes for it. It reads the same output files `build_ground_truth.R` reads and does its own filtering, unit conversion and rounding, so the two arrive at each claimed number by separate routes and a disagreement between them is itself a finding. `build_ground_truth.R` gates the pairing in both directions: a published claim with no block in that file stops the build, and so does a block naming a claim the article does not make.
+
+The `r n_descriptive` descriptive claims are the ones a table of numbers cannot hold. "Each cell in the table contains approximately one-quarter of the subjects", "reductions tend to be larger when a larger number of subjects respond Yes", "none of these differences are significant", "one of five fail in Study A, whereas three of five fail in Study B": each asserts something about a distribution rather than stating a value, so each is checked by printing the distribution rather than by computing a verdict. Three of them needed quantities no published table reports. The article's joint test of Placebo Test I "via Fisher's method" is reported without a value, the comparison of the original experiments against the replication appears in no table, and the counts of placebo test rejections are stated four times across the Results, the Discussion and Appendix F without ever being tabulated. `text_placebo_summaries.R` and `text_original_vs_replication.R` build all three from the published tables' own output.
+
+The float list this coverage is measured against is enumerated from the article and the online supplement rather than from what the pipeline produces, and `build_ground_truth.R` stops if a published float has no row. One float is exempted, and it is the only one. The article prints its own Appendix A.1 with a Table A1 giving the wording of every list question and every direct question, and there is nothing in it to reproduce. Note that the number is reused: the Table A1 the online supplement prints, and the one the rewrite and this report mean throughout, is the factorial comparison of Study A against Study B.
 
 # Maintained rewrite
 
-The rewrite lives in `maintained/`: `r in_words(length(scripts))` scripts, being `helpers.R`, `r in_words(n_scripts("clean_"))` cleaning step, `r in_words(n_scripts("table_"))` published tables, `r in_words(n_scripts("figure_"))` figures, and `r in_words(n_scripts("text_"))` that carry the quantities stated in prose and the two checks the wordless power figures need. It is a translation, not a reanalysis. Every estimator, specification and sample restriction is the one the paper used.
+The rewrite lives in `maintained/`: `r in_words(length(scripts))` scripts, being `helpers.R`, `r in_words(n_scripts("clean_"))` cleaning step, `r in_words(n_scripts("table_"))` published tables, `r in_words(n_scripts("figure_"))` figures, `r in_words(n_scripts("text_"))` that carry the quantities stated in prose and the two checks the wordless power figures need, and `in_text_claims.R`, which prints each of those quantities beside the published sentence that states it. It is a translation, not a reanalysis. Every estimator, specification and sample restriction is the one the paper used.
 
 The deposit's own `readme.txt` claims Tables 1 to 8, Table A1 and Figures 1 and 2 from one script, Tables A2 to A8 from a second, and Figures A1 and A2 from the two power scripts. The rewrite covers all of it: `r in_words(n_scripts("table_"))` table scripts and `r in_words(n_scripts("figure_"))` figure scripts, one per published float, and nothing the deposit claims is missing.
 
@@ -307,7 +341,7 @@ tibble(
 
 The archive's `power.prop.test` call passes `strict = TRUE` in three of Figure A2's four panels and omits it in the N = 100 panel. `strict` counts rejections in the wrong tail, and dropping it lowers power by up to `r round(a2_strict, 3)` along the diagonal where the two rates are close. The inconsistency is almost certainly an oversight, but the published figure was drawn with it, so the rewrite carries it forward rather than tidying it away. Reproducing the paper and improving on it are different jobs.
 
-The Figure A1 simulation is parallelised over grid cells rather than over simulations. Parallelising the other way round, forking a process for each of the 1,000 simulations inside a cell, spends nearly all of its time creating processes; one core per cell with the 1,000 simulations inside it ran the whole four-panel grid in `r round(step_seconds("figure_a1_placebo_i_power.R") / 60, 1)` minutes for this report. Drawing each cell's seed from a single seeded stream up front makes the result independent of how the work is distributed, which a per-worker seed would not.
+The Figure A1 simulation is parallelised over grid cells rather than over simulations. Parallelising the other way round, forking a process for each of the `r format(sims_per_cell, big.mark = ",")` simulations inside a cell, spends nearly all of its time creating processes; one core per cell with the `r format(sims_per_cell, big.mark = ",")` simulations inside it ran the whole four-panel grid in `r round(step_seconds("figure_a1_placebo_i_power.R") / 60, 1)` minutes for this report. Drawing each cell's seed from a single seeded stream up front makes the result independent of how the work is distributed, which a per-worker seed would not.
 
 # Figure verification
 
@@ -353,12 +387,13 @@ knitr::include_graphics(
 
 # Maintained rewrite verification
 
-The published value in the table below is carried as the string the page prints, not as a number, and the tolerance each row is compared at is half of that string's last digit. The distinction matters: as a number, a published `0.80` is indistinguishable from `0.8`, and comparing it at one decimal rather than two would pass anything between 0.75 and 0.85.
+The published value in the table below is carried as the string the page prints, not as a number, and a row matches when the archive's or the rewrite's own number, printed to that string's precision, gives the same digits. The comparison is therefore of strings rather than of a number against a tolerance. The distinction matters: as a number, a published `0.80` is indistinguishable from `0.8`, so a tolerance read off the wrong precision would pass anything between 0.75 and 0.85, while a value sitting exactly on a rounding boundary can fail a tolerance it should pass. The string the comparison actually made is written into the ground truth file beside the verdict.
 
 ```{r rewrite_verify}
 blank_na <- function(x) if_else(is.na(x), "", format(round(x, 3), trim = TRUE))
 
 gt |>
+  filter(claim_type != "descriptive") |>
   mutate(
     value_script = blank_na(value_script),
     value_rewrite = blank_na(value_rewrite),
@@ -377,6 +412,27 @@ gt |>
     kable_styling(latex_options = c("repeat_header"), font_size = 5) |>
     column_spec(2, width = "5cm"))
 ```
+
+## Claims the article makes about shape rather than value
+
+The `r n_descriptive` claims below assert something about a distribution, a sign or a count rather than stating a number, so none can be matched against a printed value. Each is checked by computing the distribution it describes and printing it, which is what lets a reader judge the claim rather than being handed a verdict on it.
+
+```{r descriptive_claims}
+gt |>
+  filter(claim_type == "descriptive") |>
+  select(table_figure, claim, evidence) |>
+  kable(
+    booktabs = TRUE,
+    longtable = TRUE,
+    col.names = c("Location", "Claim", "What the pipeline finds"),
+    caption = "Descriptive claims and the evidence computed for each."
+  ) |>
+  latex_only(\(k) k |>
+    kable_styling(latex_options = c("repeat_header"), font_size = 6) |>
+    column_spec(2, width = "4cm") |>
+    column_spec(3, width = "8cm"))
+```
+
 
 # R environment
 

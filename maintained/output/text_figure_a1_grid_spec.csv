@@ -1,0 +1,10 @@
+claim,value
+Simulations per grid cell,1000
+Panels,4
+Smallest number of admitters,100
+Largest number of admitters,1000
+Step between admitter counts,50
+Smallest proportion,0
+Largest proportion,1
+Step between proportions,0.01
+Grid cells per panel,1919

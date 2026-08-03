@@ -77,7 +77,10 @@ if (!all(verified$size_agrees)) {
 # that a run of the deposited code dropped beside its inputs, and one of those can
 # overwrite a deposited file, so this is a hard stop rather than a warning. It is
 # checked here because run_all.R sources this script before anything else runs.
-present <- list.files(here::here("original"), recursive = TRUE)
+# all.files = TRUE is what makes the check mean anything: without it a stray dotfile
+# passes silently, and R itself drops .Rhistory and .RData beside whatever it runs.
+present <- list.files(here::here("original"), recursive = TRUE,
+                      all.files = TRUE, no.. = TRUE)
 unlisted <- setdiff(present, manifest$file)
 
 if (length(unlisted) > 0) {
