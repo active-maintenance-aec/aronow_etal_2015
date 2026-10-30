@@ -1,0 +1,84 @@
+---
+title: "Errata"
+subtitle: "On Aronow, Coppock, Crawford and Green (2015), *Journal of Survey Statistics and Methodology* 3(1)"
+format:
+  pdf:
+    output-file: aronow_etal_2015_errata.pdf
+    geometry: margin=1.25in
+    fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(here)
+library(tidyverse)
+here::i_am("errata.qmd")
+```
+
+```{r entries}
+# THE ERRATA SPINE. Every entry is defined once, here, and rendered from here: into this
+# document, and into whatever else needs it, which reads the errata_entries.csv written at
+# the bottom of this file rather than keeping a second hand-typed copy.
+#
+# [[...]] marks the span that changes. Each renderer supplies its own markup for it: bold
+# here, \was{} in an edition. Nothing else in a field is markup, so the same string can be
+# set by either.
+#
+# Numbering is APPEND-ONLY once this note is published: an entry can already have been
+# cited, so a later finding is added at the end and never interleaved.
+#
+# claim_ids names the ground-truth rows an entry corrects, semicolon-separated. Entry 1 is
+# empty: every table_a4 cell reproduces, so no value row changes; only the heading does.
+entries <- tribble(
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
+
+  1, "label", "pipeline", "full",
+  "Supplementary Table A4 is headed as Placebo Test I and reports Placebo Test II",
+  "published supplement p. 6, Table A4",
+  "Table A4: Study A (Direct First): Placebo Test [[I]]",
+  "Table A4: Study A (Direct First): Placebo Test [[II]]",
+  paste("Table A3, directly above it on the same page, is Placebo Test I: its estimates sit",
+        "near one and its n is the count of admitters for each item (327, 281, 31, 42,",
+        "206). Table A4's estimates sit near zero and its n is 506, the full Study A sample,",
+        "in every row, which is the form of Placebo Test II and the form of Table A7, its",
+        "Study B counterpart, headed correctly on the next page. Every cell of Table A4",
+        "reproduces from the deposited data as Placebo Test II. Only the heading is wrong."),
+  ""
+) |>
+  mutate(across(c(title, published, corrected, note, claim_ids), as.character))
+
+stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
+
+spell <- function(n) {
+  words <- c("one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten")
+  stopifnot(n >= 1, n <= length(words))
+  words[n]
+}
+
+# The spine's markup, resolved for this document. Another renderer resolves it differently.
+bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
+```
+
+This note lists `r spell(nrow(entries))` correction to "Combining List Experiment and Direct Question Estimates of Sensitive Behavior Prevalence," published in *Journal of Survey Statistics and Methodology* 3(1):43--66, doi [10.1093/jssam/smu023](https://doi.org/10.1093/jssam/smu023). **It changes no number and no conclusion of the paper**: it is the heading of one table in the online supplement.
+
+It was found by the maintained replication, which recomputes every cell of the supplement's tables from the deposited data and checks each against the printed value. The code supporting the maintained analysis is at [github.com/active-maintenance-aec/aronow_etal_2015](https://github.com/active-maintenance-aec/aronow_etal_2015).
+
+# The online supplement
+
+```{r supplement-entries, results="asis"}
+# A heading is only a heading when a blank line precedes it, which is why every emitted
+# entry opens with one.
+walk(entries$entry, function(n) {
+  e <- entries |> filter(entry == n)
+  cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
+      str_remove(e$location, "^published "), ":\n\n> ", bold(e$published),
+      "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note, "\n", sep = "")
+})
+```
+
+```{r emit-spine}
+# The machine-readable spine, written wherever this document is rendered. Anything else
+# that needs these entries reads it rather than keeping its own copy, so the two cannot
+# drift.
+write_csv(entries, here("errata_entries.csv"))
+```
