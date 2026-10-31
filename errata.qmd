@@ -27,8 +27,9 @@ here::i_am("errata.qmd")
 # Numbering is APPEND-ONLY once this note is published: an entry can already have been
 # cited, so a later finding is added at the end and never interleaved.
 #
-# claim_ids names the ground-truth rows an entry corrects, semicolon-separated. Entry 1 is
-# empty: every table_a4 cell reproduces, so no value row changes; only the heading does.
+# claim_ids names the ground-truth rows an entry corrects, semicolon-separated. Both entries
+# are empty: every table_a4 cell reproduces, so no value row changes; entry 1 corrects a
+# heading and entry 2 a sentence that lists tables.
 entries <- tribble(
   ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
 
@@ -43,6 +44,21 @@ entries <- tribble(
         "in every row, which is the form of Placebo Test II and the form of Table A7, its",
         "Study B counterpart, headed correctly on the next page. Every cell of Table A4",
         "reproduces from the deposited data as Placebo Test II. Only the heading is wrong."),
+  "",
+
+  2, "cross_reference", "reading", "full",
+  "The supplement's list of placebo tables omits Table A4",
+  "published supplement p. 5",
+  "Of particular note are the results of the placebo tests, presented in Tables [[A3, A6, and A7]].",
+  "Of particular note are the results of the placebo tests, presented in Tables [[A3, A4, A6, and A7]].",
+  paste("The supplement reports four placebo tables, two for each study: Tables A3 and A4 for",
+        "Study A and Tables A6 and A7 for Study B, each pair a Placebo Test I and a Placebo",
+        "Test II. The sentence lists three. It leaves out Table A4, the Study A Placebo Test",
+        "II, while naming its Study B counterpart, Table A7. The omission is of a piece with",
+        "entry 1: with Table A4 headed as a second Placebo Test I, the headings distinguish",
+        "three placebo tables rather than four, and the sentence names the three. The sentences",
+        "that follow it, which count the questions failing each study's placebo test, are",
+        "unchanged."),
   ""
 ) |>
   mutate(across(c(title, published, corrected, note, claim_ids), as.character))
@@ -59,9 +75,9 @@ spell <- function(n) {
 bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
 ```
 
-This note lists `r spell(nrow(entries))` correction to "Combining List Experiment and Direct Question Estimates of Sensitive Behavior Prevalence," published in *Journal of Survey Statistics and Methodology* 3(1):43--66, doi [10.1093/jssam/smu023](https://doi.org/10.1093/jssam/smu023). **It changes no number and no conclusion of the paper**: it is the heading of one table in the online supplement.
+This note lists `r spell(nrow(entries))` corrections to "Combining List Experiment and Direct Question Estimates of Sensitive Behavior Prevalence," published in *Journal of Survey Statistics and Methodology* 3(1):43--66, doi [10.1093/jssam/smu023](https://doi.org/10.1093/jssam/smu023). **Neither changes a number or a conclusion of the paper**: both are in the online supplement, one in the heading of a table and the other in the sentence that lists the placebo tables.
 
-It was found by the maintained replication, which recomputes every cell of the supplement's tables from the deposited data and checks each against the printed value. The code supporting the maintained analysis is at [github.com/active-maintenance-aec/aronow_etal_2015](https://github.com/active-maintenance-aec/aronow_etal_2015).
+The first was found by the maintained replication, which recomputes every cell of the supplement's tables from the deposited data and checks each against the printed value. The second was found on reading the supplement while the first was filed, and follows from it. The code supporting the maintained analysis is at [github.com/active-maintenance-aec/aronow_etal_2015](https://github.com/active-maintenance-aec/aronow_etal_2015).
 
 # The online supplement
 
