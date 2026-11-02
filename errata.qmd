@@ -27,9 +27,10 @@ here::i_am("errata.qmd")
 # Numbering is APPEND-ONLY once this note is published: an entry can already have been
 # cited, so a later finding is added at the end and never interleaved.
 #
-# claim_ids names the ground-truth rows an entry corrects, semicolon-separated. Both entries
-# are empty: every table_a4 cell reproduces, so no value row changes; entry 1 corrects a
-# heading and entry 2 a sentence that lists tables.
+# claim_ids names the ground-truth rows an entry corrects, semicolon-separated. Every entry
+# is empty: every table_a4 cell reproduces, so no value row changes; entry 1 corrects a
+# heading, entry 2 a sentence that lists tables, entries 3 to 6 the article's mathematics and
+# entry 7 a panel title the regenerated figure already spells correctly.
 entries <- tribble(
   ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
 
@@ -59,6 +60,62 @@ entries <- tribble(
         "three placebo tables rather than four, and the sentence names the three. The sentences",
         "that follow it, which count the questions failing each study's placebo test, are",
         "unchanged."),
+  "",
+
+  3, "definition", "remaster", "full",
+  "Display (2) writes the noise term for its expectation",
+  "published p. 48, display (2)",
+  "$\\mathrm{E}[V_i \\mid Z_i = 1] - \\mathrm{E}[V_i \\mid Z_i = 0] = {}$[[$W_i + \\mu - W_i$]]${} = \\mu.$",
+  "$\\mathrm{E}[V_i \\mid Z_i = 1] - \\mathrm{E}[V_i \\mid Z_i = 0] = {}$[[$\\mathrm{E}[W_i] + \\mu - \\mathrm{E}[W_i]$]]${} = \\mu.$",
+  paste("Both sides of the display are expectations. Under Assumptions 2 and 3 the two",
+        "conditional expectations are $\\mathrm{E}[W_i] + \\mu$ and $\\mathrm{E}[W_i]$, so the",
+        "middle term equates a constant to the random variable $W_i$ where it means its",
+        "expectation. The term cancels either way, and the display's conclusion, that the",
+        "difference in expectations is $\\mu$, is unaffected."),
+  "",
+
+  4, "label", "remaster", "full",
+  "Two sentences on the direct-question admitters print the estimand where they mean its estimate",
+  "published p. 56",
+  "difference-in-means estimate [[$\\beta$]] should be equal\n\nNone of the values of [[$\\beta$]] are",
+  "difference-in-means estimate [[$\\hat{\\beta}$]] should be equal\n\nNone of the values of [[$\\hat{\\beta}$]] are",
+  paste("The article defines $\\beta$ as a difference in conditional expectations, a",
+        "population quantity, and its estimate as the difference in means $\\hat{\\beta}$, whose",
+        "test against 1 is the one the article proposes. Both sentences are about the estimates",
+        "computed from the data and the tests of them: an estimate is what should equal 1",
+        "under Assumptions 1 to 4, and values are what can be significantly different from it.",
+        "The quantity in each is $\\hat{\\beta}$. The reported results are unchanged."),
+  "",
+
+  5, "definition", "remaster", "full",
+  "The proof of Lemma 2 orders on direct responses of one where it means zero",
+  "published p. 62",
+  "where we have reordered the indices so that [[$Y_1 = \\cdots = Y_k = 1$]].",
+  "where we have reordered the indices so that [[$Y_1 = \\cdots = Y_k = 0$]].",
+  paste("The proof conditions on exactly $k$ direct responses being zero, which is what",
+        "$1 - \\bar{Y} = k/n$ says, and display (4), which the sentence describes, conditions on",
+        "$Y_j = 0$ for $j = 1, \\ldots, k$. The reordering puts those $k$ units first, so their",
+        "direct responses are zero, not one. The display is right and the sentence that",
+        "glosses it is not; the proof is unaffected."),
+  "",
+
+  6, "typography", "remaster", "full",
+  "Display (7) drops the comma before the last index of a range",
+  "published p. 63, display (7)",
+  "[[$Y_j = 0$ for $j = 1, \\ldots k$]]",
+  "[[$Y_j = 0$ for $j = 1, \\ldots, k$]]",
+  paste("The second line of display (7) prints the index range without the comma before $k$",
+        "that every other range in the proof of Lemma 2 carries, including the next line",
+        "of the same display."),
+  "",
+
+  7, "spelling", "remaster", "full",
+  "A panel title in Figure A1 misspells Variability",
+  "published supplement p. 3, Figure A1",
+  "[[Varibility]] of responses to non-sensitive items",
+  "[[Variability]] of responses to non-sensitive items",
+  paste("The title of Figure A1's fourth panel. The figure as regenerated from the maintained",
+        "code prints the word correctly."),
   ""
 ) |>
   mutate(across(c(title, published, corrected, note, claim_ids), as.character))
@@ -73,23 +130,33 @@ spell <- function(n) {
 
 # The spine's markup, resolved for this document. Another renderer resolves it differently.
 bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
+# An entry quoting two passages separates them with a blank line, which ends a blockquote.
+quote <- function(x) str_replace_all(x, "\n\n", "\n>\n> ")
+
+# A heading is only a heading when a blank line precedes it, which is why every emitted
+# entry opens with one.
+emit <- function(ns) walk(ns, function(n) {
+  e <- entries |> filter(entry == n)
+  cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
+      str_remove(e$location, "^published "), ":\n\n> ", quote(bold(e$published)),
+      "\n\nCorrected:\n\n> ", quote(bold(e$corrected)), "\n\n", e$note, "\n", sep = "")
+})
 ```
 
-This note lists `r spell(nrow(entries))` corrections to "Combining List Experiment and Direct Question Estimates of Sensitive Behavior Prevalence," published in *Journal of Survey Statistics and Methodology* 3(1):43--66, doi [10.1093/jssam/smu023](https://doi.org/10.1093/jssam/smu023). **Neither changes a number or a conclusion of the paper**: both are in the online supplement, one in the heading of a table and the other in the sentence that lists the placebo tables.
+This note lists `r spell(nrow(entries))` corrections to "Combining List Experiment and Direct Question Estimates of Sensitive Behavior Prevalence," published in *Journal of Survey Statistics and Methodology* 3(1):43--66, doi [10.1093/jssam/smu023](https://doi.org/10.1093/jssam/smu023). **None changes a number or a conclusion of the paper.** Four are in the article's mathematics: an expectation missing from display (2), the estimand printed for its estimate in two sentences, a condition in the proof of Lemma 2 stated as one where the proof requires zero, and a missing comma. Three are in the online supplement: the heading of a table, the sentence that lists the placebo tables, and a misspelled panel title.
 
-The first was found by the maintained replication, which recomputes every cell of the supplement's tables from the deposited data and checks each against the printed value. The second was found on reading the supplement while the first was filed, and follows from it. The code supporting the maintained analysis is at [github.com/active-maintenance-aec/aronow_etal_2015](https://github.com/active-maintenance-aec/aronow_etal_2015).
+Entry 1 was found by the maintained replication, which recomputes every cell of the supplement's tables from the deposited data and checks each against the printed value. Entry 2 was found on reading the supplement while the first was filed, and follows from it. Entries 3 to 7 were found while the article and supplement were reset for the remastered edition, which reads every page beside the published one. The code supporting the maintained analysis is at [github.com/active-maintenance-aec/aronow_etal_2015](https://github.com/active-maintenance-aec/aronow_etal_2015).
+
+# The article
+
+```{r article-entries, results="asis"}
+emit(filter(entries, !str_detect(location, "supplement"))$entry)
+```
 
 # The online supplement
 
 ```{r supplement-entries, results="asis"}
-# A heading is only a heading when a blank line precedes it, which is why every emitted
-# entry opens with one.
-walk(entries$entry, function(n) {
-  e <- entries |> filter(entry == n)
-  cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
-      str_remove(e$location, "^published "), ":\n\n> ", bold(e$published),
-      "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note, "\n", sep = "")
-})
+emit(filter(entries, str_detect(location, "supplement"))$entry)
 ```
 
 ```{r emit-spine}
