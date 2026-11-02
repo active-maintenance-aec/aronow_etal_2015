@@ -1,6 +1,6 @@
 # Active Maintenance Report: aronow_etal_2015
 
-2026-08-03
+2026-11-01
 
 - [Summary](#summary)
   - [Does the deposited archive run?](#does-the-deposited-archive-run)
@@ -93,8 +93,8 @@ the reproduction check.**
 
 The run is dominated by one step. The tables and the two prevalence
 figures take a few seconds each; the Figure A1 power simulation covers
-7,676 grid cells at 1,000 simulated experiments apiece and took 11
-minutes of the 12.3 the whole run took on the machine described at the
+7,676 grid cells at 1,000 simulated experiments apiece and took 5.2
+minutes of the 6.3 the whole run took on the machine described at the
 end of this report. `run_all.R` writes its own timings to
 `run_timings.csv`, so those two figures are measurements from the run
 behind this page rather than remembered ones.
@@ -219,7 +219,7 @@ answer, which it does for nuclear power and for CNN in Study B.
 | ACCG_list_placebo_I_power.R | Stops on setwd(); then three further errors | listsimulator() becomes list_simulator(); N.trueadmitter and the other dot-separated arguments become underscore separated |
 | ACCG_list_placebo_II_power.R | Stops on setwd(); clean afterwards | Comment out setwd() |
 
-Original archive reproducibility, checked against R 4.6.0 on 3 August
+Original archive reproducibility, checked against R 4.6.1 on 1 November
 2026.
 
 Every package the archive names is still available: `xtable` and
@@ -406,6 +406,19 @@ what the Placebo Test I table above it reports. Every cell of it
 reproduces. The rewrite writes it as Placebo Test II, which is what it
 is.
 
+The errata note, `aronow_etal_2015_errata.pdf`, lists this caption first
+among seven corrections, none of which changes a reported number. The
+second follows from it: the supplement's sentence on the placebo tests
+names Tables A3, A6, and A7 and leaves out A4, the table headed as a
+second Placebo Test I. Four are slips in the article's mathematics:
+display (2) writes the noise term $W_i$ where it means its expectation,
+two sentences on p. 56 print the estimand $\beta$ where they mean the
+estimate $\hat{\beta}$, the proof of Lemma 2 reorders the indices so
+that $Y_1 = \cdots = Y_k = 1$ where it means zero, and display (7) drops
+a comma from an index range. The last is a misspelled panel title in
+Figure A1 ("Varibility"), which the rewrite's figure already prints
+correctly.
+
 ## What the article says in prose
 
 `maintained/in_text_claims.R` prints every claim the two documents make
@@ -518,7 +531,7 @@ The Figure A1 simulation is parallelised over grid cells rather than
 over simulations. Parallelising the other way round, forking a process
 for each of the 1,000 simulations inside a cell, spends nearly all of
 its time creating processes; one core per cell with the 1,000
-simulations inside it ran the whole four-panel grid in 11 minutes for
+simulations inside it ran the whole four-panel grid in 5.2 minutes for
 this report. Drawing each cell's seed from a single seeded stream up
 front makes the result independent of how the work is distributed, which
 a per-worker seed would not.
@@ -1212,11 +1225,11 @@ Descriptive claims and the evidence computed for each.
 
 | Item              | Value                  |
 |:------------------|:-----------------------|
-| R version         | 4.6.0                  |
+| R version         | 4.6.1                  |
 | Platform          | aarch64-apple-darwin23 |
 | Cores available   | 14                     |
-| Date run          | 2026-08-03             |
-| Pipeline run time | 12.3 minutes           |
+| Date run          | 2026-11-01             |
+| Pipeline run time | 6.3 minutes            |
 
 The machine behind the run this report describes.
 
