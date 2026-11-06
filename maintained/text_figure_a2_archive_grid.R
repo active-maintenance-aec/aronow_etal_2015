@@ -38,12 +38,8 @@ stopifnot(str_trim(deposited[8]) == "setwd()")
 deposited[8] <- "# setwd() removed: it is called with no argument and cannot succeed"
 write_lines(deposited, file.path(scratch, "ACCG_list_placebo_II_power.R"))
 
-previous_wd <- getwd()
-setwd(scratch)
 run_env <- new.env(parent = globalenv())
-sys.source(file.path(scratch, "ACCG_list_placebo_II_power.R"), envir = run_env)
-setwd(previous_wd)
-stopifnot(getwd() == previous_wd)
+sys.source(file.path(scratch, "ACCG_list_placebo_II_power.R"), envir = run_env, chdir = TRUE)
 
 # The deposit accumulates each panel into a data frame of x = treated rate,
 # y = control rate, z = power.
