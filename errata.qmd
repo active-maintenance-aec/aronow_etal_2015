@@ -31,8 +31,15 @@ here::i_am("errata.qmd")
 # is empty: every table_a4 cell reproduces, so no value row changes; entry 1 corrects a
 # heading, entry 2 a sentence that lists tables, entries 3 to 6 the article's mathematics and
 # entry 7 a panel title the regenerated figure already spells correctly.
+#
+# corrected_values runs parallel to claim_ids, one value per id in the same order, carrying
+# the corrected quantity as a number rather than as a sentence, on the claim's scale. Each
+# value comes from the same expression that glues the sentence, so the two cannot be written
+# apart, and the gate below re-checks that each one is still inside the span it belongs to.
+# An entry of a class that changes no quantity, and a note, carries NA.
+values_unresolved <- c()
 entries <- tribble(
-  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids, ~corrected_values,
 
   1, "label", "pipeline", "full",
   "Supplementary Table A4 is headed as Placebo Test I and reports Placebo Test II",
@@ -46,6 +53,7 @@ entries <- tribble(
         "Study B counterpart, headed correctly on the next page. Every cell of Table A4",
         "reproduces from the deposited data as Placebo Test II. Only the heading is wrong."),
   "",
+  NA_character_,
 
   2, "cross_reference", "reading", "full",
   "The supplement's list of placebo tables omits Table A4",
@@ -61,6 +69,7 @@ entries <- tribble(
         "that follow it, which count the questions failing each study's placebo test, are",
         "unchanged."),
   "",
+  NA_character_,
 
   3, "definition", "remaster", "full",
   "Display (2) writes the noise term for its expectation",
@@ -73,6 +82,7 @@ entries <- tribble(
         "expectation. The term cancels either way, and the display's conclusion, that the",
         "difference in expectations is $\\mu$, is unaffected."),
   "",
+  NA_character_,
 
   4, "label", "remaster", "full",
   "Two sentences on the direct-question admitters print the estimand where they mean its estimate",
@@ -86,6 +96,7 @@ entries <- tribble(
         "under Assumptions 1 to 4, and values are what can be significantly different from it.",
         "The quantity in each is $\\hat{\\beta}$. The reported results are unchanged."),
   "",
+  NA_character_,
 
   5, "definition", "remaster", "full",
   "The proof of Lemma 2 orders on direct responses of one where it means zero",
@@ -98,6 +109,7 @@ entries <- tribble(
         "direct responses are zero, not one. The display is right and the sentence that",
         "glosses it is not; the proof is unaffected."),
   "",
+  NA_character_,
 
   6, "typography", "remaster", "full",
   "Display (7) drops the comma before the last index of a range",
@@ -108,6 +120,7 @@ entries <- tribble(
         "that every other range in the proof of Lemma 2 carries, including the next line",
         "of the same display."),
   "",
+  NA_character_,
 
   7, "spelling", "remaster", "full",
   "A panel title in Figure A1 misspells Variability",
@@ -116,11 +129,61 @@ entries <- tribble(
   "[[Variability]] of responses to non-sensitive items",
   paste("The title of Figure A1's fourth panel. The figure as regenerated from the maintained",
         "code prints the word correctly."),
-  ""
+  "",
+  NA_character_
 ) |>
-  mutate(across(c(title, published, corrected, note, claim_ids), as.character))
+  mutate(across(c(title, published, corrected, note, claim_ids, corrected_values), as.character))
 
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
+
+# Gate: corrected_values agrees with the sentence it was glued into ----
+# The column and the sentence are written from one expression, so they begin in agreement
+# and this gate exists for the edit that separates them: a value moved from one marked span
+# to another, a span reworded to carry a second number, a claim id appended without its
+# value. Each value has to be inside the span it belongs to, matched by position where the
+# counts line up, and inside SOME span where an entry marks a label as well as a number and
+# its spans outnumber its values. The spelled form is tolerated ("four" for 4), and so is a
+# thousands separator.
+marked_spans <- function(x) str_match_all(x, "\\[\\[(.*?)\\]\\]")[[1]][, 2]
+gate_words <- c("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten")
+in_span <- function(v, s) {
+  s <- str_remove_all(s, ",")
+  spelled <- if (str_detect(v, "^[0-9]+$") && as.integer(v) < length(gate_words)) gate_words[as.integer(v) + 1] else v
+  str_detect(s, fixed(v)) || str_detect(s, fixed(spelled))
+}
+
+quantified <- entries |>
+  filter(!is.na(corrected_values)) |>
+  mutate(ids = str_split(claim_ids, ";"), values = str_split(corrected_values, ";"),
+         spans = map(corrected, marked_spans))
+
+stopifnot(all(lengths(quantified$ids) == lengths(quantified$values)))
+
+value_placed <- pmap_lgl(quantified, function(...) {
+  e <- list(...)
+  if (length(e$values) == length(e$spans)) {
+    all(map2_lgl(e$values, e$spans, in_span))
+  } else {
+    all(map_lgl(e$values, \(v) any(map_lgl(e$spans, \(s) in_span(v, s)))))
+  }
+})
+
+if (!all(value_placed)) {
+  print(quantified |> filter(!value_placed) |> select(entry, title, corrected_values, corrected))
+  stop("An entry's corrected_values are not in the spans of its corrected sentence.")
+}
+
+# An entry that changes a quantity has to say which one, and an entry that changes none, or
+# a note, may not carry a value. The class is the declaration and this is where it binds.
+# Empty claim_ids is stored as "" and counts as missing.
+no_claim <- is.na(entries$claim_ids) | entries$claim_ids == ""
+stopifnot(
+  all(!is.na(entries$corrected_values[entries$class == "quantity" & entries$form != "note" & !no_claim &
+                                        !entries$entry %in% values_unresolved])),
+  all(is.na(entries$corrected_values[entries$class != "quantity" | entries$form == "note"])),
+  all(is.na(entries$corrected_values) | !no_claim)
+)
+
 
 spell <- function(n) {
   words <- c("one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten")
