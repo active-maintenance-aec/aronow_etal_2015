@@ -17,6 +17,12 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "https://github.com/active-maintenance-aec/aronow_etal_2015",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
       "identifier": "10.1093/jssam/smu023",
       "relation": "isSupplementTo",
       "scheme": "doi"
