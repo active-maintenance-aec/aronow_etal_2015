@@ -42,15 +42,21 @@ gt <- read_csv(here::here("ground_truth", "aronow_etal_2015_ground_truth.csv"),
                col_types = cols(value_paper = col_character(),
                                 claim_type = col_character(),
                                 defect_locus = col_character(),
-                                evidence = col_character(),
+                                disposition = col_character(),
+                                disposition_reason = col_character(),
                                 notes = col_character(),
+                                match = col_logical(),
+                                match_rewrite = col_logical(),
+                                holds = col_logical(),
                                 .default = col_guess()))
 
 published_claims <- read_csv(here::here("ground_truth", "published_claims.csv"),
                              col_types = cols(.default = col_character()))
 
-published_tables <- gt |> filter(str_detect(table_figure, "^table_(\\d+|a\\d+)$"))
-prose_claims <- gt |> filter(!str_detect(table_figure, "^(table|figure)_"))
+# Floats are labelled as printed ("Table 3", "Table A1"); a table's note is "Table 3
+# note" and counts with the prose rather than with the table's cells.
+published_tables <- gt |> filter(str_detect(location, "^Table A?\\d+$"))
+prose_claims <- gt |> filter(!str_detect(location, "^(Table|Figure) "))
 
 manifest <- read_csv(here::here("original_manifest.csv"), show_col_types = FALSE)
 
@@ -111,11 +117,11 @@ The run is dominated by one step. The tables and the two prevalence figures take
 
 ```{r summary_setup, include=FALSE}
 n_claims <- nrow(gt)
-n_archive_match <- sum(gt$match == 1, na.rm = TRUE)
-n_archive_fail <- sum(gt$match == 0, na.rm = TRUE)
-n_rewrite_match <- sum(gt$match_rewrite == 1, na.rm = TRUE)
-n_rewrite_fail <- sum(gt$match_rewrite == 0, na.rm = TRUE)
-n_tables <- n_distinct(published_tables$table_figure)
+n_archive_match <- sum(gt$match, na.rm = TRUE)
+n_archive_fail <- sum(!gt$match, na.rm = TRUE)
+n_rewrite_match <- sum(gt$match_rewrite, na.rm = TRUE)
+n_rewrite_fail <- sum(!gt$match_rewrite, na.rm = TRUE)
+n_tables <- n_distinct(published_tables$location)
 n_table_claims <- nrow(published_tables)
 n_text_claims <- nrow(prose_claims)
 n_descriptive <- sum(gt$claim_type == "descriptive")
@@ -136,6 +142,10 @@ power_claims <- gt |> filter(str_detect(claim, "^Power at (200|800) admitters"))
 # The main text and the appendix read one of these cells twice, so the distinct
 # cells are what the report describes.
 power_cells <- distinct(power_claims, claim, value_rewrite)
+
+# A reading exactly half a printed digit from the page rounds either way.
+n_on_boundary <- sum(abs(abs(power_claims$value_rewrite - parse_number(power_claims$value_paper)) -
+                           0.5 * 10^(-power_claims$digits)) < 1e-9)
 
 sizes <- read_csv(here::here("maintained", "output", "text_sample_sizes.csv"),
                   show_col_types = FALSE)
@@ -159,7 +169,7 @@ None of this changes a published number. `r n_archive_match` of the `r n_claims`
 
 Every number in a published table does, as does every number the article states in prose, except the readings it takes off one figure. `r n_rewrite_match` of the `r n_claims` recorded claims match the page at the precision the page prints, `r n_rewrite_fail` do not, and `r sum(is.na(gt$match_rewrite))` state no number to be compared against, being either the `r n_descriptive` claims the article makes about shape, sign or count, or quantities it describes without printing. All `r n_table_claims` cells of the `r n_tables` published tables match, as do the sample sizes, ranges and effect magnitudes stated in prose.
 
-The `r n_rewrite_fail` that do not are all readings of one figure, and the fault lies with what the deposit can establish rather than with either the rewrite or the article. Section 4.1 and Appendix C take power off the Figure A1 grid at `r in_words(nrow(power_cells))` points, one of which both passages state, and give the answers as "about 30 percent", "approximately 80 percent" and "80% power". The rewrite's simulation puts those points at `r str_flatten_comma(sprintf("%.1f", sort(power_cells$value_rewrite)), last = " and ")` percent, so all but one of them prints something else at the precision the page uses. A grid cell is `r format(sims_per_cell, big.mark = ",")` simulated experiments, so its standard error at power 0.8 is `r round(100 * mc_se(0.8), 1)` percentage points, wider than the last digit either passage prints, and the deposit sets no seed, so the published figure is one unlabelled draw. `r sum(gt$on_rounding_boundary, na.rm = TRUE)` of these points falls exactly half a printed digit from the page and rounds either way. The claims are right to the precision they can be made at and cannot be checked to the precision they are written at.
+The `r n_rewrite_fail` that do not are all readings of one figure, and the fault lies with what the deposit can establish rather than with either the rewrite or the article. Section 4.1 and Appendix C take power off the Figure A1 grid at `r in_words(nrow(power_cells))` points, one of which both passages state, and give the answers as "about 30 percent", "approximately 80 percent" and "80% power". The rewrite's simulation puts those points at `r str_flatten_comma(sprintf("%.1f", sort(power_cells$value_rewrite)), last = " and ")` percent, so all but one of them prints something else at the precision the page uses. A grid cell is `r format(sims_per_cell, big.mark = ",")` simulated experiments, so its standard error at power 0.8 is `r round(100 * mc_se(0.8), 1)` percentage points, wider than the last digit either passage prints, and the deposit sets no seed, so the published figure is one unlabelled draw. `r n_on_boundary` of these points falls exactly half a printed digit from the page and rounds either way. The claims are right to the precision they can be made at and cannot be checked to the precision they are written at.
 
 The four figures print no numbers, so each is checked against something other than the page. Figures 1 and 2 are drawn from the Table 3 and Table 6 output files rather than recomputed, so the check is that the plotted values are those values, and the build stops if they are not. Figure A2 is analytical, so the deposited script is run and its grid compared with the rewrite's cell by cell: the two agree to `r signif(a2_gap, 2)` across all `r format(a2_cells, big.mark = ",")` cells where the power calculation is defined, and the `r in_words(a2_both_na)` cells where it is not are the same ones in both. Figure A1 is a Monte Carlo simulation for which the deposit sets no seed, so it can be reproduced only up to simulation error of about `r round(mc_se(0.5), 3)` at power 0.5; the rewrite seeds each of its `r format(nrow(fa1), big.mark = ",")` grid cells separately, which makes it reproducible run to run and independent of the number of cores available.
 
@@ -249,14 +259,14 @@ No hash of a file this repository produces is quoted anywhere in this report. A 
 gt |>
   summarize(
     claims = n(),
-    archive = sum(match == 1, na.rm = TRUE),
-    rewrite = sum(match_rewrite == 1, na.rm = TRUE),
-    .by = table_figure
+    archive = sum(match, na.rm = TRUE),
+    rewrite = sum(match_rewrite, na.rm = TRUE),
+    .by = location
   ) |>
-  mutate(order = as.integer(str_extract(table_figure, "\\d+")),
-         appendix = str_detect(table_figure, "_a")) |>
+  mutate(order = as.integer(str_extract(location, "\\d+")),
+         appendix = str_detect(location, "^(Table|Figure) A\\d")) |>
   arrange(appendix, order) |>
-  select(table_figure, claims, archive, rewrite) |>
+  select(location, claims, archive, rewrite) |>
   kable(
     booktabs = TRUE,
     col.names = c("Table", "Claims", "Archive matches", "Rewrite matches"),
@@ -265,7 +275,7 @@ gt |>
   latex_only(\(k) k |> kable_styling(latex_options = "hold_position", font_size = 9))
 ```
 
-Every published number in the article and its online appendix is recorded: the `r sum(gt$table_figure == "table_1")` crossing counts of Table 1, the `r sum(gt$table_figure == "table_2")` covariate balance cells of Table 2, the `r nrow(published_tables) - sum(gt$table_figure %in% c("table_1", "table_2"))` estimates, standard errors, p-values and sample sizes of the `r in_words(n_tables - 2)` analysis tables, and the `r n_text_claims` claims the two documents make in prose. The published value was read off the article and appendix PDFs and never taken from a script run, which is what makes the comparison worth anything.
+Every published number in the article and its online appendix is recorded: the `r sum(gt$location == "Table 1")` crossing counts of Table 1, the `r sum(gt$location == "Table 2")` covariate balance cells of Table 2, the `r nrow(published_tables) - sum(gt$location %in% c("Table 1", "Table 2"))` estimates, standard errors, p-values and sample sizes of the `r in_words(n_tables - 2)` analysis tables, and the `r n_text_claims` claims the two documents make in prose. The published value was read off the article and appendix PDFs and never taken from a script run, which is what makes the comparison worth anything.
 
 The extraction that produced it is exhaustive rather than selective. Every numeric token in both documents was pulled with its surrounding context and classified by hand. Four kinds occur: `r sum(published_claims$claim_type == "pipeline")` the pipeline must reproduce, `r sum(published_claims$claim_type == "descriptive")` claims about shape, sign or count that have no number of their own, `r sum(published_claims$claim_type == "structural")` facts about how the study or the simulation was built, and `r sum(published_claims$claim_type == "definitional")` design parameters such as the payment rate and the assignment probability. Nothing in this article is transcribed from another paper, which is the fifth kind. Searching for numbers by pattern rather than extracting all of them is how a claim in prose goes uncovered, and the prose is where the largest gaps in this pass were.
 
@@ -277,7 +287,7 @@ The errata note, `aronow_etal_2015_errata.pdf`, lists this caption first among s
 
 ## What the article says in prose
 
-`maintained/in_text_claims.R` prints every claim the two documents make in prose, in the order a reader meets them, with the published sentence quoted verbatim beside the number the pipeline computes for it. It reads the same output files `build_ground_truth.R` reads and does its own filtering, unit conversion and rounding, so the two arrive at each claimed number by separate routes and a disagreement between them is itself a finding. `build_ground_truth.R` gates the pairing in both directions: a published claim with no block in that file stops the build, and so does a block naming a claim the article does not make.
+`maintained/in_text_claims.R` prints every claim the two documents make in prose, in the order a reader meets them, with the published sentence quoted verbatim beside the number the pipeline computes for it. It reads the same output files `build_ground_truth.R` reads and does its own filtering, unit conversion and rounding, so the two arrive at each claimed number by separate routes and a disagreement between them is itself a finding. Each block scores its claim with `excheckr` against the transcription and the errata spine, and the file stops the run on any claim that fails its expectation, and on any difference between the claims it prints and the ones `published_claims.csv` marks as needing a block, which is every one.
 
 The `r n_descriptive` descriptive claims are the ones a table of numbers cannot hold. "Each cell in the table contains approximately one-quarter of the subjects", "reductions tend to be larger when a larger number of subjects respond Yes", "none of these differences are significant", "one of five fail in Study A, whereas three of five fail in Study B": each asserts something about a distribution rather than stating a value, so each is checked by printing the distribution rather than by computing a verdict. Three of them needed quantities no published table reports. The article's joint test of Placebo Test I "via Fisher's method" is reported without a value, the comparison of the original experiments against the replication appears in no table, and the counts of placebo test rejections are stated four times across the Results, the Discussion and Appendix F without ever being tabulated. `text_placebo_summaries.R` and `text_original_vs_replication.R` build all three from the published tables' own output.
 
@@ -391,7 +401,7 @@ knitr::include_graphics(
 
 # Maintained rewrite verification
 
-The published value in the table below is carried as the string the page prints, not as a number, and a row matches when the archive's or the rewrite's own number, printed to that string's precision, gives the same digits. The comparison is therefore of strings rather than of a number against a tolerance. The distinction matters: as a number, a published `0.80` is indistinguishable from `0.8`, so a tolerance read off the wrong precision would pass anything between 0.75 and 0.85, while a value sitting exactly on a rounding boundary can fail a tolerance it should pass. The string the comparison actually made is written into the ground truth file beside the verdict.
+The published value in the table below is carried as the string the page prints, not as a number, and a row matches when the archive's or the rewrite's own number, printed to that string's precision, gives the same digits. The comparison is therefore of strings rather than of a number against a tolerance. The distinction matters: as a number, a published `0.80` is indistinguishable from `0.8`, so a tolerance read off the wrong precision would pass anything between 0.75 and 0.85, while a value sitting exactly on a rounding boundary can fail a tolerance it should pass. The precision the comparison was made at is written into the ground truth file as `digits`, beside the verdict.
 
 ```{r rewrite_verify}
 blank_na <- function(x) if_else(is.na(x), "", format(round(x, 3), trim = TRUE))
@@ -402,9 +412,10 @@ gt |>
     value_script = blank_na(value_script),
     value_rewrite = blank_na(value_rewrite),
     value_paper = replace_na(value_paper, ""),
-    defect_locus = replace_na(defect_locus, "")
+    defect_locus = replace_na(defect_locus, ""),
+    across(c(match, match_rewrite), as.integer)
   ) |>
-  select(table_figure, claim, value_paper, value_script, match,
+  select(location, claim, value_paper, value_script, match,
          value_rewrite, match_rewrite, defect_locus) |>
   kable(
     booktabs = TRUE,
@@ -424,7 +435,7 @@ The `r n_descriptive` claims below assert something about a distribution, a sign
 ```{r descriptive_claims}
 gt |>
   filter(claim_type == "descriptive") |>
-  select(table_figure, claim, evidence) |>
+  select(location, claim, notes) |>
   kable(
     booktabs = TRUE,
     longtable = TRUE,

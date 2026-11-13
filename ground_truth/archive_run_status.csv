@@ -1,0 +1,5 @@
+pass,script,role,exit_status,outcome,stopped_at
+stripped,ACCG_list_main_experiment.R,analysis,0,clean,NA
+stripped,ACCG_list_replication_experiment.R,analysis,0,clean,NA
+stripped,ACCG_list_placebo_I_power.R,analysis,NA,not_run,"Not run: it sets no seed, so one draw of its grid has nothing to be compared against, and as shipped it errors on list_simulator()$p_value, on listsimulator(), and on dot-separated argument names"
+stripped,ACCG_list_placebo_II_power.R,analysis,0,clean,NA

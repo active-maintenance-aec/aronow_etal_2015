@@ -1,0 +1,22 @@
+float,published_numbers,covered,reproduced_by_rewrite,reproduced_by_archive,plotted,plotted_reproduced,note
+Table 1,84,84,84,84,NA,NA,NA
+Table 2,104,104,104,104,NA,NA,NA
+Table 3,36,36,36,36,NA,NA,NA
+Table 4,20,20,20,20,NA,NA,NA
+Table 5,20,20,20,20,NA,NA,NA
+Table 6,36,36,36,36,NA,NA,NA
+Table 7,20,20,20,20,NA,NA,NA
+Table 8,20,20,20,20,NA,NA,NA
+Figure 1,0,0,0,0,15,15,"Prints no numbers on its face; plots the five Table 3 items under three estimators, drawn from the Table 3 output."
+Figure 2,0,0,0,0,15,15,"Prints no numbers on its face; plots the five Table 6 items under three estimators, drawn from the Table 6 output."
+"Table A1 (article, Appendix A.1)",0,0,0,0,NA,NA,Prints the wording of every list question and every direct question; states no quantity.
+Table A1,30,30,30,30,NA,NA,NA
+Table A2,35,35,35,35,NA,NA,NA
+Table A3,20,20,20,20,NA,NA,NA
+Table A4,20,20,20,20,NA,NA,NA
+Table A5,35,35,35,35,NA,NA,NA
+Table A6,20,20,20,20,NA,NA,NA
+Table A7,20,20,20,20,NA,NA,NA
+Table A8,30,30,30,30,NA,NA,NA
+Figure A1,0,0,0,0,7676,NA,"Prints no numbers on its face; plots a simulated power grid the deposit drew without a seed, so no run reproduces it cell for cell and plotted_reproduced is NA."
+Figure A2,0,0,0,0,40804,40804,"Prints no numbers on its face; every grid cell agrees with a run of the deposited script, counting the cells undefined in both."

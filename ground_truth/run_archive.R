@@ -1,6 +1,8 @@
 # aronow_etal_2015/ground_truth/run_archive.R
-# Output: ground_truth/archive_values.csv
-# Depends on: original/ (run download_original.R first)
+# Output: ground_truth/archive_values.csv, ground_truth/archive_run_status.csv,
+#         ground_truth/archive_overwrites.csv
+# Depends on: original/ (run download_original.R first),
+#             maintained/output/text_figure_a2_archive_grid.csv
 # Description: Run the deposited analysis scripts and capture every quantity the
 #   article prints, so that the archive column of the ground truth is read out of
 #   a run rather than transcribed. The deposit is copied to a scratch directory
@@ -18,6 +20,14 @@
 #   script sets no seed, so its grid is one unlabelled draw and differs from itself
 #   run to run; comparing the rewrite against a single draw of it would measure
 #   nothing, so maintained/text_placebo_i_sampler.R measures the dispersion instead.
+#
+#   archive_run_status.csv has one row per deposited script for the one pass made
+#   here, the stripped copy. ACCG_list_source.R is only ever sourced by the other
+#   scripts and has no row. The Figure A2 row records the run
+#   text_figure_a2_archive_grid.R made, and the Figure A1 row records that it is
+#   not run and why. archive_overwrites.csv lists every file the run adds to the
+#   copy; the deposit ships no intermediates, so nothing is overwritten, rebuilt,
+#   or withheld.
 
 library(here)
 library(tidyverse)
@@ -186,18 +196,23 @@ store <- new.env()
 collector <- new.env()
 collector$.capture <- function(name, value) assign(name, value, envir = store)
 
+# The scripts run in this R session rather than as separate processes, so
+# exit_status is 0 when sys.source() returns and 1 when it raises an error.
 run_deposited <- function(script) {
   run_env <- new.env(parent = collector)
-  outcome <- tryCatch({
+  stopped_at <- tryCatch({
     sys.source(file.path(scratch, "programs", script), envir = run_env)
-    "runs to completion"
-  }, error = \(e) paste("error:", conditionMessage(e)))
-  tibble(script = script, stripped_copy = TRUE, outcome = outcome)
+    NA_character_
+  }, error = \(e) conditionMessage(e))
+  tibble(pass = "stripped", script = script, role = "analysis",
+         exit_status = if_else(is.na(stopped_at), 0L, 1L),
+         outcome = if_else(is.na(stopped_at), "clean", "error"),
+         stopped_at = stopped_at)
 }
 
 previous_wd <- getwd()
 setwd(scratch)
-script_status <- map(
+run_status <- map(
   c("ACCG_list_main_experiment.R", "ACCG_list_replication_experiment.R"),
   run_deposited
 ) |>
@@ -205,10 +220,38 @@ script_status <- map(
 setwd(previous_wd)
 stopifnot(getwd() == previous_wd)
 
-write_csv(script_status, here::here("ground_truth", "archive_script_status.csv"))
-print(script_status, width = Inf)
+# What the run added to the copy. The deposit ships data and code only, so every
+# file beyond the stripped contents is one a script wrote.
+overwrites <- tibble(
+  pass = "stripped",
+  file = setdiff(sort(list.files(scratch, recursive = TRUE)), stripped_contents),
+  effect = "added",
+  matches_deposit = NA
+)
 
-stopifnot(all(script_status$outcome == "runs to completion"))
+# The two power scripts. The Figure A2 script is run in full, in a stripped copy of
+# its own, by maintained/text_figure_a2_archive_grid.R, which stops the pipeline if
+# it errors; a grid it compared cell for cell is the record that it ran clean.
+a2_grid <- read_csv(here::here("maintained", "output", "text_figure_a2_archive_grid.csv"),
+                    show_col_types = FALSE)
+a2_compared <- a2_grid$value[a2_grid$claim == "Cells compared with the deposited grid"]
+stopifnot(length(a2_compared) == 1, a2_compared > 0)
+
+run_status <- bind_rows(
+  run_status,
+  tibble(pass = "stripped", script = "ACCG_list_placebo_I_power.R", role = "analysis",
+         exit_status = NA_integer_, outcome = "not_run",
+         stopped_at = "Not run: it sets no seed, so one draw of its grid has nothing to be compared against, and as shipped it errors on list_simulator()$p_value, on listsimulator(), and on dot-separated argument names"),
+  tibble(pass = "stripped", script = "ACCG_list_placebo_II_power.R", role = "analysis",
+         exit_status = 0L, outcome = "clean", stopped_at = NA_character_)
+)
+
+write_csv(run_status, here::here("ground_truth", "archive_run_status.csv"))
+write_csv(overwrites, here::here("ground_truth", "archive_overwrites.csv"))
+print(run_status, width = Inf)
+print(overwrites, n = Inf)
+
+stopifnot(all(run_status$outcome[run_status$script %in% edits$script] == "clean"))
 
 # Reshape the captured objects into one long table ----
 long_matrix <- function(m, rows, cols) {
